@@ -1,0 +1,1001 @@
+age,food_item,review,category
+61,Barfi,"Thoda teekha tha, but I still liked it.",Chinese
+18,Rasgulla,"Thoda teekha tha, but I still liked it.",Snacks
+54,Pani Puri,"Bahut swaadisht tha, ekdum desi maza!",Dessert
+17,Aloo Gobi,"Thoda teekha tha, but I still liked it.",Street Food
+59,Dal Makhani,"Perfect lunch, bilkul ghar jaisa.",Vegan
+57,Kofta Curry,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+19,Mutton Rogan Josh,"Delicious and perfectly spiced, loved it!",Dessert
+33,Samosa,"Thoda teekha tha, but I still liked it.",Street Food
+21,Butter Chicken,Samosa toh ekdum crisp aur tasty tha.,Street Food
+51,Kadhi Pakora,"Delicious and perfectly spiced, loved it!",Street Food
+69,Falooda,"Delicious and perfectly spiced, loved it!",Non-Vegetarian
+36,Tandoori Chicken,"Thoda teekha tha, but I still liked it.",Snacks
+61,Kofta Curry,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+67,Chaat,Khana fresh tha aur taste bhi badhiya.,Chinese
+35,Rajma Chawal,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+28,Tandoori Chicken,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+43,Jalebi,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+47,Falooda,"Delicious and perfectly spiced, loved it!",Dessert
+18,Kulfi,"Great taste, will order again!",Street Food
+53,Butter Chicken,"The food was amazing, but delivery was late.",Lunch
+17,Kadhi Pakora,"Great taste, will order again!",Snacks
+39,Rabri,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+59,Dal Fry,Khana fresh tha aur taste bhi badhiya.,Breakfast
+61,Tandoori Roti,"Thoda teekha tha, but I still liked it.",Breakfast
+31,Kachori,Samosa toh ekdum crisp aur tasty tha.,Dessert
+65,Malai Kofta,"Thoda teekha tha, but I still liked it.",Street Food
+18,Naan,"Yaar, itna tasty tha, maza aa gaya!",Dinner
+23,Tandoori Chicken,"The food was amazing, but delivery was late.",Vegan
+41,Barfi,"The food was amazing, but delivery was late.",Breakfast
+51,Kadhi Pakora,"Delicious and perfectly spiced, loved it!",Snacks
+14,Chaat,"The food was amazing, but delivery was late.",Chinese
+31,Tandoori Chicken,"Delicious and perfectly spiced, loved it!",Chinese
+56,Biryani,Khana fresh tha aur taste bhi badhiya.,Street Food
+33,Paneer Butter Masala,Samosa toh ekdum crisp aur tasty tha.,Breakfast
+17,Lassi,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+23,Aloo Gobi,"Great taste, will order again!",Dinner
+21,Dal Makhani,Khana fresh tha aur taste bhi badhiya.,Dessert
+65,Kadhi Pakora,"Bahut swaadisht tha, ekdum desi maza!",Vegetarian
+36,Paneer Butter Masala,"Yaar, itna tasty tha, maza aa gaya!",Vegan
+13,Rajma Chawal,Samosa toh ekdum crisp aur tasty tha.,Chinese
+12,Butter Chicken,Khana fresh tha aur taste bhi badhiya.,Vegan
+70,Vegetable Biryani,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+15,Butter Chicken,Samosa toh ekdum crisp aur tasty tha.,Dinner
+58,Tandoori Roti,Samosa toh ekdum crisp aur tasty tha.,Dessert
+35,Mutton Rogan Josh,"Thoda teekha tha, but I still liked it.",Lunch
+12,Vegetable Biryani,"Delicious and perfectly spiced, loved it!",Breakfast
+68,Roti Sabzi,"Delicious and perfectly spiced, loved it!",Vegan
+20,Kofta Curry,"Bahut swaadisht tha, ekdum desi maza!",Dessert
+32,Paneer Tikka,Khana fresh tha aur taste bhi badhiya.,Non-Vegetarian
+41,Baingan Bharta,"The food was amazing, but delivery was late.",Snacks
+42,Imarti,"Perfect lunch, bilkul ghar jaisa.",Vegan
+70,Falooda,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+70,Lassi,"Bahut swaadisht tha, ekdum desi maza!",Vegan
+68,Biryani,"Yaar, itna tasty tha, maza aa gaya!",Vegan
+55,Malai Kofta,Khana fresh tha aur taste bhi badhiya.,Street Food
+56,Litti Chokha,"Delicious and perfectly spiced, loved it!",Dinner
+61,Kulfi,"Thoda teekha tha, but I still liked it.",Snacks
+14,Rajma Chawal,"Perfect lunch, bilkul ghar jaisa.",Dinner
+13,Kadhi Pakora,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+49,Butter Chicken,Khana fresh tha aur taste bhi badhiya.,Dinner
+29,Rabri,"Thoda teekha tha, but I still liked it.",Vegan
+60,Rasgulla,"Great taste, will order again!",Vegetarian
+30,Butter Chicken,"Delicious and perfectly spiced, loved it!",Street Food
+19,Fish Fry,"Great taste, will order again!",Dessert
+60,Chaat,Samosa toh ekdum crisp aur tasty tha.,Vegan
+67,Biryani,Khana fresh tha aur taste bhi badhiya.,Dessert
+25,Roti Sabzi,"Perfect lunch, bilkul ghar jaisa.",Dessert
+19,Chicken Biryani,"The food was amazing, but delivery was late.",Vegan
+20,Pani Puri,Samosa toh ekdum crisp aur tasty tha.,Chinese
+54,Imarti,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+65,Kachori,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+50,Naan,"Delicious and perfectly spiced, loved it!",Non-Vegetarian
+26,Fish Curry,Samosa toh ekdum crisp aur tasty tha.,Lunch
+49,Tandoori Chicken,"Thoda teekha tha, but I still liked it.",Street Food
+15,Fish Fry,"Bahut swaadisht tha, ekdum desi maza!",Street Food
+25,Chicken Biryani,"Great taste, will order again!",Chinese
+12,Imarti,"The food was amazing, but delivery was late.",Non-Vegetarian
+19,Aloo Tikki,"Great taste, will order again!",Lunch
+25,Butter Chicken,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+12,Vegetable Biryani,"Great taste, will order again!",Breakfast
+52,Pani Puri,"Bahut swaadisht tha, ekdum desi maza!",Non-Vegetarian
+70,Samosa,Samosa toh ekdum crisp aur tasty tha.,Non-Vegetarian
+17,Fish Fry,"Great taste, will order again!",Lunch
+33,Fish Curry,"Delicious and perfectly spiced, loved it!",Vegan
+53,Shahi Paneer,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+31,Gulab Jamun,"Perfect lunch, bilkul ghar jaisa.",Vegan
+62,Aloo Gobi,"Great taste, will order again!",Street Food
+58,Aloo Tikki,Samosa toh ekdum crisp aur tasty tha.,Lunch
+44,Gulab Jamun,"Great taste, will order again!",Vegetarian
+26,Kachori,"Delicious and perfectly spiced, loved it!",Vegetarian
+70,Dal Fry,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+61,Mutton Korma,"Perfect lunch, bilkul ghar jaisa.",Dessert
+10,Fish Fry,Khana fresh tha aur taste bhi badhiya.,Dinner
+12,Vegetable Pulao,"The food was amazing, but delivery was late.",Street Food
+46,Aloo Gobi,"Thoda teekha tha, but I still liked it.",Lunch
+54,Aloo Gobi,Samosa toh ekdum crisp aur tasty tha.,Non-Vegetarian
+64,Pav Bhaji,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+30,Dal Makhani,Samosa toh ekdum crisp aur tasty tha.,Dinner
+28,Falooda,"Delicious and perfectly spiced, loved it!",Snacks
+37,Shahi Paneer,"Great taste, will order again!",Snacks
+24,Tandoori Chicken,"Delicious and perfectly spiced, loved it!",Chinese
+57,Butter Chicken,"Bahut swaadisht tha, ekdum desi maza!",Vegan
+64,Imarti,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+51,Fish Fry,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+15,Biryani,Khana fresh tha aur taste bhi badhiya.,Lunch
+60,Litti Chokha,"Delicious and perfectly spiced, loved it!",Lunch
+16,Lassi,"Great taste, will order again!",Street Food
+67,Rajma Chawal,"Delicious and perfectly spiced, loved it!",Dessert
+23,Tandoori Roti,"Great taste, will order again!",Dinner
+16,Biryani,"The food was amazing, but delivery was late.",Breakfast
+66,Sev Puri,"Great taste, will order again!",Vegan
+37,Gulab Jamun,"Bahut swaadisht tha, ekdum desi maza!",Vegetarian
+39,Butter Chicken,"The food was amazing, but delivery was late.",Non-Vegetarian
+33,Baingan Bharta,"Thoda teekha tha, but I still liked it.",Lunch
+45,Kachori,"The food was amazing, but delivery was late.",Chinese
+15,Kulfi,"Delicious and perfectly spiced, loved it!",Vegan
+42,Rasgulla,"Great taste, will order again!",Dessert
+51,Pav Bhaji,"Thoda teekha tha, but I still liked it.",Dinner
+63,Dal Makhani,Samosa toh ekdum crisp aur tasty tha.,Breakfast
+31,Chicken Biryani,"Great taste, will order again!",Snacks
+11,Paneer Butter Masala,"Bahut swaadisht tha, ekdum desi maza!",Chinese
+51,Dal Fry,"Perfect lunch, bilkul ghar jaisa.",Dinner
+68,Pani Puri,"Thoda teekha tha, but I still liked it.",Chinese
+50,Chaat,"Thoda teekha tha, but I still liked it.",Dessert
+45,Chicken Curry,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+66,Fish Fry,"Great taste, will order again!",Snacks
+11,Fish Fry,"Thoda teekha tha, but I still liked it.",Snacks
+28,Paneer Tikka,"Perfect lunch, bilkul ghar jaisa.",Breakfast
+57,Aloo Gobi,"Great taste, will order again!",Vegan
+64,Pani Puri,"Bahut swaadisht tha, ekdum desi maza!",Dessert
+38,Malai Kofta,"Thoda teekha tha, but I still liked it.",Non-Vegetarian
+29,Tandoori Chicken,Khana fresh tha aur taste bhi badhiya.,Snacks
+20,Naan,"Thoda teekha tha, but I still liked it.",Dessert
+50,Rasgulla,Khana fresh tha aur taste bhi badhiya.,Dessert
+62,Gulab Jamun,"Delicious and perfectly spiced, loved it!",Vegetarian
+53,Kulfi,Khana fresh tha aur taste bhi badhiya.,Snacks
+66,Tandoori Chicken,"The food was amazing, but delivery was late.",Dessert
+50,Lassi,"Bahut swaadisht tha, ekdum desi maza!",Vegan
+30,Tandoori Chicken,"The food was amazing, but delivery was late.",Vegetarian
+35,Tandoori Chicken,"The food was amazing, but delivery was late.",Chinese
+70,Bhindi Masala,"Yaar, itna tasty tha, maza aa gaya!",Snacks
+22,Butter Chicken,"The food was amazing, but delivery was late.",Breakfast
+15,Pani Puri,"Thoda teekha tha, but I still liked it.",Snacks
+42,Kulfi,Samosa toh ekdum crisp aur tasty tha.,Lunch
+42,Butter Chicken,"Delicious and perfectly spiced, loved it!",Street Food
+40,Biryani,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+13,Imarti,"Perfect lunch, bilkul ghar jaisa.",Chinese
+64,Kadhi Pakora,"Perfect lunch, bilkul ghar jaisa.",Chinese
+43,Vegetable Pulao,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+30,Shahi Paneer,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+40,Biryani,"Delicious and perfectly spiced, loved it!",Dessert
+56,Jalebi,"Bahut swaadisht tha, ekdum desi maza!",Vegan
+16,Chicken Curry,Khana fresh tha aur taste bhi badhiya.,Breakfast
+70,Naan,"Delicious and perfectly spiced, loved it!",Street Food
+24,Mutton Korma,"Thoda teekha tha, but I still liked it.",Vegan
+20,Tandoori Chicken,Samosa toh ekdum crisp aur tasty tha.,Dessert
+52,Chicken Biryani,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+25,Chaat,"Delicious and perfectly spiced, loved it!",Chinese
+58,Rasgulla,"Delicious and perfectly spiced, loved it!",Dinner
+36,Mutton Korma,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+30,Paneer Butter Masala,"Bahut swaadisht tha, ekdum desi maza!",Chinese
+58,Malai Kofta,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+11,Kadhi Pakora,Samosa toh ekdum crisp aur tasty tha.,Dessert
+20,Kulfi,"Great taste, will order again!",Non-Vegetarian
+28,Butter Chicken,"Great taste, will order again!",Dinner
+61,Pav Bhaji,"Great taste, will order again!",Breakfast
+21,Biryani,"Perfect lunch, bilkul ghar jaisa.",Vegan
+32,Dal Makhani,"Delicious and perfectly spiced, loved it!",Chinese
+41,Tandoori Chicken,Samosa toh ekdum crisp aur tasty tha.,Street Food
+41,Palak Paneer,"Delicious and perfectly spiced, loved it!",Vegetarian
+14,Jalebi,"The food was amazing, but delivery was late.",Chinese
+25,Kofta Curry,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+20,Fish Curry,"Thoda teekha tha, but I still liked it.",Vegetarian
+48,Rajma Chawal,Samosa toh ekdum crisp aur tasty tha.,Breakfast
+18,Fish Fry,"Yaar, itna tasty tha, maza aa gaya!",Dinner
+50,Paneer Tikka,"The food was amazing, but delivery was late.",Lunch
+35,Jalebi,"Great taste, will order again!",Dessert
+61,Paneer Butter Masala,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+36,Aloo Tikki,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+28,Tandoori Chicken,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+47,Falooda,"Great taste, will order again!",Dinner
+26,Dal Fry,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+62,Vegetable Biryani,"Thoda teekha tha, but I still liked it.",Non-Vegetarian
+13,Rabri,"Delicious and perfectly spiced, loved it!",Vegan
+32,Samosa,"Delicious and perfectly spiced, loved it!",Dessert
+15,Aloo Tikki,"Delicious and perfectly spiced, loved it!",Street Food
+59,Dal Makhani,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+34,Tandoori Roti,Khana fresh tha aur taste bhi badhiya.,Dessert
+44,Tandoori Chicken,Samosa toh ekdum crisp aur tasty tha.,Street Food
+34,Paneer Tikka,"Perfect lunch, bilkul ghar jaisa.",Dinner
+21,Imarti,"The food was amazing, but delivery was late.",Non-Vegetarian
+34,Tandoori Roti,Khana fresh tha aur taste bhi badhiya.,Dessert
+15,Dal Fry,"The food was amazing, but delivery was late.",Breakfast
+62,Lassi,"The food was amazing, but delivery was late.",Non-Vegetarian
+25,Rasgulla,"Delicious and perfectly spiced, loved it!",Vegetarian
+31,Paneer Tikka,"Great taste, will order again!",Vegetarian
+66,Pav Bhaji,"The food was amazing, but delivery was late.",Chinese
+36,Dal Fry,"Thoda teekha tha, but I still liked it.",Breakfast
+15,Chicken Biryani,"Bahut swaadisht tha, ekdum desi maza!",Vegan
+34,Litti Chokha,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+34,Vegetable Biryani,"The food was amazing, but delivery was late.",Non-Vegetarian
+55,Samosa,Khana fresh tha aur taste bhi badhiya.,Breakfast
+56,Gulab Jamun,"Perfect lunch, bilkul ghar jaisa.",Snacks
+65,Gulab Jamun,"Great taste, will order again!",Lunch
+44,Paneer Tikka,"The food was amazing, but delivery was late.",Vegetarian
+60,Barfi,"Perfect lunch, bilkul ghar jaisa.",Dessert
+45,Pani Puri,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+19,Kulfi,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+33,Mutton Korma,Khana fresh tha aur taste bhi badhiya.,Breakfast
+63,Tandoori Chicken,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+63,Vegetable Biryani,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+62,Falooda,Khana fresh tha aur taste bhi badhiya.,Dessert
+45,Biryani,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+10,Biryani,"Perfect lunch, bilkul ghar jaisa.",Vegan
+32,Kofta Curry,"Thoda teekha tha, but I still liked it.",Street Food
+13,Fish Fry,"The food was amazing, but delivery was late.",Breakfast
+53,Paneer Tikka,"Bahut swaadisht tha, ekdum desi maza!",Chinese
+49,Baingan Bharta,Khana fresh tha aur taste bhi badhiya.,Breakfast
+18,Pav Bhaji,"Thoda teekha tha, but I still liked it.",Vegetarian
+33,Pav Bhaji,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+68,Barfi,"Great taste, will order again!",Non-Vegetarian
+31,Tandoori Chicken,"Thoda teekha tha, but I still liked it.",Dinner
+66,Kachori,"Yaar, itna tasty tha, maza aa gaya!",Breakfast
+37,Mutton Korma,Samosa toh ekdum crisp aur tasty tha.,Dessert
+29,Fish Curry,"Delicious and perfectly spiced, loved it!",Dinner
+50,Dal Fry,"Great taste, will order again!",Vegetarian
+50,Mutton Korma,"Delicious and perfectly spiced, loved it!",Lunch
+50,Naan,"Delicious and perfectly spiced, loved it!",Breakfast
+52,Biryani,"The food was amazing, but delivery was late.",Lunch
+19,Biryani,"Great taste, will order again!",Dessert
+19,Barfi,"Delicious and perfectly spiced, loved it!",Breakfast
+53,Gulab Jamun,"Thoda teekha tha, but I still liked it.",Lunch
+55,Imarti,"The food was amazing, but delivery was late.",Dinner
+24,Biryani,"Perfect lunch, bilkul ghar jaisa.",Dinner
+42,Litti Chokha,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+66,Lassi,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+47,Kulfi,"Delicious and perfectly spiced, loved it!",Breakfast
+45,Litti Chokha,"Perfect lunch, bilkul ghar jaisa.",Breakfast
+24,Fish Curry,Khana fresh tha aur taste bhi badhiya.,Chinese
+42,Kofta Curry,"Delicious and perfectly spiced, loved it!",Non-Vegetarian
+60,Fish Curry,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+30,Vada Pav,"Perfect lunch, bilkul ghar jaisa.",Breakfast
+22,Rabri,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+30,Rasgulla,"Perfect lunch, bilkul ghar jaisa.",Dinner
+68,Naan,"The food was amazing, but delivery was late.",Vegetarian
+62,Baingan Bharta,Samosa toh ekdum crisp aur tasty tha.,Snacks
+21,Biryani,"The food was amazing, but delivery was late.",Street Food
+69,Imarti,"Delicious and perfectly spiced, loved it!",Vegetarian
+63,Palak Paneer,"Great taste, will order again!",Vegan
+60,Kachori,"Thoda teekha tha, but I still liked it.",Street Food
+18,Pani Puri,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+53,Mutton Korma,"Bahut swaadisht tha, ekdum desi maza!",Street Food
+20,Naan,"Great taste, will order again!",Dinner
+35,Malai Kofta,"Bahut swaadisht tha, ekdum desi maza!",Chinese
+36,Paneer Tikka,"Bahut swaadisht tha, ekdum desi maza!",Dessert
+24,Paneer Butter Masala,"Thoda teekha tha, but I still liked it.",Lunch
+31,Aloo Gobi,Samosa toh ekdum crisp aur tasty tha.,Dinner
+48,Vegetable Biryani,"Bahut swaadisht tha, ekdum desi maza!",Vegetarian
+52,Aloo Tikki,Khana fresh tha aur taste bhi badhiya.,Snacks
+59,Fish Curry,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+59,Rasgulla,"Delicious and perfectly spiced, loved it!",Breakfast
+55,Paneer Butter Masala,"Bahut swaadisht tha, ekdum desi maza!",Vegan
+29,Jalebi,Khana fresh tha aur taste bhi badhiya.,Dinner
+68,Pav Bhaji,Khana fresh tha aur taste bhi badhiya.,Breakfast
+63,Butter Chicken,"Perfect lunch, bilkul ghar jaisa.",Lunch
+50,Roti Sabzi,"Perfect lunch, bilkul ghar jaisa.",Snacks
+13,Lassi,"Delicious and perfectly spiced, loved it!",Breakfast
+13,Paneer Butter Masala,"Perfect lunch, bilkul ghar jaisa.",Street Food
+42,Fish Curry,"Great taste, will order again!",Breakfast
+39,Vada Pav,"Great taste, will order again!",Breakfast
+34,Mutton Rogan Josh,"Great taste, will order again!",Snacks
+30,Lassi,"Great taste, will order again!",Dessert
+61,Mutton Korma,"The food was amazing, but delivery was late.",Dinner
+44,Palak Paneer,Khana fresh tha aur taste bhi badhiya.,Dinner
+14,Sev Puri,Samosa toh ekdum crisp aur tasty tha.,Dinner
+69,Tandoori Chicken,"Thoda teekha tha, but I still liked it.",Non-Vegetarian
+26,Rajma Chawal,Samosa toh ekdum crisp aur tasty tha.,Vegan
+35,Litti Chokha,"Great taste, will order again!",Dessert
+14,Chaat,"Great taste, will order again!",Vegetarian
+31,Jalebi,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+22,Rajma Chawal,"Bahut swaadisht tha, ekdum desi maza!",Vegetarian
+68,Barfi,"Perfect lunch, bilkul ghar jaisa.",Street Food
+20,Rasgulla,"Delicious and perfectly spiced, loved it!",Street Food
+32,Dal Makhani,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+21,Paneer Tikka,"Thoda teekha tha, but I still liked it.",Dessert
+60,Mutton Korma,"Great taste, will order again!",Dinner
+21,Kadhi Pakora,"Bahut swaadisht tha, ekdum desi maza!",Vegetarian
+39,Mutton Rogan Josh,"Perfect lunch, bilkul ghar jaisa.",Lunch
+27,Pani Puri,"Great taste, will order again!",Lunch
+49,Paneer Tikka,"Yaar, itna tasty tha, maza aa gaya!",Snacks
+50,Tandoori Roti,"The food was amazing, but delivery was late.",Street Food
+27,Pani Puri,Khana fresh tha aur taste bhi badhiya.,Non-Vegetarian
+34,Tandoori Roti,Samosa toh ekdum crisp aur tasty tha.,Breakfast
+35,Chicken Curry,Samosa toh ekdum crisp aur tasty tha.,Dinner
+63,Paneer Tikka,Khana fresh tha aur taste bhi badhiya.,Lunch
+26,Dal Fry,"Delicious and perfectly spiced, loved it!",Chinese
+66,Jalebi,"Great taste, will order again!",Street Food
+35,Mutton Korma,"Great taste, will order again!",Vegetarian
+66,Gulab Jamun,Samosa toh ekdum crisp aur tasty tha.,Dinner
+52,Vegetable Biryani,"Yaar, itna tasty tha, maza aa gaya!",Dinner
+68,Naan,"The food was amazing, but delivery was late.",Street Food
+53,Lassi,"The food was amazing, but delivery was late.",Snacks
+67,Malai Kofta,"Delicious and perfectly spiced, loved it!",Breakfast
+46,Gulab Jamun,"The food was amazing, but delivery was late.",Non-Vegetarian
+55,Palak Paneer,"The food was amazing, but delivery was late.",Breakfast
+31,Kofta Curry,"Perfect lunch, bilkul ghar jaisa.",Vegan
+42,Rajma Chawal,Samosa toh ekdum crisp aur tasty tha.,Lunch
+14,Rasgulla,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+43,Fish Fry,"Bahut swaadisht tha, ekdum desi maza!",Street Food
+42,Jalebi,"Thoda teekha tha, but I still liked it.",Snacks
+52,Fish Fry,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+17,Pani Puri,"Thoda teekha tha, but I still liked it.",Dinner
+22,Vegetable Biryani,"Great taste, will order again!",Vegan
+49,Mutton Korma,"The food was amazing, but delivery was late.",Vegan
+38,Samosa,Khana fresh tha aur taste bhi badhiya.,Dessert
+48,Imarti,"Great taste, will order again!",Street Food
+50,Falooda,"Yaar, itna tasty tha, maza aa gaya!",Breakfast
+49,Sev Puri,"Thoda teekha tha, but I still liked it.",Lunch
+24,Barfi,"The food was amazing, but delivery was late.",Street Food
+63,Jalebi,"Delicious and perfectly spiced, loved it!",Vegetarian
+19,Tandoori Chicken,"The food was amazing, but delivery was late.",Dessert
+69,Kadhi Pakora,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+69,Chicken Biryani,"Perfect lunch, bilkul ghar jaisa.",Lunch
+51,Chicken Curry,"Great taste, will order again!",Non-Vegetarian
+10,Tandoori Chicken,"Thoda teekha tha, but I still liked it.",Non-Vegetarian
+59,Samosa,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+56,Shahi Paneer,"Perfect lunch, bilkul ghar jaisa.",Dinner
+42,Chicken Curry,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+43,Gulab Jamun,"Perfect lunch, bilkul ghar jaisa.",Chinese
+12,Imarti,"The food was amazing, but delivery was late.",Snacks
+29,Butter Chicken,"Perfect lunch, bilkul ghar jaisa.",Snacks
+64,Tandoori Chicken,"Yaar, itna tasty tha, maza aa gaya!",Lunch
+31,Lassi,Samosa toh ekdum crisp aur tasty tha.,Lunch
+63,Shahi Paneer,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+27,Butter Chicken,"Perfect lunch, bilkul ghar jaisa.",Street Food
+59,Dal Makhani,"Perfect lunch, bilkul ghar jaisa.",Street Food
+61,Rabri,"Great taste, will order again!",Dessert
+39,Aloo Gobi,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+32,Rajma Chawal,"Great taste, will order again!",Snacks
+68,Pav Bhaji,Samosa toh ekdum crisp aur tasty tha.,Dessert
+32,Malai Kofta,"The food was amazing, but delivery was late.",Breakfast
+21,Biryani,"Thoda teekha tha, but I still liked it.",Chinese
+14,Tandoori Chicken,"Thoda teekha tha, but I still liked it.",Breakfast
+37,Biryani,"The food was amazing, but delivery was late.",Lunch
+52,Rajma Chawal,Samosa toh ekdum crisp aur tasty tha.,Non-Vegetarian
+56,Chicken Curry,"Thoda teekha tha, but I still liked it.",Non-Vegetarian
+24,Mutton Korma,"Bahut swaadisht tha, ekdum desi maza!",Non-Vegetarian
+28,Mutton Rogan Josh,"The food was amazing, but delivery was late.",Vegetarian
+61,Litti Chokha,Khana fresh tha aur taste bhi badhiya.,Non-Vegetarian
+62,Malai Kofta,"Bahut swaadisht tha, ekdum desi maza!",Chinese
+24,Vegetable Biryani,"Delicious and perfectly spiced, loved it!",Vegan
+33,Pani Puri,"Thoda teekha tha, but I still liked it.",Dessert
+58,Jalebi,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+64,Dal Makhani,"Perfect lunch, bilkul ghar jaisa.",Lunch
+62,Kofta Curry,"The food was amazing, but delivery was late.",Dessert
+25,Dal Fry,Khana fresh tha aur taste bhi badhiya.,Lunch
+19,Rabri,"Thoda teekha tha, but I still liked it.",Vegan
+34,Tandoori Roti,"Delicious and perfectly spiced, loved it!",Street Food
+66,Chaat,"The food was amazing, but delivery was late.",Dessert
+62,Pani Puri,"Thoda teekha tha, but I still liked it.",Dessert
+43,Aloo Gobi,"Bahut swaadisht tha, ekdum desi maza!",Non-Vegetarian
+35,Malai Kofta,Khana fresh tha aur taste bhi badhiya.,Dinner
+63,Aloo Gobi,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+36,Lassi,Khana fresh tha aur taste bhi badhiya.,Street Food
+52,Gulab Jamun,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+14,Tandoori Chicken,"The food was amazing, but delivery was late.",Dessert
+30,Mutton Korma,"Thoda teekha tha, but I still liked it.",Chinese
+64,Naan,Khana fresh tha aur taste bhi badhiya.,Vegetarian
+34,Chicken Biryani,"Yaar, itna tasty tha, maza aa gaya!",Vegan
+32,Pav Bhaji,"Thoda teekha tha, but I still liked it.",Dessert
+20,Gulab Jamun,"Great taste, will order again!",Dinner
+23,Roti Sabzi,"Perfect lunch, bilkul ghar jaisa.",Lunch
+23,Mutton Korma,"Great taste, will order again!",Vegan
+50,Mutton Korma,"Perfect lunch, bilkul ghar jaisa.",Dinner
+66,Roti Sabzi,"Perfect lunch, bilkul ghar jaisa.",Street Food
+47,Jalebi,Samosa toh ekdum crisp aur tasty tha.,Dinner
+45,Chaat,"Perfect lunch, bilkul ghar jaisa.",Lunch
+50,Kulfi,"Yaar, itna tasty tha, maza aa gaya!",Breakfast
+26,Jalebi,Samosa toh ekdum crisp aur tasty tha.,Vegan
+10,Roti Sabzi,Samosa toh ekdum crisp aur tasty tha.,Dessert
+46,Malai Kofta,"Yaar, itna tasty tha, maza aa gaya!",Snacks
+57,Dal Makhani,"The food was amazing, but delivery was late.",Vegetarian
+56,Naan,"The food was amazing, but delivery was late.",Snacks
+18,Falooda,"Perfect lunch, bilkul ghar jaisa.",Vegan
+21,Dal Makhani,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+14,Barfi,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+22,Jalebi,"Great taste, will order again!",Breakfast
+13,Roti Sabzi,"Thoda teekha tha, but I still liked it.",Vegan
+42,Biryani,"Delicious and perfectly spiced, loved it!",Dinner
+43,Mutton Korma,Samosa toh ekdum crisp aur tasty tha.,Non-Vegetarian
+70,Baingan Bharta,Khana fresh tha aur taste bhi badhiya.,Non-Vegetarian
+56,Pani Puri,"Perfect lunch, bilkul ghar jaisa.",Breakfast
+58,Lassi,Samosa toh ekdum crisp aur tasty tha.,Vegan
+14,Kofta Curry,"Great taste, will order again!",Non-Vegetarian
+68,Pani Puri,"Yaar, itna tasty tha, maza aa gaya!",Snacks
+46,Bhindi Masala,Khana fresh tha aur taste bhi badhiya.,Lunch
+33,Biryani,Khana fresh tha aur taste bhi badhiya.,Lunch
+31,Fish Fry,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+62,Kofta Curry,"The food was amazing, but delivery was late.",Lunch
+47,Kadhi Pakora,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+45,Rasgulla,Samosa toh ekdum crisp aur tasty tha.,Lunch
+50,Dal Fry,"Great taste, will order again!",Vegetarian
+29,Samosa,Samosa toh ekdum crisp aur tasty tha.,Non-Vegetarian
+32,Paneer Butter Masala,"Delicious and perfectly spiced, loved it!",Dessert
+41,Vada Pav,"Perfect lunch, bilkul ghar jaisa.",Lunch
+14,Rabri,Samosa toh ekdum crisp aur tasty tha.,Lunch
+61,Kadhi Pakora,Khana fresh tha aur taste bhi badhiya.,Street Food
+43,Roti Sabzi,Samosa toh ekdum crisp aur tasty tha.,Dessert
+35,Butter Chicken,"Thoda teekha tha, but I still liked it.",Chinese
+50,Kadhi Pakora,"Thoda teekha tha, but I still liked it.",Dinner
+52,Rasgulla,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+16,Biryani,Khana fresh tha aur taste bhi badhiya.,Snacks
+49,Rabri,"Thoda teekha tha, but I still liked it.",Dinner
+62,Pav Bhaji,Khana fresh tha aur taste bhi badhiya.,Chinese
+55,Vada Pav,"Bahut swaadisht tha, ekdum desi maza!",Street Food
+39,Chicken Curry,"Yaar, itna tasty tha, maza aa gaya!",Snacks
+52,Bhindi Masala,Samosa toh ekdum crisp aur tasty tha.,Vegan
+36,Litti Chokha,"Delicious and perfectly spiced, loved it!",Chinese
+47,Kulfi,"Bahut swaadisht tha, ekdum desi maza!",Street Food
+62,Dal Fry,Khana fresh tha aur taste bhi badhiya.,Snacks
+11,Fish Fry,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+43,Chicken Curry,"Delicious and perfectly spiced, loved it!",Chinese
+32,Lassi,"Delicious and perfectly spiced, loved it!",Non-Vegetarian
+41,Kadhi Pakora,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+18,Aloo Tikki,Khana fresh tha aur taste bhi badhiya.,Dessert
+69,Tandoori Chicken,Samosa toh ekdum crisp aur tasty tha.,Dinner
+39,Fish Curry,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+60,Roti Sabzi,"Perfect lunch, bilkul ghar jaisa.",Vegan
+63,Dal Makhani,"Great taste, will order again!",Dinner
+56,Vegetable Biryani,"Delicious and perfectly spiced, loved it!",Snacks
+29,Pani Puri,Khana fresh tha aur taste bhi badhiya.,Snacks
+16,Malai Kofta,"The food was amazing, but delivery was late.",Dinner
+24,Malai Kofta,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+21,Malai Kofta,"Great taste, will order again!",Dinner
+33,Vada Pav,"The food was amazing, but delivery was late.",Non-Vegetarian
+55,Pav Bhaji,"The food was amazing, but delivery was late.",Breakfast
+63,Kofta Curry,"Thoda teekha tha, but I still liked it.",Non-Vegetarian
+64,Fish Fry,Samosa toh ekdum crisp aur tasty tha.,Non-Vegetarian
+58,Kofta Curry,"Great taste, will order again!",Breakfast
+20,Barfi,"Great taste, will order again!",Vegan
+63,Biryani,"Perfect lunch, bilkul ghar jaisa.",Dinner
+17,Barfi,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+35,Falooda,"Delicious and perfectly spiced, loved it!",Vegetarian
+12,Rasgulla,"Delicious and perfectly spiced, loved it!",Non-Vegetarian
+17,Aloo Gobi,"Perfect lunch, bilkul ghar jaisa.",Lunch
+25,Pav Bhaji,"Delicious and perfectly spiced, loved it!",Snacks
+70,Vegetable Pulao,"Bahut swaadisht tha, ekdum desi maza!",Vegan
+34,Vegetable Biryani,"Perfect lunch, bilkul ghar jaisa.",Snacks
+14,Lassi,Samosa toh ekdum crisp aur tasty tha.,Lunch
+36,Lassi,"Yaar, itna tasty tha, maza aa gaya!",Lunch
+28,Malai Kofta,Khana fresh tha aur taste bhi badhiya.,Street Food
+26,Lassi,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+22,Paneer Butter Masala,"Delicious and perfectly spiced, loved it!",Non-Vegetarian
+59,Kadhi Pakora,"Great taste, will order again!",Non-Vegetarian
+19,Paneer Butter Masala,Khana fresh tha aur taste bhi badhiya.,Street Food
+65,Tandoori Roti,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+47,Fish Curry,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+54,Aloo Gobi,"Delicious and perfectly spiced, loved it!",Dinner
+17,Rabri,"Great taste, will order again!",Dinner
+17,Dal Fry,Samosa toh ekdum crisp aur tasty tha.,Street Food
+38,Chicken Biryani,Khana fresh tha aur taste bhi badhiya.,Lunch
+26,Shahi Paneer,"Thoda teekha tha, but I still liked it.",Dinner
+24,Barfi,Samosa toh ekdum crisp aur tasty tha.,Dessert
+37,Roti Sabzi,Khana fresh tha aur taste bhi badhiya.,Chinese
+10,Dal Fry,"The food was amazing, but delivery was late.",Chinese
+61,Baingan Bharta,"Delicious and perfectly spiced, loved it!",Chinese
+51,Paneer Tikka,Samosa toh ekdum crisp aur tasty tha.,Dinner
+54,Jalebi,"Perfect lunch, bilkul ghar jaisa.",Snacks
+18,Tandoori Chicken,"Delicious and perfectly spiced, loved it!",Non-Vegetarian
+17,Rajma Chawal,Khana fresh tha aur taste bhi badhiya.,Vegetarian
+32,Baingan Bharta,"Bahut swaadisht tha, ekdum desi maza!",Vegan
+24,Paneer Tikka,"Perfect lunch, bilkul ghar jaisa.",Chinese
+42,Vegetable Pulao,"Yaar, itna tasty tha, maza aa gaya!",Dinner
+13,Fish Fry,"Yaar, itna tasty tha, maza aa gaya!",Breakfast
+32,Shahi Paneer,"The food was amazing, but delivery was late.",Breakfast
+20,Kachori,"Thoda teekha tha, but I still liked it.",Dessert
+44,Vada Pav,Khana fresh tha aur taste bhi badhiya.,Snacks
+64,Pani Puri,"Perfect lunch, bilkul ghar jaisa.",Street Food
+26,Kachori,"The food was amazing, but delivery was late.",Lunch
+64,Chicken Curry,"Perfect lunch, bilkul ghar jaisa.",Dessert
+49,Aloo Tikki,"Delicious and perfectly spiced, loved it!",Chinese
+66,Rasgulla,Khana fresh tha aur taste bhi badhiya.,Street Food
+18,Vada Pav,"Bahut swaadisht tha, ekdum desi maza!",Street Food
+27,Imarti,"Perfect lunch, bilkul ghar jaisa.",Chinese
+25,Kachori,"Perfect lunch, bilkul ghar jaisa.",Chinese
+28,Vegetable Pulao,"Bahut swaadisht tha, ekdum desi maza!",Chinese
+52,Tandoori Roti,"Delicious and perfectly spiced, loved it!",Vegetarian
+59,Aloo Tikki,"Great taste, will order again!",Street Food
+38,Samosa,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+67,Chicken Curry,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+18,Aloo Tikki,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+47,Rasgulla,"The food was amazing, but delivery was late.",Dinner
+20,Aloo Gobi,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+47,Rabri,Samosa toh ekdum crisp aur tasty tha.,Dessert
+65,Malai Kofta,"Thoda teekha tha, but I still liked it.",Dinner
+61,Falooda,Samosa toh ekdum crisp aur tasty tha.,Vegan
+22,Paneer Butter Masala,"The food was amazing, but delivery was late.",Dinner
+23,Dal Fry,Khana fresh tha aur taste bhi badhiya.,Lunch
+62,Tandoori Chicken,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+34,Kachori,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+64,Dal Makhani,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+41,Jalebi,"Thoda teekha tha, but I still liked it.",Lunch
+65,Aloo Gobi,"Delicious and perfectly spiced, loved it!",Snacks
+69,Pav Bhaji,"The food was amazing, but delivery was late.",Dessert
+24,Pav Bhaji,Khana fresh tha aur taste bhi badhiya.,Breakfast
+21,Mutton Rogan Josh,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+22,Biryani,"Great taste, will order again!",Non-Vegetarian
+68,Lassi,"Perfect lunch, bilkul ghar jaisa.",Lunch
+29,Imarti,"Delicious and perfectly spiced, loved it!",Non-Vegetarian
+37,Butter Chicken,"Delicious and perfectly spiced, loved it!",Vegan
+67,Vada Pav,"Delicious and perfectly spiced, loved it!",Dinner
+34,Bhindi Masala,"Thoda teekha tha, but I still liked it.",Vegetarian
+34,Naan,"The food was amazing, but delivery was late.",Lunch
+41,Imarti,Khana fresh tha aur taste bhi badhiya.,Non-Vegetarian
+59,Roti Sabzi,"Delicious and perfectly spiced, loved it!",Street Food
+69,Tandoori Chicken,"The food was amazing, but delivery was late.",Street Food
+60,Gulab Jamun,"Bahut swaadisht tha, ekdum desi maza!",Vegetarian
+66,Litti Chokha,"Perfect lunch, bilkul ghar jaisa.",Snacks
+29,Baingan Bharta,"Great taste, will order again!",Street Food
+68,Vegetable Biryani,"Great taste, will order again!",Non-Vegetarian
+51,Butter Chicken,Khana fresh tha aur taste bhi badhiya.,Lunch
+13,Chaat,"Delicious and perfectly spiced, loved it!",Vegetarian
+26,Chicken Biryani,"Bahut swaadisht tha, ekdum desi maza!",Street Food
+65,Rajma Chawal,"Thoda teekha tha, but I still liked it.",Snacks
+44,Kulfi,"Delicious and perfectly spiced, loved it!",Chinese
+58,Baingan Bharta,Samosa toh ekdum crisp aur tasty tha.,Chinese
+38,Biryani,"Thoda teekha tha, but I still liked it.",Vegetarian
+22,Paneer Butter Masala,Samosa toh ekdum crisp aur tasty tha.,Dinner
+51,Lassi,"Thoda teekha tha, but I still liked it.",Breakfast
+21,Butter Chicken,"Bahut swaadisht tha, ekdum desi maza!",Vegetarian
+44,Paneer Tikka,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+29,Pani Puri,"Delicious and perfectly spiced, loved it!",Snacks
+29,Kachori,"Thoda teekha tha, but I still liked it.",Dessert
+38,Butter Chicken,Samosa toh ekdum crisp aur tasty tha.,Lunch
+30,Rajma Chawal,"Thoda teekha tha, but I still liked it.",Dinner
+62,Naan,"Thoda teekha tha, but I still liked it.",Breakfast
+43,Aloo Tikki,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+53,Naan,"The food was amazing, but delivery was late.",Vegetarian
+32,Kulfi,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+43,Biryani,"Thoda teekha tha, but I still liked it.",Street Food
+32,Butter Chicken,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+22,Bhindi Masala,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+12,Tandoori Roti,"Great taste, will order again!",Chinese
+18,Bhindi Masala,Khana fresh tha aur taste bhi badhiya.,Street Food
+18,Baingan Bharta,"Perfect lunch, bilkul ghar jaisa.",Street Food
+22,Aloo Tikki,"Delicious and perfectly spiced, loved it!",Snacks
+51,Pav Bhaji,"Great taste, will order again!",Chinese
+64,Dal Fry,"Great taste, will order again!",Vegan
+10,Imarti,"Great taste, will order again!",Street Food
+26,Kachori,"Thoda teekha tha, but I still liked it.",Dinner
+54,Vegetable Pulao,"Yaar, itna tasty tha, maza aa gaya!",Vegan
+37,Kachori,Samosa toh ekdum crisp aur tasty tha.,Chinese
+54,Baingan Bharta,Khana fresh tha aur taste bhi badhiya.,Vegetarian
+55,Rasgulla,"Yaar, itna tasty tha, maza aa gaya!",Lunch
+61,Jalebi,"The food was amazing, but delivery was late.",Snacks
+26,Imarti,Khana fresh tha aur taste bhi badhiya.,Vegetarian
+54,Jalebi,"Delicious and perfectly spiced, loved it!",Dinner
+45,Fish Curry,"Perfect lunch, bilkul ghar jaisa.",Chinese
+58,Gulab Jamun,"Great taste, will order again!",Dinner
+56,Falooda,"Great taste, will order again!",Dinner
+25,Paneer Butter Masala,Khana fresh tha aur taste bhi badhiya.,Dessert
+31,Gulab Jamun,Khana fresh tha aur taste bhi badhiya.,Snacks
+46,Mutton Rogan Josh,"The food was amazing, but delivery was late.",Vegan
+10,Butter Chicken,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+27,Dal Makhani,"Thoda teekha tha, but I still liked it.",Dinner
+67,Rabri,Khana fresh tha aur taste bhi badhiya.,Breakfast
+25,Chaat,"Perfect lunch, bilkul ghar jaisa.",Lunch
+59,Kadhi Pakora,"Great taste, will order again!",Lunch
+31,Malai Kofta,"Thoda teekha tha, but I still liked it.",Vegetarian
+56,Butter Chicken,"Delicious and perfectly spiced, loved it!",Lunch
+37,Fish Fry,Khana fresh tha aur taste bhi badhiya.,Vegan
+22,Vegetable Pulao,Samosa toh ekdum crisp aur tasty tha.,Breakfast
+44,Paneer Butter Masala,"Great taste, will order again!",Dinner
+18,Paneer Tikka,Khana fresh tha aur taste bhi badhiya.,Vegan
+11,Litti Chokha,"Delicious and perfectly spiced, loved it!",Vegetarian
+11,Biryani,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+53,Pav Bhaji,"Great taste, will order again!",Snacks
+37,Imarti,"Perfect lunch, bilkul ghar jaisa.",Dinner
+16,Tandoori Chicken,Samosa toh ekdum crisp aur tasty tha.,Street Food
+22,Aloo Gobi,"Thoda teekha tha, but I still liked it.",Street Food
+66,Aloo Gobi,"Delicious and perfectly spiced, loved it!",Breakfast
+34,Roti Sabzi,Samosa toh ekdum crisp aur tasty tha.,Chinese
+13,Jalebi,"Thoda teekha tha, but I still liked it.",Vegetarian
+25,Rabri,"The food was amazing, but delivery was late.",Non-Vegetarian
+11,Butter Chicken,"Thoda teekha tha, but I still liked it.",Street Food
+10,Jalebi,"The food was amazing, but delivery was late.",Non-Vegetarian
+21,Vegetable Biryani,"Great taste, will order again!",Chinese
+36,Vegetable Pulao,"Yaar, itna tasty tha, maza aa gaya!",Snacks
+24,Kachori,Samosa toh ekdum crisp aur tasty tha.,Snacks
+17,Sev Puri,"Bahut swaadisht tha, ekdum desi maza!",Street Food
+20,Chicken Curry,"The food was amazing, but delivery was late.",Dessert
+56,Paneer Butter Masala,"Thoda teekha tha, but I still liked it.",Vegan
+50,Shahi Paneer,Khana fresh tha aur taste bhi badhiya.,Chinese
+30,Tandoori Roti,Samosa toh ekdum crisp aur tasty tha.,Lunch
+11,Jalebi,"Delicious and perfectly spiced, loved it!",Dessert
+22,Gulab Jamun,"Great taste, will order again!",Dessert
+51,Barfi,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+66,Vegetable Pulao,"Great taste, will order again!",Lunch
+53,Paneer Tikka,"Thoda teekha tha, but I still liked it.",Vegan
+51,Rabri,"Bahut swaadisht tha, ekdum desi maza!",Non-Vegetarian
+45,Vada Pav,Khana fresh tha aur taste bhi badhiya.,Snacks
+69,Jalebi,"Great taste, will order again!",Vegan
+17,Aloo Gobi,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+57,Fish Curry,"Delicious and perfectly spiced, loved it!",Street Food
+53,Tandoori Roti,"Thoda teekha tha, but I still liked it.",Breakfast
+70,Lassi,"Delicious and perfectly spiced, loved it!",Street Food
+10,Kadhi Pakora,Samosa toh ekdum crisp aur tasty tha.,Breakfast
+48,Pav Bhaji,"Perfect lunch, bilkul ghar jaisa.",Dessert
+61,Chicken Curry,"Yaar, itna tasty tha, maza aa gaya!",Dinner
+47,Vegetable Pulao,"The food was amazing, but delivery was late.",Dessert
+38,Chicken Curry,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+65,Naan,Khana fresh tha aur taste bhi badhiya.,Lunch
+45,Fish Curry,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+62,Fish Curry,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+27,Butter Chicken,"Bahut swaadisht tha, ekdum desi maza!",Vegetarian
+49,Chicken Curry,"Perfect lunch, bilkul ghar jaisa.",Street Food
+14,Kulfi,"Delicious and perfectly spiced, loved it!",Chinese
+41,Butter Chicken,"The food was amazing, but delivery was late.",Breakfast
+62,Malai Kofta,"Great taste, will order again!",Dinner
+40,Chicken Curry,Khana fresh tha aur taste bhi badhiya.,Chinese
+16,Bhindi Masala,"Thoda teekha tha, but I still liked it.",Dinner
+18,Paneer Butter Masala,"Perfect lunch, bilkul ghar jaisa.",Vegan
+69,Samosa,"Yaar, itna tasty tha, maza aa gaya!",Vegan
+10,Rajma Chawal,"Bahut swaadisht tha, ekdum desi maza!",Street Food
+15,Naan,"The food was amazing, but delivery was late.",Lunch
+42,Mutton Korma,Samosa toh ekdum crisp aur tasty tha.,Non-Vegetarian
+48,Shahi Paneer,"The food was amazing, but delivery was late.",Street Food
+15,Palak Paneer,"Delicious and perfectly spiced, loved it!",Snacks
+28,Lassi,"Perfect lunch, bilkul ghar jaisa.",Breakfast
+20,Tandoori Chicken,"Thoda teekha tha, but I still liked it.",Dinner
+20,Gulab Jamun,"Delicious and perfectly spiced, loved it!",Chinese
+35,Aloo Tikki,"Great taste, will order again!",Dessert
+20,Imarti,"Thoda teekha tha, but I still liked it.",Vegan
+65,Pav Bhaji,"The food was amazing, but delivery was late.",Lunch
+11,Rasgulla,"Delicious and perfectly spiced, loved it!",Chinese
+63,Sev Puri,"Perfect lunch, bilkul ghar jaisa.",Lunch
+36,Tandoori Roti,"The food was amazing, but delivery was late.",Vegan
+50,Butter Chicken,"Great taste, will order again!",Lunch
+38,Jalebi,"Bahut swaadisht tha, ekdum desi maza!",Non-Vegetarian
+33,Pav Bhaji,"Delicious and perfectly spiced, loved it!",Snacks
+25,Butter Chicken,"Thoda teekha tha, but I still liked it.",Non-Vegetarian
+11,Paneer Butter Masala,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+20,Butter Chicken,"Perfect lunch, bilkul ghar jaisa.",Dinner
+58,Tandoori Chicken,"Great taste, will order again!",Vegan
+36,Vada Pav,Khana fresh tha aur taste bhi badhiya.,Breakfast
+68,Vegetable Pulao,"Great taste, will order again!",Non-Vegetarian
+42,Pav Bhaji,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+52,Fish Fry,"Thoda teekha tha, but I still liked it.",Chinese
+15,Chicken Biryani,Khana fresh tha aur taste bhi badhiya.,Chinese
+24,Gulab Jamun,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+66,Paneer Butter Masala,"Thoda teekha tha, but I still liked it.",Lunch
+69,Palak Paneer,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+23,Rabri,"The food was amazing, but delivery was late.",Dessert
+17,Fish Curry,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+64,Vada Pav,"Perfect lunch, bilkul ghar jaisa.",Vegan
+36,Vegetable Biryani,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+60,Rajma Chawal,"Delicious and perfectly spiced, loved it!",Dessert
+43,Vegetable Biryani,"Thoda teekha tha, but I still liked it.",Vegetarian
+29,Chaat,"Great taste, will order again!",Lunch
+35,Lassi,"The food was amazing, but delivery was late.",Vegan
+52,Samosa,"Perfect lunch, bilkul ghar jaisa.",Dessert
+45,Paneer Tikka,"Thoda teekha tha, but I still liked it.",Dinner
+37,Mutton Rogan Josh,Khana fresh tha aur taste bhi badhiya.,Breakfast
+44,Dal Fry,"The food was amazing, but delivery was late.",Lunch
+53,Tandoori Chicken,"Thoda teekha tha, but I still liked it.",Snacks
+29,Gulab Jamun,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+70,Bhindi Masala,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+12,Biryani,Khana fresh tha aur taste bhi badhiya.,Non-Vegetarian
+39,Gulab Jamun,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+28,Gulab Jamun,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+32,Aloo Tikki,"Great taste, will order again!",Lunch
+52,Lassi,"Perfect lunch, bilkul ghar jaisa.",Lunch
+51,Tandoori Chicken,"Delicious and perfectly spiced, loved it!",Breakfast
+14,Tandoori Chicken,Samosa toh ekdum crisp aur tasty tha.,Non-Vegetarian
+17,Pav Bhaji,Khana fresh tha aur taste bhi badhiya.,Dessert
+64,Dal Makhani,Samosa toh ekdum crisp aur tasty tha.,Dinner
+44,Rasgulla,Khana fresh tha aur taste bhi badhiya.,Vegan
+49,Lassi,Samosa toh ekdum crisp aur tasty tha.,Dinner
+66,Shahi Paneer,"Delicious and perfectly spiced, loved it!",Lunch
+69,Kulfi,Khana fresh tha aur taste bhi badhiya.,Dessert
+52,Kadhi Pakora,"Thoda teekha tha, but I still liked it.",Snacks
+41,Biryani,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+42,Sev Puri,"Great taste, will order again!",Non-Vegetarian
+34,Kachori,"Great taste, will order again!",Dinner
+21,Jalebi,"Great taste, will order again!",Vegan
+44,Fish Curry,"Perfect lunch, bilkul ghar jaisa.",Snacks
+24,Aloo Tikki,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+36,Bhindi Masala,Khana fresh tha aur taste bhi badhiya.,Vegan
+41,Samosa,"Great taste, will order again!",Dessert
+36,Butter Chicken,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+30,Vada Pav,Khana fresh tha aur taste bhi badhiya.,Vegan
+14,Naan,Samosa toh ekdum crisp aur tasty tha.,Dessert
+26,Rasgulla,"The food was amazing, but delivery was late.",Vegetarian
+55,Dal Makhani,"Great taste, will order again!",Dessert
+13,Mutton Korma,Samosa toh ekdum crisp aur tasty tha.,Chinese
+60,Jalebi,"Delicious and perfectly spiced, loved it!",Dinner
+24,Jalebi,"The food was amazing, but delivery was late.",Vegan
+45,Aloo Tikki,"Perfect lunch, bilkul ghar jaisa.",Dessert
+26,Lassi,Khana fresh tha aur taste bhi badhiya.,Street Food
+64,Kachori,"Great taste, will order again!",Chinese
+51,Rajma Chawal,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+22,Naan,"Perfect lunch, bilkul ghar jaisa.",Snacks
+40,Mutton Korma,"The food was amazing, but delivery was late.",Chinese
+24,Palak Paneer,"Yaar, itna tasty tha, maza aa gaya!",Vegan
+23,Chicken Curry,"Great taste, will order again!",Chinese
+69,Palak Paneer,"Great taste, will order again!",Breakfast
+23,Biryani,Samosa toh ekdum crisp aur tasty tha.,Dessert
+14,Kulfi,"Perfect lunch, bilkul ghar jaisa.",Street Food
+29,Biryani,"Thoda teekha tha, but I still liked it.",Lunch
+57,Palak Paneer,Samosa toh ekdum crisp aur tasty tha.,Vegan
+16,Mutton Rogan Josh,Samosa toh ekdum crisp aur tasty tha.,Vegan
+33,Samosa,"Delicious and perfectly spiced, loved it!",Lunch
+55,Kulfi,Samosa toh ekdum crisp aur tasty tha.,Street Food
+52,Imarti,"Great taste, will order again!",Vegetarian
+46,Fish Fry,"Delicious and perfectly spiced, loved it!",Dinner
+32,Malai Kofta,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+11,Barfi,"Delicious and perfectly spiced, loved it!",Breakfast
+31,Rajma Chawal,"The food was amazing, but delivery was late.",Dessert
+66,Jalebi,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+60,Jalebi,Samosa toh ekdum crisp aur tasty tha.,Street Food
+14,Gulab Jamun,"Bahut swaadisht tha, ekdum desi maza!",Non-Vegetarian
+51,Jalebi,"Great taste, will order again!",Vegan
+38,Kofta Curry,"Yaar, itna tasty tha, maza aa gaya!",Lunch
+29,Vegetable Pulao,"Great taste, will order again!",Breakfast
+28,Barfi,"Yaar, itna tasty tha, maza aa gaya!",Vegan
+11,Fish Fry,Khana fresh tha aur taste bhi badhiya.,Chinese
+24,Chaat,"Delicious and perfectly spiced, loved it!",Street Food
+51,Biryani,"Perfect lunch, bilkul ghar jaisa.",Chinese
+45,Palak Paneer,Khana fresh tha aur taste bhi badhiya.,Dinner
+14,Rajma Chawal,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+13,Paneer Butter Masala,Samosa toh ekdum crisp aur tasty tha.,Dinner
+69,Palak Paneer,"Perfect lunch, bilkul ghar jaisa.",Lunch
+17,Tandoori Chicken,"Thoda teekha tha, but I still liked it.",Breakfast
+21,Kadhi Pakora,"The food was amazing, but delivery was late.",Dessert
+59,Chicken Curry,"Bahut swaadisht tha, ekdum desi maza!",Vegan
+34,Kulfi,Khana fresh tha aur taste bhi badhiya.,Dinner
+29,Biryani,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+50,Vada Pav,"Great taste, will order again!",Snacks
+50,Mutton Korma,Khana fresh tha aur taste bhi badhiya.,Snacks
+30,Butter Chicken,"Perfect lunch, bilkul ghar jaisa.",Dessert
+53,Fish Fry,"Great taste, will order again!",Vegetarian
+24,Jalebi,Khana fresh tha aur taste bhi badhiya.,Vegan
+21,Paneer Butter Masala,"Perfect lunch, bilkul ghar jaisa.",Vegan
+39,Pani Puri,"Thoda teekha tha, but I still liked it.",Lunch
+15,Dal Makhani,"Great taste, will order again!",Snacks
+45,Paneer Tikka,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+56,Paneer Tikka,"Perfect lunch, bilkul ghar jaisa.",Snacks
+35,Chicken Curry,Samosa toh ekdum crisp aur tasty tha.,Lunch
+68,Fish Curry,"Great taste, will order again!",Snacks
+33,Palak Paneer,Khana fresh tha aur taste bhi badhiya.,Breakfast
+18,Paneer Butter Masala,"The food was amazing, but delivery was late.",Vegetarian
+28,Palak Paneer,"Perfect lunch, bilkul ghar jaisa.",Dinner
+66,Mutton Korma,"Thoda teekha tha, but I still liked it.",Street Food
+34,Mutton Rogan Josh,"The food was amazing, but delivery was late.",Snacks
+60,Dal Fry,"Bahut swaadisht tha, ekdum desi maza!",Vegetarian
+17,Dal Fry,Khana fresh tha aur taste bhi badhiya.,Street Food
+34,Rasgulla,"Thoda teekha tha, but I still liked it.",Non-Vegetarian
+25,Vada Pav,"Thoda teekha tha, but I still liked it.",Vegan
+58,Biryani,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+40,Vegetable Biryani,"Great taste, will order again!",Dessert
+62,Fish Curry,"Delicious and perfectly spiced, loved it!",Lunch
+41,Kofta Curry,"Bahut swaadisht tha, ekdum desi maza!",Chinese
+18,Mutton Korma,"Thoda teekha tha, but I still liked it.",Snacks
+24,Aloo Tikki,"Yaar, itna tasty tha, maza aa gaya!",Lunch
+49,Roti Sabzi,"Yaar, itna tasty tha, maza aa gaya!",Breakfast
+65,Imarti,"The food was amazing, but delivery was late.",Non-Vegetarian
+29,Aloo Gobi,Khana fresh tha aur taste bhi badhiya.,Snacks
+59,Kachori,"Delicious and perfectly spiced, loved it!",Snacks
+29,Biryani,"Great taste, will order again!",Snacks
+13,Butter Chicken,"Perfect lunch, bilkul ghar jaisa.",Street Food
+19,Tandoori Chicken,"Yaar, itna tasty tha, maza aa gaya!",Lunch
+58,Litti Chokha,"Thoda teekha tha, but I still liked it.",Snacks
+69,Dal Fry,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+62,Aloo Tikki,Khana fresh tha aur taste bhi badhiya.,Vegetarian
+24,Chaat,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+68,Imarti,"Delicious and perfectly spiced, loved it!",Lunch
+36,Butter Chicken,"Perfect lunch, bilkul ghar jaisa.",Breakfast
+10,Kulfi,"Delicious and perfectly spiced, loved it!",Breakfast
+35,Kachori,"The food was amazing, but delivery was late.",Lunch
+41,Falooda,Samosa toh ekdum crisp aur tasty tha.,Snacks
+36,Chicken Curry,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+31,Roti Sabzi,"The food was amazing, but delivery was late.",Dessert
+36,Biryani,"Yaar, itna tasty tha, maza aa gaya!",Dinner
+40,Vada Pav,"Bahut swaadisht tha, ekdum desi maza!",Chinese
+55,Mutton Korma,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+32,Rasgulla,"Delicious and perfectly spiced, loved it!",Vegetarian
+57,Fish Curry,"Yaar, itna tasty tha, maza aa gaya!",Dinner
+18,Jalebi,"Bahut swaadisht tha, ekdum desi maza!",Non-Vegetarian
+18,Fish Curry,"Delicious and perfectly spiced, loved it!",Snacks
+52,Chicken Biryani,"Thoda teekha tha, but I still liked it.",Chinese
+14,Vegetable Pulao,"The food was amazing, but delivery was late.",Lunch
+31,Kadhi Pakora,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+36,Vegetable Biryani,"Perfect lunch, bilkul ghar jaisa.",Chinese
+12,Pani Puri,Samosa toh ekdum crisp aur tasty tha.,Lunch
+63,Mutton Korma,"Great taste, will order again!",Breakfast
+36,Vegetable Pulao,"Great taste, will order again!",Dinner
+65,Aloo Gobi,"Great taste, will order again!",Lunch
+33,Pav Bhaji,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+64,Jalebi,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+45,Barfi,"Delicious and perfectly spiced, loved it!",Street Food
+26,Kulfi,"Thoda teekha tha, but I still liked it.",Street Food
+66,Pani Puri,Samosa toh ekdum crisp aur tasty tha.,Non-Vegetarian
+27,Kadhi Pakora,Khana fresh tha aur taste bhi badhiya.,Lunch
+61,Rasgulla,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+24,Chaat,Samosa toh ekdum crisp aur tasty tha.,Snacks
+64,Malai Kofta,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+58,Barfi,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+20,Chaat,"The food was amazing, but delivery was late.",Vegan
+66,Mutton Korma,"Delicious and perfectly spiced, loved it!",Street Food
+65,Pav Bhaji,Khana fresh tha aur taste bhi badhiya.,Lunch
+12,Rasgulla,"The food was amazing, but delivery was late.",Vegan
+56,Paneer Tikka,Samosa toh ekdum crisp aur tasty tha.,Lunch
+64,Rasgulla,"Yaar, itna tasty tha, maza aa gaya!",Lunch
+46,Barfi,"Thoda teekha tha, but I still liked it.",Street Food
+37,Palak Paneer,"The food was amazing, but delivery was late.",Dessert
+69,Fish Fry,"The food was amazing, but delivery was late.",Lunch
+17,Falooda,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+28,Mutton Rogan Josh,Khana fresh tha aur taste bhi badhiya.,Snacks
+18,Rasgulla,"Yaar, itna tasty tha, maza aa gaya!",Vegan
+22,Pav Bhaji,"Perfect lunch, bilkul ghar jaisa.",Dinner
+70,Roti Sabzi,"Yaar, itna tasty tha, maza aa gaya!",Breakfast
+67,Malai Kofta,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+14,Rajma Chawal,"Perfect lunch, bilkul ghar jaisa.",Dinner
+11,Pav Bhaji,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+61,Palak Paneer,Samosa toh ekdum crisp aur tasty tha.,Breakfast
+12,Roti Sabzi,"The food was amazing, but delivery was late.",Dinner
+15,Vegetable Pulao,"Delicious and perfectly spiced, loved it!",Lunch
+62,Vada Pav,"Delicious and perfectly spiced, loved it!",Chinese
+12,Kofta Curry,Khana fresh tha aur taste bhi badhiya.,Vegetarian
+46,Tandoori Chicken,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+41,Paneer Butter Masala,"Perfect lunch, bilkul ghar jaisa.",Non-Vegetarian
+44,Baingan Bharta,Khana fresh tha aur taste bhi badhiya.,Breakfast
+64,Bhindi Masala,"The food was amazing, but delivery was late.",Snacks
+14,Tandoori Chicken,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+65,Aloo Tikki,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+47,Biryani,"Great taste, will order again!",Chinese
+66,Malai Kofta,Samosa toh ekdum crisp aur tasty tha.,Snacks
+55,Jalebi,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+33,Barfi,"Delicious and perfectly spiced, loved it!",Dessert
+62,Pav Bhaji,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+22,Rasgulla,Samosa toh ekdum crisp aur tasty tha.,Dessert
+60,Tandoori Roti,"The food was amazing, but delivery was late.",Non-Vegetarian
+69,Chaat,"Great taste, will order again!",Street Food
+24,Bhindi Masala,Samosa toh ekdum crisp aur tasty tha.,Snacks
+38,Biryani,"Delicious and perfectly spiced, loved it!",Chinese
+67,Biryani,"Yaar, itna tasty tha, maza aa gaya!",Non-Vegetarian
+13,Pani Puri,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+33,Sev Puri,"The food was amazing, but delivery was late.",Lunch
+39,Roti Sabzi,"Bahut swaadisht tha, ekdum desi maza!",Dessert
+18,Jalebi,"Perfect lunch, bilkul ghar jaisa.",Vegetarian
+70,Dal Makhani,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+42,Pani Puri,"The food was amazing, but delivery was late.",Lunch
+44,Fish Curry,Samosa toh ekdum crisp aur tasty tha.,Dinner
+52,Samosa,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+50,Gulab Jamun,"Delicious and perfectly spiced, loved it!",Snacks
+61,Tandoori Roti,"Delicious and perfectly spiced, loved it!",Snacks
+17,Kachori,"Delicious and perfectly spiced, loved it!",Lunch
+53,Barfi,"Yaar, itna tasty tha, maza aa gaya!",Breakfast
+70,Bhindi Masala,Khana fresh tha aur taste bhi badhiya.,Snacks
+42,Mutton Korma,Khana fresh tha aur taste bhi badhiya.,Dinner
+67,Tandoori Roti,"Thoda teekha tha, but I still liked it.",Dinner
+14,Paneer Tikka,Samosa toh ekdum crisp aur tasty tha.,Vegan
+15,Tandoori Chicken,"Thoda teekha tha, but I still liked it.",Breakfast
+54,Biryani,"The food was amazing, but delivery was late.",Snacks
+40,Litti Chokha,"Thoda teekha tha, but I still liked it.",Lunch
+49,Aloo Tikki,Samosa toh ekdum crisp aur tasty tha.,Chinese
+41,Palak Paneer,"Great taste, will order again!",Snacks
+43,Mutton Rogan Josh,"The food was amazing, but delivery was late.",Snacks
+70,Tandoori Chicken,Samosa toh ekdum crisp aur tasty tha.,Vegan
+17,Samosa,Samosa toh ekdum crisp aur tasty tha.,Snacks
+16,Mutton Rogan Josh,"The food was amazing, but delivery was late.",Lunch
+53,Kulfi,"The food was amazing, but delivery was late.",Vegetarian
+61,Barfi,"Great taste, will order again!",Lunch
+33,Bhindi Masala,"Perfect lunch, bilkul ghar jaisa.",Vegan
+57,Gulab Jamun,Khana fresh tha aur taste bhi badhiya.,Lunch
+49,Rasgulla,"The food was amazing, but delivery was late.",Vegetarian
+69,Lassi,"Bahut swaadisht tha, ekdum desi maza!",Lunch
+49,Jalebi,"Perfect lunch, bilkul ghar jaisa.",Dessert
+65,Lassi,"Thoda teekha tha, but I still liked it.",Snacks
+35,Palak Paneer,"The food was amazing, but delivery was late.",Chinese
+56,Kofta Curry,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+38,Tandoori Chicken,"Perfect lunch, bilkul ghar jaisa.",Lunch
+21,Baingan Bharta,Samosa toh ekdum crisp aur tasty tha.,Dinner
+23,Shahi Paneer,"Delicious and perfectly spiced, loved it!",Vegan
+53,Dal Makhani,Khana fresh tha aur taste bhi badhiya.,Chinese
+15,Kachori,"The food was amazing, but delivery was late.",Vegan
+59,Mutton Korma,"Great taste, will order again!",Lunch
+30,Kadhi Pakora,"Yaar, itna tasty tha, maza aa gaya!",Breakfast
+59,Mutton Korma,"Delicious and perfectly spiced, loved it!",Dessert
+51,Lassi,"Yaar, itna tasty tha, maza aa gaya!",Chinese
+45,Kadhi Pakora,Samosa toh ekdum crisp aur tasty tha.,Snacks
+70,Paneer Butter Masala,"Delicious and perfectly spiced, loved it!",Dinner
+28,Pav Bhaji,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+57,Pav Bhaji,"Perfect lunch, bilkul ghar jaisa.",Dinner
+46,Chicken Curry,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+32,Barfi,"Delicious and perfectly spiced, loved it!",Lunch
+20,Butter Chicken,"Thoda teekha tha, but I still liked it.",Lunch
+38,Kadhi Pakora,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+18,Malai Kofta,Khana fresh tha aur taste bhi badhiya.,Street Food
+64,Kulfi,"Perfect lunch, bilkul ghar jaisa.",Dessert
+20,Tandoori Roti,Khana fresh tha aur taste bhi badhiya.,Lunch
+11,Bhindi Masala,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+39,Shahi Paneer,"Yaar, itna tasty tha, maza aa gaya!",Vegetarian
+52,Kofta Curry,"Great taste, will order again!",Vegetarian
+16,Kofta Curry,Khana fresh tha aur taste bhi badhiya.,Lunch
+40,Kulfi,"Delicious and perfectly spiced, loved it!",Lunch
+55,Naan,"Thoda teekha tha, but I still liked it.",Lunch
+61,Roti Sabzi,"Perfect lunch, bilkul ghar jaisa.",Street Food
+35,Butter Chicken,"Thoda teekha tha, but I still liked it.",Chinese
+20,Dal Makhani,"Delicious and perfectly spiced, loved it!",Lunch
+27,Pani Puri,"Perfect lunch, bilkul ghar jaisa.",Chinese
+38,Tandoori Chicken,"Thoda teekha tha, but I still liked it.",Chinese
+35,Mutton Korma,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+40,Kofta Curry,"Delicious and perfectly spiced, loved it!",Chinese
+39,Shahi Paneer,"Thoda teekha tha, but I still liked it.",Dinner
+56,Barfi,"Yaar, itna tasty tha, maza aa gaya!",Breakfast
+22,Biryani,"Delicious and perfectly spiced, loved it!",Lunch
+13,Litti Chokha,Khana fresh tha aur taste bhi badhiya.,Chinese
+64,Imarti,"Great taste, will order again!",Snacks
+36,Kofta Curry,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+29,Naan,Khana fresh tha aur taste bhi badhiya.,Snacks
+45,Vada Pav,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+34,Biryani,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+32,Shahi Paneer,"Thoda teekha tha, but I still liked it.",Lunch
+64,Chicken Curry,"The food was amazing, but delivery was late.",Dessert
+32,Kulfi,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+46,Samosa,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+19,Falooda,Samosa toh ekdum crisp aur tasty tha.,Snacks
+62,Chicken Curry,"Thoda teekha tha, but I still liked it.",Street Food
+45,Chicken Biryani,"Yaar, itna tasty tha, maza aa gaya!",Dinner
+69,Paneer Tikka,"Yaar, itna tasty tha, maza aa gaya!",Snacks
+49,Fish Fry,"Perfect lunch, bilkul ghar jaisa.",Chinese
+68,Tandoori Roti,"The food was amazing, but delivery was late.",Dessert
+20,Litti Chokha,"Delicious and perfectly spiced, loved it!",Vegan
+37,Kadhi Pakora,"Perfect lunch, bilkul ghar jaisa.",Breakfast
+13,Falooda,Samosa toh ekdum crisp aur tasty tha.,Street Food
+47,Biryani,"Great taste, will order again!",Lunch
+60,Naan,"The food was amazing, but delivery was late.",Vegan
+24,Pani Puri,"Perfect lunch, bilkul ghar jaisa.",Dinner
+16,Imarti,"The food was amazing, but delivery was late.",Lunch
+13,Kachori,"Perfect lunch, bilkul ghar jaisa.",Dinner
+64,Vegetable Biryani,Samosa toh ekdum crisp aur tasty tha.,Chinese
+39,Naan,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+62,Vegetable Biryani,"Thoda teekha tha, but I still liked it.",Chinese
+70,Fish Curry,"Delicious and perfectly spiced, loved it!",Vegan
+15,Mutton Korma,"Delicious and perfectly spiced, loved it!",Lunch
+47,Lassi,"Thoda teekha tha, but I still liked it.",Dessert
+15,Kofta Curry,Khana fresh tha aur taste bhi badhiya.,Vegetarian
+70,Butter Chicken,"Delicious and perfectly spiced, loved it!",Snacks
+58,Rabri,Samosa toh ekdum crisp aur tasty tha.,Lunch
+70,Butter Chicken,"The food was amazing, but delivery was late.",Vegetarian
+39,Rabri,Khana fresh tha aur taste bhi badhiya.,Non-Vegetarian
+27,Kulfi,"Great taste, will order again!",Lunch
+58,Pav Bhaji,"The food was amazing, but delivery was late.",Breakfast
+13,Pav Bhaji,"The food was amazing, but delivery was late.",Chinese
+43,Rabri,"Perfect lunch, bilkul ghar jaisa.",Breakfast
+38,Pav Bhaji,"Yaar, itna tasty tha, maza aa gaya!",Vegan
+20,Samosa,Samosa toh ekdum crisp aur tasty tha.,Breakfast
+47,Pani Puri,Khana fresh tha aur taste bhi badhiya.,Vegetarian
+70,Biryani,"Yaar, itna tasty tha, maza aa gaya!",Vegan
+15,Tandoori Chicken,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+36,Butter Chicken,Samosa toh ekdum crisp aur tasty tha.,Street Food
+59,Kadhi Pakora,"Thoda teekha tha, but I still liked it.",Vegetarian
+36,Litti Chokha,"Yaar, itna tasty tha, maza aa gaya!",Snacks
+19,Naan,"Yaar, itna tasty tha, maza aa gaya!",Dinner
+12,Butter Chicken,"Great taste, will order again!",Dessert
+45,Butter Chicken,Khana fresh tha aur taste bhi badhiya.,Snacks
+23,Dal Fry,"Great taste, will order again!",Dessert
+57,Fish Fry,"Perfect lunch, bilkul ghar jaisa.",Lunch
+15,Kadhi Pakora,"Perfect lunch, bilkul ghar jaisa.",Dessert
+59,Litti Chokha,Khana fresh tha aur taste bhi badhiya.,Vegetarian
+13,Paneer Tikka,Samosa toh ekdum crisp aur tasty tha.,Dessert
+47,Malai Kofta,Samosa toh ekdum crisp aur tasty tha.,Street Food
+28,Falooda,"Thoda teekha tha, but I still liked it.",Non-Vegetarian
+15,Pani Puri,Khana fresh tha aur taste bhi badhiya.,Street Food
+19,Mutton Rogan Josh,"Bahut swaadisht tha, ekdum desi maza!",Snacks
+35,Vegetable Pulao,"Perfect lunch, bilkul ghar jaisa.",Dessert
+52,Rasgulla,Khana fresh tha aur taste bhi badhiya.,Street Food
+12,Tandoori Roti,"Yaar, itna tasty tha, maza aa gaya!",Breakfast
+36,Kulfi,"Great taste, will order again!",Dinner
+50,Gulab Jamun,"Bahut swaadisht tha, ekdum desi maza!",Dinner
+45,Rajma Chawal,"Great taste, will order again!",Vegetarian
+67,Litti Chokha,"Bahut swaadisht tha, ekdum desi maza!",Breakfast
+44,Pani Puri,"Yaar, itna tasty tha, maza aa gaya!",Street Food
+37,Biryani,"Bahut swaadisht tha, ekdum desi maza!",Non-Vegetarian
+65,Fish Curry,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+68,Kadhi Pakora,Samosa toh ekdum crisp aur tasty tha.,Vegetarian
+25,Roti Sabzi,"Great taste, will order again!",Vegan
+47,Malai Kofta,"Delicious and perfectly spiced, loved it!",Lunch
+51,Rajma Chawal,"Thoda teekha tha, but I still liked it.",Vegetarian
+35,Rasgulla,"Delicious and perfectly spiced, loved it!",Chinese
+53,Rasgulla,"Bahut swaadisht tha, ekdum desi maza!",Chinese
+17,Kulfi,Samosa toh ekdum crisp aur tasty tha.,Breakfast
+55,Chicken Biryani,"Delicious and perfectly spiced, loved it!",Street Food
+40,Biryani,"Delicious and perfectly spiced, loved it!",Chinese
+41,Chicken Biryani,"Perfect lunch, bilkul ghar jaisa.",Street Food
+24,Fish Fry,"Delicious and perfectly spiced, loved it!",Lunch
+13,Butter Chicken,"Yaar, itna tasty tha, maza aa gaya!",Dessert
+23,Kadhi Pakora,"Great taste, will order again!",Dinner
+35,Chicken Biryani,"Thoda teekha tha, but I still liked it.",Snacks
