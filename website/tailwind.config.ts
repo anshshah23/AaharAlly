@@ -13,6 +13,12 @@ const config: Config = withMT({
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        // Adding new colors
+        grayCustom: '#A9A9A9',      // Light Gray
+        peachCustom: '#FECDA6',     // Peach
+        orangeCustom: '#FF9130',    // Bright Orange
+        redCustom: '#FF0000',        // Vivid Red
+        greenCustom: '#97BE5A',     // Green
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
