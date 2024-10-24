@@ -2,15 +2,15 @@
 import { Carousel } from "@material-tailwind/react";
 import Image from "next/image";
  
-export function HomeCarouse() {
+export function BannerCarousel() {
   return (
     <Carousel
       placeholder={"HomeCarousel"}
-      className="rounded-3xl h-[60vh]"
+      className="rounded-3xl h-[35vh]"
       autoplay={true}
       loop={true}
       navigation={({ setActiveIndex, activeIndex, length }) => (
-        <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+        <div className="absolute bottom-4 left-2/4 z-50 hidden -translate-x-2/4 gap-2">
           {new Array(length).fill("").map((_, i) => (
             <span
               key={i}
@@ -18,7 +18,10 @@ export function HomeCarouse() {
               onClick={() => setActiveIndex(i)} />
           ))}
         </div>
-      )} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}    >
+      )} 
+      onPointerEnterCapture={undefined} 
+      onPointerLeaveCapture={undefined}
+      >
       <Image
         src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
         alt="image 1"
