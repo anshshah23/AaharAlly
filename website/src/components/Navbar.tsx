@@ -49,9 +49,6 @@ const Navbar = () => {
                         </Link>
                     ))}
                 </div> */}
-                <div className="hidden lg:flex items-center px-2">
-                    <Input />
-                </div>
                 {/* <div className="lg:hidden">
                     <button onClick={toggleMenu} className={`text-slate-950 focus:outline-none ${!isOpen ? 'block justify-between' : 'hidden'}`}>
                         <svg
@@ -71,9 +68,34 @@ const Navbar = () => {
                     </button>
                 </div> */}
 
-
-                <div className="flex sm:hidden hover:text-orangeCustom items-center px-2">
-                    <Input />
+                <div className="flex justify-center min-w-[100px] sm:min-w-[360px] !max-w-[200px] sm:max-w-[360px]">
+                    <div className="flex bg-white py-2.5 pl-2 pr-1 rounded-l-lg items-center gap-1.5 w-full max-w-[280px] sm:max-w-xl">
+                        <svg
+                            class="text-redCustom min-w-[20px] min-h-[20px] fill-redCustom"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="10"
+                            height="14"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        >
+                            <polygon points="3 11 22 2 13 21 11 13 3 11" />
+                        </svg>
+                        <input
+                            type="text"
+                            className="py-1 outline-none max-w-[156px] sm:max-w-none placeholder:text-xs sm:placeholder:text-sm"
+                            placeholder="Street Address, City, State"
+                        />
+                    </div>
+                    <button
+                        className="bg-redCustom px-6 py-1 text-base lg:text-lg font-semibold text-white rounded-r-lg shadow-md "
+                        type="submit"
+                    >
+                        Search
+                    </button>
                 </div>
             </div>
             {/* <div
@@ -110,7 +132,7 @@ const Navbar = () => {
                     ))}
                 </div>
             </div> */}
-        </nav>
+        </nav >
     );
 };
 
