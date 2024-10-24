@@ -23,7 +23,7 @@ const FooterBar: React.FC<FooterBarProps> = ({ cartItems, notifications }) => {
     {
       icon: FaMapMarkerAlt,
       label: "Explore",
-      path: "/explore",
+      path: "/",
       iconColor: "text-orangeCustom",
     },
     {
@@ -53,7 +53,7 @@ const FooterBar: React.FC<FooterBarProps> = ({ cartItems, notifications }) => {
   };
 
   return (
-    <div className="fixed bottom-0 w-[95vw] bg-orange-50 text-black flex justify-around items-center rounded-full m-2 px-4 mr-2 shadow-md z-50 ">
+    <div className="fixed bottom-0 min-w-[98vw] bg-orange-50 text-black flex justify-around items-center rounded-full m-2 px-4 mx-2 my-2 sm:my-3 lg:my-4 shadow-md z-50 ">
       {buttons.map((button, index) => (
         <div
           key={index}
