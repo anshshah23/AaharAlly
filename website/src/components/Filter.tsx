@@ -97,7 +97,7 @@ const Filters: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-row items-center justify-end w-full max-w-2xl mx-auto gap-4">
+    <div className="flex flex-row items-center justify-end w-full max-w-2xl mx-auto gap-4 z-50">
       <Dropdown
         title="Type"
         items={typeItems}
