@@ -13,8 +13,6 @@ const Navbar = () => {
     };
 
     const MenuLinks = [
-        { id: 1, name: 'Home', link: '/' },
-        { id: 2, name: 'About', link: '/about' },
     ];
 
     const handleScroll = () => {
@@ -44,17 +42,17 @@ const Navbar = () => {
                         AaharAlly
                     </Link>
                 </div>
-                <div className="hidden lg:flex space-x-6 items-center">
+                {/* <div className="hidden lg:flex space-x-6 items-center">
                     {MenuLinks.map((link) => (
                         <Link key={link.id} href={link.link} className="text-slate-950 text-md md:text-lg duration-300 hover:text-orangeCustom font-semibold">
                             {link.name}
                         </Link>
                     ))}
-                </div>
+                </div> */}
                 <div className="hidden lg:flex items-center px-2">
                     <Input />
                 </div>
-                <div className="lg:hidden">
+                {/* <div className="lg:hidden">
                     <button onClick={toggleMenu} className={`text-slate-950 focus:outline-none ${!isOpen ? 'block justify-between' : 'hidden'}`}>
                         <svg
                             className={`w-6 h-6 transition-transform transform ${isOpen ? 'rotate-180' : 'rotate-0'} duration-300`}
@@ -71,17 +69,18 @@ const Navbar = () => {
                             />
                         </svg>
                     </button>
+                </div> */}
+
+
+                <div className="flex sm:hidden hover:text-orangeCustom items-center px-2">
+                    <Input />
                 </div>
             </div>
-
-            <div className="flex sm:hidden hover:text-orangeCustom items-center px-2">
-                <Input />
-            </div>
-            <div
+            {/* <div
                 className={`fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
                 onClick={toggleMenu}
-            />
-            <div
+            /> */}
+            {/* <div
                 className={`fixed inset-y-0 right-0 w-full bg-white p-4 transform transition-transform duration-300 z-50 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
             >
                 <button onClick={toggleMenu} className="text-slate-950 w-full h-8 flex items-center justify-between focus:outline-none">
@@ -110,7 +109,7 @@ const Navbar = () => {
                         </Link>
                     ))}
                 </div>
-            </div>
+            </div> */}
         </nav>
     );
 };
