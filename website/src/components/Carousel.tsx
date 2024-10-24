@@ -6,7 +6,7 @@ export function HomeCarouse() {
   return (
     <Carousel
       placeholder={"HomeCarouse"}
-      className="rounded-xl"
+      className="rounded-xl h-[60vh]"
       autoplay={true}
       loop={true}
       navigation={({ setActiveIndex, activeIndex, length }) => (
