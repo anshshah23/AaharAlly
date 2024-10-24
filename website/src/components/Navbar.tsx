@@ -1,8 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Search } from 'lucide-react';
-import Input from '@/components/Search';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -11,9 +9,6 @@ const Navbar = () => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
-
-    const MenuLinks = [
-    ];
 
     const handleScroll = () => {
         setIsScrolled(window.scrollY > 0);
@@ -42,36 +37,12 @@ const Navbar = () => {
                         AaharAlly
                     </Link>
                 </div>
-                {/* <div className="hidden lg:flex space-x-6 items-center">
-                    {MenuLinks.map((link) => (
-                        <Link key={link.id} href={link.link} className="text-slate-950 text-md md:text-lg duration-300 hover:text-orangeCustom font-semibold">
-                            {link.name}
-                        </Link>
-                    ))}
-                </div> */}
-                {/* <div className="lg:hidden">
-                    <button onClick={toggleMenu} className={`text-slate-950 focus:outline-none ${!isOpen ? 'block justify-between' : 'hidden'}`}>
-                        <svg
-                            className={`w-6 h-6 transition-transform transform ${isOpen ? 'rotate-180' : 'rotate-0'} duration-300`}
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16m-7 6h7'}
-                            />
-                        </svg>
-                    </button>
-                </div> */}
 
-                <div className="flex justify-center min-w-[100px] sm:min-w-[360px] !max-w-[200px] sm:max-w-[360px]">
-                    <div className="flex bg-white py-2.5 pl-2 pr-1 rounded-l-lg items-center gap-1.5 w-full max-w-[280px] sm:max-w-xl">
+                {/* Search Bar */}
+                <div className="flex justify-center min-w-[80px] sm:min-w-[240px] md:min-w-[360px] lg:min-w-[10vw] !max-w-[180px] sm:!max-w-[300px] md:!max-w-[360px] lg:!max-w-[10vw]">
+                    <div className="flex bg-peachCustom py-1.5 px-2 rounded-l-lg items-center gap-1.5 w-full">
                         <svg
-                            class="text-redCustom min-w-[20px] min-h-[20px] fill-redCustom"
+                            className="text-redCustom min-w-[20px] min-h-[20px] fill-redCustom"
                             xmlns="http://www.w3.org/2000/svg"
                             width="10"
                             height="14"
@@ -86,53 +57,19 @@ const Navbar = () => {
                         </svg>
                         <input
                             type="text"
-                            className="py-1 outline-none max-w-[156px] sm:max-w-none placeholder:text-xs sm:placeholder:text-sm"
-                            placeholder="Street Address, City, State"
+                            className="py-1 outline-none bg-transparent text-black placeholder:text-xs sm:placeholder:text-sm"
+                            placeholder="."
                         />
                     </div>
                     <button
-                        className="bg-redCustom px-6 py-1 text-base lg:text-lg font-semibold text-white rounded-r-lg shadow-md "
+                        className="bg-redCustom px-4 py-1 text-sm md:text-base font-semibold text-white rounded-r-lg shadow-md"
                         type="submit"
                     >
                         Search
                     </button>
                 </div>
             </div>
-            {/* <div
-                className={`fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-                onClick={toggleMenu}
-            /> */}
-            {/* <div
-                className={`fixed inset-y-0 right-0 w-full bg-white p-4 transform transition-transform duration-300 z-50 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
-            >
-                <button onClick={toggleMenu} className="text-slate-950 w-full h-8 flex items-center justify-between focus:outline-none">
-                    <Link href="/" className='flex'>
-                        <span className='font-bold text-redCustom text-lg px-1'>AaharAlly</span>
-                    </Link>
-                    <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                </button>
-                <div className="flex flex-col justify-items-start items-center mt-10">
-                    {MenuLinks.map((link) => (
-                        <Link
-                            key={link.id}
-                            href={link.link}
-                            className="text-slate-950 text-lg sm:text-2xl duration-300 hover:bg-slate-100 p-2 rounded"
-                            onClick={toggleMenu}
-                        >
-                            {link.name}
-                        </Link>
-                    ))}
-                </div>
-            </div> */}
-        </nav >
+        </nav>
     );
 };
 
