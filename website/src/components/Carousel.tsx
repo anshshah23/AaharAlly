@@ -5,8 +5,8 @@ import Image from "next/image";
 export function HomeCarouse() {
   return (
     <Carousel
-      placeholder={"HomeCarouse"}
-      className="rounded-xl h-[60vh]"
+      placeholder={"HomeCarousel"}
+      className="rounded-3xl h-[60vh]"
       autoplay={true}
       loop={true}
       navigation={({ setActiveIndex, activeIndex, length }) => (
@@ -14,7 +14,7 @@ export function HomeCarouse() {
           {new Array(length).fill("").map((_, i) => (
             <span
               key={i}
-              className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"}`}
+              className={`block h-1 cursor-pointer rounded-3xl transition-all content-[''] ${activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"}`}
               onClick={() => setActiveIndex(i)} />
           ))}
         </div>
