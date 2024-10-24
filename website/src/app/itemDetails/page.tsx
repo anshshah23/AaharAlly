@@ -21,6 +21,13 @@ const TacoCard = () => {
     }
   };
 
+  const addOnChoices = [
+    { name: 'None', price:'' },
+    { name: 'Pepper Julienne', price: 2.3 },
+    { name: 'Baby Spinach', price: 4.7 },
+    { name: 'Mushroom', price: 2.5 },
+  ];
+
   return (
     <div className="w-full max-w-full min-h-full my-auto mx-auto bg-white rounded-xl p-5 lg:p-8 transition-all duration-300 flex flex-col lg:flex-row">
       {/* Image Section */}
@@ -80,36 +87,23 @@ const TacoCard = () => {
         <div className="mt-4">
           <p className="font-semibold text-sm md:text-lg">Choice of Add On</p>
           <div className="my-4">
-            <label className="flex items-center">
-              <input
-                type="radio"
-                value="Pepper Julienne"
-                checked={addOn === 'Pepper Julienne'}
-                onChange={handleAddOnChange}
-                className="mr-2"
-              />
-              Pepper Julienne +$2.30
-            </label>
-            <label className="flex items-center mt-2">
-              <input
-                type="radio"
-                value="Baby Spinach"
-                checked={addOn === 'Baby Spinach'}
-                onChange={handleAddOnChange}
-                className="mr-2"
-              />
-              Baby Spinach +$4.70
-            </label>
-            <label className="flex items-center mt-2">
-              <input
-                type="radio"
-                value="Masroom"
-                checked={addOn === 'Masroom'}
-                onChange={handleAddOnChange}
-                className="mr-2"
-              />
-              Mushroom +$2.50
-            </label>
+            {
+              addOnChoices.map((choice) => (
+                <label key={choice.name} className="flex items-center gap-2 mt-2">
+                  <input
+                    type="radio"
+                    value={choice.name}
+                    checked={addOn === choice.name}
+                    onChange={handleAddOnChange}
+                    className="w-3 h-3 appearance-none bg-white border-2 border-orange-500 rounded-md checked:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-300 transition-all duration-300"
+                  />
+                  <span className="text-sm md:text-base">{choice.name}</span>
+                  <span className="text-sm md:text-base text-orangeCustom">
+                    {choice.price ? `+ $${choice.price}` : ''}
+                  </span>
+                </label>
+              ))
+            }
           </div>
         </div>
 
