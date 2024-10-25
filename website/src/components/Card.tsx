@@ -47,6 +47,7 @@ export function BookingCard() {
     // Get the query parameters
     const categoryParam = searchParams.get("category");
     const regionParam = searchParams.get("region");
+    const mealTypeParam = searchParams.get("meal_type");
 
     // Split and trim the categories and regions
     const categoriesArray = categoryParam
@@ -66,6 +67,7 @@ export function BookingCard() {
           params: {
             categories: categoriesArray.join(","),
             regions: regionsArray.join(","),
+            meal_type: mealTypeParam,
           },
         });
         setFoodArray(response.data.data); // Set the fetched data
