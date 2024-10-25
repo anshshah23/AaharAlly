@@ -1,4 +1,5 @@
 "use client";
+
 import {
   Card,
   CardHeader,
@@ -9,11 +10,10 @@ import {
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { FaStar, FaHeart, FaRegHeart } from "react-icons/fa";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import axios from "axios";
 import { Food } from "@/types";
 import Loading from "./loading";
-// import Dummp from "./data/dummy";
 
 export function BookingCard() {
   const [liked, setLiked] = useState(false);
@@ -21,6 +21,8 @@ export function BookingCard() {
   const handleClick = (id: string) => {
     router.push(`/item-details/${id}`);
   };
+
+  const searchParams = useSearchParams();
   const [loading, setLoading] = useState(false);
   const [foodArray, setFoodArray] = useState<Food[]>([]);
 
@@ -28,16 +30,62 @@ export function BookingCard() {
     setLoading(true);
     const fetchFood = async () => {
       try {
-        const resp = await axios.get("/api/Users/", {});
-        console.log({ resp });
+        const resp = await axios.get("/api/Users/");
         setFoodArray(resp.data.data);
       } catch (error) {
+        console.error("Error fetching initial data:", error);
       } finally {
         setLoading(false);
       }
     };
     fetchFood();
   }, []);
+
+  useEffect(() => {
+    const controller = new AbortController(); // Create a new AbortController instance
+    const signal = controller.signal;
+    const categoryParam = searchParams.get("category");
+    const regionParam = searchParams.get("region");
+    const mealTypeParam = searchParams.get("meal_type");
+
+    const categoriesArray = categoryParam
+      ? categoryParam.split(",").map((cat) => cat.trim())
+      : [];
+    const regionsArray = regionParam
+      ? regionParam.split(",").map((reg) => reg.trim())
+      : [];
+
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+        const response = await axios.get(`/api/Users/`, {
+          params: {
+            categories: categoriesArray.join(","),
+            regions: regionsArray.join(","),
+            meal_type: mealTypeParam,
+          },
+          signal, // Pass the abort signal to the request
+        });
+        setFoodArray(response.data.data);
+      } catch (error) {
+        if (axios.isCancel(error)) {
+          console.log("Request canceled:", error.message);
+        } else {
+          console.error("Error fetching data:", error);
+        }
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (categoriesArray.length > 0 || regionsArray.length > 0) {
+      fetchData();
+    }
+
+    // Cleanup function to cancel the previous request if searchParams change
+    return () => controller.abort();
+  }, [searchParams]);
+
   return (
     <div className="flex flex-wrap justify-center gap-8">
       {loading && <Loading />}
@@ -47,14 +95,14 @@ export function BookingCard() {
             key={_id}
             onClick={() => handleClick(item._id)}
             className="w-full max-w-[26rem] shadow-lg sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] mb-20 cursor-pointer"
-            placeholder={"Cards"}
+            placeholder={undefined}
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
             <CardHeader
-              floated={false}
               color="blue-gray"
               className="relative h-56"
+              floated={false}
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
@@ -78,9 +126,6 @@ export function BookingCard() {
               />
               <div className="absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60" />
               <IconButton
-                placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
                 size="sm"
                 color="red"
                 variant="text"
@@ -89,6 +134,9 @@ export function BookingCard() {
                   e.stopPropagation();
                   setLiked(!liked);
                 }}
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 {liked ? (
                   <FaHeart className="h-6 w-6 text-red-600" />
