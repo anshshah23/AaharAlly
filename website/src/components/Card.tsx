@@ -25,14 +25,12 @@ export function BookingCard() {
   const searchParams = useSearchParams();
   const [loading, setLoading] = useState(false);
   const [foodArray, setFoodArray] = useState<Food[]>([]);
-  const [categories, setCategories] = useState<string[]>([]);
-  const [regions, setRegions] = useState<string[]>([]);
 
   useEffect(() => {
     setLoading(true);
     const fetchFood = async () => {
       try {
-        const resp = await axios.get("/api/Users/", {});
+        const resp = await axios.get("/api/Users/");
         setFoodArray(resp.data.data);
       } catch (error) {
         console.error("Error fetching initial data:", error);
@@ -44,12 +42,12 @@ export function BookingCard() {
   }, []);
 
   useEffect(() => {
-    // Get the query parameters
+    const controller = new AbortController(); // Create a new AbortController instance
+    const signal = controller.signal;
     const categoryParam = searchParams.get("category");
     const regionParam = searchParams.get("region");
     const mealTypeParam = searchParams.get("meal_type");
 
-    // Split and trim the categories and regions
     const categoriesArray = categoryParam
       ? categoryParam.split(",").map((cat) => cat.trim())
       : [];
@@ -57,44 +55,42 @@ export function BookingCard() {
       ? regionParam.split(",").map((reg) => reg.trim())
       : [];
 
-    setCategories(categoriesArray);
-    setRegions(regionsArray);
-
-    // Fetch data from the API
     const fetchData = async () => {
       try {
-        const response = await axios.get(`/api/Users`, {
+        setLoading(true);
+        const response = await axios.get(`/api/Users/`, {
           params: {
             categories: categoriesArray.join(","),
             regions: regionsArray.join(","),
             meal_type: mealTypeParam,
           },
+          signal, // Pass the abort signal to the request
         });
-        setFoodArray(response.data.data); // Set the fetched data
+        setFoodArray(response.data.data);
       } catch (error) {
-        console.error("Error fetching data:", error);
+        if (axios.isCancel(error)) {
+          console.log("Request canceled:", error.message);
+        } else {
+          console.error("Error fetching data:", error);
+        }
+      } finally {
+        setLoading(false);
       }
     };
 
-    // Fetch data only if categories or regions are present
     if (categoriesArray.length > 0 || regionsArray.length > 0) {
       fetchData();
     }
-  }, [searchParams]);
 
-  // Optional: Filter foodArray based on categories and regions if needed
-  const filteredFoodArray = foodArray.filter((item) => {
-    const categoryMatch =
-      categories.length === 0 || categories.includes(item.category);
-    const regionMatch = regions.length === 0 || regions.includes(item.region);
-    return categoryMatch && regionMatch;
-  });
+    // Cleanup function to cancel the previous request if searchParams change
+    return () => controller.abort();
+  }, [searchParams]);
 
   return (
     <div className="flex flex-wrap justify-center gap-8">
       {loading && <Loading />}
       {!loading &&
-        filteredFoodArray.map((item, _id) => (
+        foodArray.map((item, _id) => (
           <Card
             key={_id}
             onClick={() => handleClick(item._id)}
