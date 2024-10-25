@@ -2,12 +2,17 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
+    domains: [
+      "images.unsplash.com",
+      "encrypted-tbn0.gstatic.com",
+      "t3.ftcdn.net",
+    ],
     remotePatterns: [
       {
         protocol: "https",
         hostname: "images.unsplash.com",
         port: "",
-        pathname: "/**",
+        pathname: "/**/**",
       },
       {
         protocol: "https",
@@ -17,8 +22,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname:
-          "t3.ftcdn.net/jpg/04/47/95/44/360_F_447954458_KRb8tDCav1JTFjZchILTXCyKYGcDbsKg.jpg",
+        hostname: "t3.ftcdn.net",
         port: "",
         pathname: "/**",
       },
