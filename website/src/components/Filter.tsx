@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { FaAngleDown, FaCheck } from "react-icons/fa";
-import "tailwindcss/tailwind.css";
 import { GrPowerReset } from "react-icons/gr";
 import { useRouter, useSearchParams } from "next/navigation";
 
