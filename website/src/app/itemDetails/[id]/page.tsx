@@ -1,14 +1,16 @@
 "use client";
-import Image from 'next/image';
-import { useState } from 'react';
-import Link from 'next/link';
-import dummyData from '@/components/data/dummy';
+import Image from "next/image";
+import { SetStateAction, useState } from "react";
+import Link from "next/link";
+import dummyData from "@/components/data/dummy";
 
-const TacoCard = ( params ) => {
+const TacoCard = (params: { id: string }) => {
   const [quantity, setQuantity] = useState(2);
-  const [addOn, setAddOn] = useState('None');
+  const [addOn, setAddOn] = useState("None");
   const data = dummyData[params.id];
-  const handleAddOnChange = (e) => {
+  const handleAddOnChange = (e: {
+    target: { value: SetStateAction<string> };
+  }) => {
     setAddOn(e.target.value);
   };
 
@@ -23,10 +25,10 @@ const TacoCard = ( params ) => {
   };
 
   const addOnChoices = [
-    { name: 'None', price:'' },
-    { name: 'Pepper Julienne', price: 2.3 },
-    { name: 'Baby Spinach', price: 4.7 },
-    { name: 'Mushroom', price: 2.5 },
+    { name: "None", price: "" },
+    { name: "Pepper Julienne", price: 2.3 },
+    { name: "Baby Spinach", price: 4.7 },
+    { name: "Mushroom", price: 2.5 },
   ];
 
   return (
@@ -34,7 +36,9 @@ const TacoCard = ( params ) => {
       {/* Image Section */}
       <div className="relative w-full lg:w-1/3 h-full lg:h-auto mb-5 lg:mb-0 lg:mr-8">
         <Image
-          src={"https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"}
+          src={
+            "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+          }
           alt="Ground Beef Tacos"
           width={400}
           height={400}
@@ -68,7 +72,9 @@ const TacoCard = ( params ) => {
               >
                 -
               </button>
-              <span className="mx-4 text-lg md:text-xl lg:text-2xl">{quantity}</span>
+              <span className="mx-4 text-lg md:text-xl lg:text-2xl">
+                {quantity}
+              </span>
               <button
                 onClick={incrementQuantity}
                 className="bg-orange-500 text-white w-8 h-8 md:w-10 md:h-10 lg:w-10 lg:h-10 rounded-full text-lg focus:outline-none"
@@ -87,23 +93,21 @@ const TacoCard = ( params ) => {
         <div className="mt-4">
           <p className="font-semibold text-sm md:text-lg">Choice of Add On</p>
           <div className="my-4">
-            {
-              addOnChoices.map((choice) => (
-                <label key={choice.name} className="flex items-center gap-2 mt-2">
-                  <input
-                    type="radio"
-                    value={choice.name}
-                    checked={addOn === choice.name}
-                    onChange={handleAddOnChange}
-                    className="w-3 h-3 appearance-none bg-white border-2 border-orange-500 rounded-md checked:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-300 transition-all duration-300"
-                  />
-                  <span className="text-sm md:text-base">{choice.name}</span>
-                  <span className="text-sm md:text-base text-orangeCustom">
-                    {choice.price ? `+ $${choice.price}` : ''}
-                  </span>
-                </label>
-              ))
-            }
+            {addOnChoices.map((choice) => (
+              <label key={choice.name} className="flex items-center gap-2 mt-2">
+                <input
+                  type="radio"
+                  value={choice.name}
+                  checked={addOn === choice.name}
+                  onChange={handleAddOnChange}
+                  className="w-3 h-3 appearance-none bg-white border-2 border-orange-500 rounded-md checked:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-300 transition-all duration-300"
+                />
+                <span className="text-sm md:text-base">{choice.name}</span>
+                <span className="text-sm md:text-base text-orangeCustom">
+                  {choice.price ? `+ $${choice.price}` : ""}
+                </span>
+              </label>
+            ))}
           </div>
         </div>
 
