@@ -35,13 +35,13 @@ export function BookingCard() {
                             <div className="!rounded-full bg-peachCustom bg-opacity-85 px-2 py-1 text-white text-xs md:text-sm">
                                 <div className="flex justify-start items-center text-redCustom">
                                     <span className="text-sm md:text-base">
-                                        ⭐ {item.rating} ({item.reviews}+)
+                                        ⭐ {item.rating}
                                     </span>
                                 </div>
                             </div>
                         </div>
                         <Image
-                            src={item.imageUrl}
+                            src={item.image}
                             alt="restaurant image"
                             fill
                             className="object-cover"
