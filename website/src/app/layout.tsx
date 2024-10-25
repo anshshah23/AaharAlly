@@ -35,7 +35,10 @@ export default function RootLayout({
       >
         <ClerkProvider>
           <Navbar />
-          {children}
+          <main className="pt-14">
+            {children}
+          </main>
+          <FooterBar />
         </ClerkProvider>
       </body>
     </html>
