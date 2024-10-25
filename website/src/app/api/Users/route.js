@@ -10,16 +10,30 @@ export async function GET(req) {
     const food_category = url.searchParams.get('category');
     try {
         await mongoConnect();
-        // if (age || region || food_category) {
-        //     //fetch 10 food_item that comes under the food_category liked by this age grp people (if filter contains age)
-        //     //fetch 10 food_item of each category selected by the user (if filter contains category)
-        //     //region pending 
-        //     return NextResponse.json({ data, success: true }, { status: 200 });
-        // }
-        // else {
+        if (age || region || food_category) {
+            //fetch 10 food_item that comes under the food_category liked by this age grp people (if filter contains age)
+            //fetch 10 food_item of each category selected by the user (if filter contains category)
+            //region pending 
+
+
+            // if (age) {
+            //     conditions.age_preference = age;
+            // }
+            const conditions = {};
+            if (region) {
+                conditions.region = region;
+            }
+            if (food_category) {
+                conditions.item_category = food_category;
+            }
+            const data = await food.find(conditions).limit(10);
+
+            return NextResponse.json({ data, success: true }, { status: 200 });
+        }
+        else {
             const data = await food.aggregate([{ $sample: { size: 20 } }]);
             return NextResponse.json({ data, success: true }, { status: 200 });
-        // }
+        }
     }
     catch (err) {
         return NextResponse.json({ message: `Error processing request: ${err.message}`, success: false }, { status: 500 });
