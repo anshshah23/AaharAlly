@@ -1,37 +1,38 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { SignInButton, useUser, UserButton } from '@clerk/nextjs';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
-
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
-
-    const handleScroll = () => {
-        setIsScrolled(window.scrollY > 0);
-    };
-
-    const handleResize = () => {
-        if (window.innerWidth >= 800) {
-            setIsOpen(false);
-        }
-    };
+    const { user } = useUser();
+    const [hasMounted, setHasMounted] = useState(false);
 
     useEffect(() => {
+        // To ensure code only runs on the client
+        setHasMounted(true);
+
+        const handleScroll = () => setIsScrolled(window.scrollY > 0);
+        const handleResize = () => {
+            if (window.innerWidth >= 800) setIsOpen(false);
+        };
+
         window.addEventListener('scroll', handleScroll);
         window.addEventListener('resize', handleResize);
+
         return () => {
             window.removeEventListener('scroll', handleScroll);
             window.removeEventListener('resize', handleResize);
         };
     }, []);
 
+    // Return null while mounting to avoid server-client mismatch
+    if (!hasMounted) return null;
+
     return (
         <nav className={`fixed top-0 w-full z-50 ${isScrolled ? 'bg-white shadow-md shadow-opacity-40 shadow-black' : 'bg-white'} transition duration-300`}>
-            <div className="container mx-auto flex justify-between items-center px-2 md:px-10 py-2">
+            <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center px-2 md:px-10 py-2">
                 <div className='flex justify-start items-center'>
                     <Link href="/" className="text-lg md:text-2xl font-bold text-redCustom duration-300 hover:text-orangeCustom flex">
                         AaharAlly
@@ -49,9 +50,9 @@ const Navbar = () => {
                             viewBox="0 0 24 24"
                             fill="none"
                             stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         >
                             <polygon points="3 11 22 2 13 21 11 13 3 11" />
                         </svg>
@@ -62,11 +63,14 @@ const Navbar = () => {
                         />
                     </div>
                     <button
-                        className="bg-redCustom px-4 py-1 text-sm md:text-base font-semibold text-white rounded-r-lg shadow-md"
+                        className="bg-redCustom px-4 mr-2 py-1 text-sm md:text-base font-semibold text-white rounded-r-lg shadow-md"
                         type="submit"
                     >
                         Search
                     </button>
+                    {
+                        user ? <UserButton /> : <SignInButton />
+                    }
                 </div>
             </div>
         </nav>

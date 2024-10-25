@@ -2,11 +2,12 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import Link from 'next/link';
+import dummyData from '@/components/data/dummy';
 
-const TacoCard = () => {
+const TacoCard = ( params ) => {
   const [quantity, setQuantity] = useState(2);
-  const [addOn, setAddOn] = useState('Pepper Julienne');
-
+  const [addOn, setAddOn] = useState('None');
+  const data = dummyData[params.id];
   const handleAddOnChange = (e) => {
     setAddOn(e.target.value);
   };
@@ -33,7 +34,7 @@ const TacoCard = () => {
       {/* Image Section */}
       <div className="relative w-full lg:w-1/3 h-full lg:h-auto mb-5 lg:mb-0 lg:mr-8">
         <Image
-          src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+          src={"https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"}
           alt="Ground Beef Tacos"
           width={400}
           height={400}
@@ -48,15 +49,15 @@ const TacoCard = () => {
       <div className="flex-grow flex flex-col justify-between">
         <div>
           <h2 className="text-xl md:text-2xl lg:text-4xl font-semibold">
-            Ground Beef Tacos
+            {data?.name}
           </h2>
           <div className="flex justify-start items-center text-gray-600 mt-2">
-            <span className="text-sm md:text-base">⭐ 4.5 (30+)</span>
+            <span className="text-sm md:text-base">⭐{data?.rating} </span>
           </div>
           <div className="flex flex-col md:flex-row justify-start items-center mt-2">
             <div className="flex justify-start items-center">
               <p className="text-2xl md:text-3xl text-orange-500 font-bold">
-                $9.50
+                ${data?.price} for 2
               </p>
             </div>
             {/* Quantity Selector */}
@@ -79,8 +80,7 @@ const TacoCard = () => {
         </div>
 
         <p className="text-gray-700 mt-3 text-sm md:text-lg">
-          Brown the beef better. Lean ground beef – I like to use 85% lean angus.
-          Garlic – use fresh chopped. Spices – chili powder, cumin, onion powder.
+          {data?.description}
         </p>
 
         {/* Add-on Choices */}

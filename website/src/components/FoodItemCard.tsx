@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { FaBurger } from "react-icons/fa6";
-import { PizzaIcon, DonutIcon} from "lucide-react"; // Icons from lucide-react
+import { PizzaIcon, DonutIcon } from "lucide-react"; // Icons from lucide-react
 import { GiTacos, GiNoodles } from "react-icons/gi";
 
 const foodCategories = [
@@ -16,7 +16,7 @@ function FoodCategoryCards() {
     const [selectedCategory, setSelectedCategory] = useState("Burger");
 
     return (
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 md:space-x-6">
             {foodCategories.map((category) => {
                 const IconComponent = category.icon; // Destructure the icon component
 
@@ -24,7 +24,7 @@ function FoodCategoryCards() {
                     <div
                         key={category.name}
                         onClick={() => setSelectedCategory(category.name)}
-                        className={`flex flex-col items-center w-[60px] h-[80px] px-4 py-4 rounded-full cursor-pointer transition-all duration-300
+                        className={`flex flex-col items-center w-[50px] h-[70px] md:w-[60px] md:h-[80px] p-2 md:p-4 rounded-full cursor-pointer transition-all duration-300
                             ${selectedCategory === category.name ? 'bg-orangeCustom shadow-lg' : 'bg-white shadow-md'}
                         `}
                         style={{
@@ -33,7 +33,7 @@ function FoodCategoryCards() {
                                 : "0px 8px 20px rgba(0, 0, 0, 0.1)"   // subtle shadow for unselected
                         }}
                     >
-                        <div className="mb-2">
+                        <div className="mb-1 md:mb-2">
                             <IconComponent size={20} className="text-gray-800" />
                         </div>
                         <span
