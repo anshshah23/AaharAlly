@@ -3,10 +3,12 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Search } from 'lucide-react';
 import Input from '@/components/Search';
+import { SignInButton, UserButton, useUser } from '@clerk/nextjs';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+    const { user } = useUser();
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -16,6 +18,8 @@ const Navbar = () => {
         { id: 1, name: 'Home', link: '/' },
         { id: 2, name: 'About', link: '/about' },
     ];
+
+   
 
     const handleScroll = () => {
         setIsScrolled(window.scrollY > 0);
@@ -30,11 +34,13 @@ const Navbar = () => {
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         window.addEventListener('resize', handleResize);
+        console.log("User:", user);
         return () => {
             window.removeEventListener('scroll', handleScroll);
             window.removeEventListener('resize', handleResize);
         };
-    }, []);
+
+    }, [user]);
 
     return (
         <nav className={`fixed top-0 w-full z-50 ${isScrolled ? 'bg-white shadow-md shadow-opacity-40 shadow-black' : 'bg-white'} transition duration-300`}>
@@ -51,9 +57,12 @@ const Navbar = () => {
                         </Link>
                     ))}
                 </div>
-                <div className="hidden lg:flex items-center px-2">
+                {/* <div className="hidden lg:flex items-center px-2">
                     <Input />
-                </div>
+                </div> */}
+                {
+                    user ? <UserButton /> : <SignInButton />
+                }
                 <div className="lg:hidden">
                     <button onClick={toggleMenu} className={`text-slate-950 focus:outline-none ${!isOpen ? 'block justify-between' : 'hidden'}`}>
                         <svg
@@ -109,6 +118,9 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
+                    {
+                        user ? <UserButton /> : <SignInButton />
+                    }
                 </div>
             </div>
         </nav>
