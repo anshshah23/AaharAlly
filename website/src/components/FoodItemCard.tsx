@@ -1,12 +1,12 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { MdFreeBreakfast, MdDinnerDining, MdLunchDining } from "react-icons/md";
+import Image from "next/image";
 
 const foodCategories = [
-  { name: "Breakfast", icon: MdFreeBreakfast },
-  { name: "Lunch", icon: MdLunchDining },
-  { name: "Dinner", icon: MdDinnerDining },
+  { name: "Breakfast", img: "/images/brunch.svg" }, // Correct path for images in the public folder
+  { name: "Lunch", img: "/images/meal.svg" }, // Use absolute path
+  { name: "Dinner", img: "/images/dinner.svg" }, // Use absolute path
 ];
 
 function FoodCategoryCards() {
@@ -39,8 +39,6 @@ function FoodCategoryCards() {
   return (
     <div className="flex space-x-4 md:space-x-6">
       {foodCategories.map((category) => {
-        const IconComponent = category.icon;
-
         return (
           <div
             key={category.name}
@@ -59,7 +57,12 @@ function FoodCategoryCards() {
             }}
           >
             <div className="mb-1 md:mb-2">
-              <IconComponent size={20} className="text-gray-800" />
+              <Image
+                src={category.img}
+                alt={category.name}
+                width={500}
+                height={500}
+              />
             </div>
             <span
               className={`text-xs ${
