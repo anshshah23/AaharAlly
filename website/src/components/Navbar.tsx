@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { SignInButton, useUser, UserButton } from '@clerk/nextjs';
+import { SignInButton, UserButton, useUser } from '@clerk/nextjs';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
