@@ -1,0 +1,8 @@
+flask
+requests
+numpy
+pandas
+openai
+http
+httpx
+textblob
