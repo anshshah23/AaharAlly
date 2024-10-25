@@ -1,9 +1,13 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+<<<<<<< HEAD
 import { Search } from 'lucide-react';
 import Input from '@/components/Search';
 import { SignInButton, UserButton, useUser } from '@clerk/nextjs';
+=======
+import Image from 'next/image';
+>>>>>>> 1ee6f567ce23f72e63073fd6f244e11e49d59b33
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,13 +17,6 @@ const Navbar = () => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
-
-    const MenuLinks = [
-        { id: 1, name: 'Home', link: '/' },
-        { id: 2, name: 'About', link: '/about' },
-    ];
-
-   
 
     const handleScroll = () => {
         setIsScrolled(window.scrollY > 0);
@@ -46,10 +43,12 @@ const Navbar = () => {
         <nav className={`fixed top-0 w-full z-50 ${isScrolled ? 'bg-white shadow-md shadow-opacity-40 shadow-black' : 'bg-white'} transition duration-300`}>
             <div className="container mx-auto flex justify-between items-center px-2 md:px-10 py-2">
                 <div className='flex justify-start items-center'>
-                    <Link href="/" className="text-lg md:text-2xl font-bold text-redCustom duration-300 hover:text-orangeCustom flex">
-                        AaharAlly
+                    <Link href="/" className="text-sm md:text-2xl font-bold text-redCustom duration-300 hover:text-orangeCustom flex">
+                        <Image src="/logo.png" alt="AaharAlly" width={30} height={30} className='rounded-full' />
+                        <span className="ml-2">AaharAlly</span>
                     </Link>
                 </div>
+<<<<<<< HEAD
                 <div className="hidden lg:flex space-x-6 items-center">
                     {MenuLinks.map((link) => (
                         <Link key={link.id} href={link.link} className="text-slate-950 text-md md:text-lg duration-300 hover:text-redCustom font-semibold">
@@ -65,45 +64,37 @@ const Navbar = () => {
                 }
                 <div className="lg:hidden">
                     <button onClick={toggleMenu} className={`text-slate-950 focus:outline-none ${!isOpen ? 'block justify-between' : 'hidden'}`}>
+=======
+
+                {/* Search Bar */}
+                <div className="flex justify-center min-w-[30px] md:min-w-[360px] lg:min-w-[30vw] min-h-10 !max-w-[180px] sm:!max-w-[300px] md:!max-w-[360px] lg:!max-w-[10vw]">
+                    <div className="flex bg-peachCustom py-1.5 px-2 rounded-l-lg items-center gap-1.5 min-w-[40px]">
+>>>>>>> 1ee6f567ce23f72e63073fd6f244e11e49d59b33
                         <svg
-                            className={`w-6 h-6 transition-transform transform ${isOpen ? 'rotate-180' : 'rotate-0'} duration-300`}
+                            className="text-redCustom min-w-[20px] min-h-[20px] fill-redCustom"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="10"
+                            height="14"
+                            viewBox="0 0 24 24"
                             fill="none"
                             stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="2"
-                                d={isOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16m-7 6h7'}
-                            />
+                            <polygon points="3 11 22 2 13 21 11 13 3 11" />
                         </svg>
-                    </button>
-                </div>
-            </div>
-
-            <div className="flex sm:hidden hover:text-orangeCustom items-center px-2">
-                <Input />
-            </div>
-            <div
-                className={`fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity duration-300 ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
-                onClick={toggleMenu}
-            />
-            <div
-                className={`fixed inset-y-0 right-0 w-full bg-white p-4 transform transition-transform duration-300 z-50 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
-            >
-                <button onClick={toggleMenu} className="text-slate-950 w-full h-8 flex items-center justify-between focus:outline-none">
-                    <Link href="/" className='flex'>
-                        <span className='font-bold text-redCustom text-lg px-1'>AaharAlly</span>
-                    </Link>
-                    <svg
-                        className="w-6 h-6"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
+                        <input
+                            type="text"
+                            className="outline-none bg-transparent text-black placeholder:text-xs sm:placeholder:text-sm"
+                            placeholder="."
+                        />
+                    </div>
+                    <button
+                        className="bg-redCustom px-4 text-sm md:text-base font-semibold text-white rounded-r-lg shadow-md"
+                        type="submit"
                     >
+<<<<<<< HEAD
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </button>
@@ -121,6 +112,10 @@ const Navbar = () => {
                     {
                         user ? <UserButton /> : <SignInButton />
                     }
+=======
+                        Search
+                    </button>
+>>>>>>> 1ee6f567ce23f72e63073fd6f244e11e49d59b33
                 </div>
             </div>
         </nav>
