@@ -46,9 +46,8 @@ const Dropdown: React.FC<DropdownProps> = ({
             <li key={index}>
               <button
                 onClick={() => onToggle(index)}
-                className={`flex justify-between w-full px-4 py-2 text-left gap-2 hover:bg-gray-200 ${
-                  item.selected ? "bg-green-50 text-green-500" : ""
-                }`}
+                className={`flex justify-between w-full px-4 py-2 text-left gap-2 hover:bg-gray-200 ${item.selected ? "bg-green-50 text-green-500" : ""
+                  }`}
               >
                 {item.label}
                 {item.selected && <FaCheck className="text-green-400" />}

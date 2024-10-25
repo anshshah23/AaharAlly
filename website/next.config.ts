@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
       "images.unsplash.com",
       "encrypted-tbn0.gstatic.com",
       "t3.ftcdn.net",
+      "png.pngtree.com",
+      "www.shutterstock.com",
     ],
     remotePatterns: [
       {

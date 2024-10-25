@@ -46,7 +46,7 @@ export function BookingCard() {
           <Card
             key={_id}
             onClick={() => handleClick(item._id)}
-            className="w-full max-w-[26rem] shadow-lg sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] mb-20 cursor-pointer"
+            className="w-full max-w-[26rem] shadow-lg sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] cursor-pointer"
             placeholder={"Cards"}
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
@@ -70,7 +70,7 @@ export function BookingCard() {
               </div>
               <Image
                 src={item.image}
-                alt="restaurant image"
+                alt={item.name}
                 className="object-cover"
                 loading="lazy"
                 width={500}

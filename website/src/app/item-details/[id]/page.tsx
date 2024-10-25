@@ -117,10 +117,10 @@ const TacoCard = ({ params }: { params: { id: string } }) => {
             </div>
 
             <div className="flex justify-between items-center mt-5">
-              <button className="bg-orange-500 text-white p-2 rounded hover:bg-orange-600 transition duration-300">
+              <button className="bg-orangeCustom text-white p-2 rounded-lg shadow-lg shadow-orangeCustom hover:bg-deep-orange-600 transition duration-300">
                 Add to Cart
               </button>
-              <button className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition duration-300">
+              <button className="bg-greenCustom text-white p-2 rounded-lg shadow-lg shadow-greenCustom hover:bg-light-green-600 transition duration-300">
                 View Recipe
               </button>
             </div>
