@@ -2,16 +2,17 @@ import { BannerCarousel } from "@/components/BannerCarousel";
 import FilterComponent from "@/components/Filter";
 import BookingCarousel from "@/components/BookingCarousel";
 import FoodItemCard from "@/components/FoodItemCard";
+import Card from "@/components/Card";
+
 export default function Home() {
   return (
     <>
-      <main className="flex flex-col gap-8 row-start-2 items-center max-w-[1000px] justify-center m-auto">
+      <main className="flex flex-col gap-8 items-center max w-full mx-auto px-4 sm:px-6 md:px-8 overflow-hidden">
         <BannerCarousel />
-        <FilterComponent></FilterComponent>
+        <FilterComponent />
         <FoodItemCard />
-        <BookingCarousel />
+        <Card />
       </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center"></footer>
     </>
   );
 }
