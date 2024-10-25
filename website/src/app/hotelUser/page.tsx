@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import OrderDistributionPieChart from './components/OrderDistributionPieChart';
 import CategoryOrdersBarChart from './components/CategoryOrdersBarChart';
 import OrdersTrendLineChart from './components/OrdersTrendLineChart';
+import FileAdd from './components/FileAdd';
 
 const COLORS = [
   '#FF0000', // Red
@@ -54,7 +55,7 @@ const AdminDashboard = () => {
   if (error) return <div>Error: {error}</div>;
 
   return (
-    <div className="p-4 space-y-8 mx-auto">
+    <div className="p-4 space-y-8 mx-auto my-10">
       <h1 className="text-3xl font-bold text-center">Admin Dashboard</h1>
       <p className="text-center">Total Orders: {totalOrders}</p>
 
@@ -68,6 +69,7 @@ const AdminDashboard = () => {
           <p key={regionData.region}>No category data for {regionData.region}</p>
         )
       ))}
+      <FileAdd />
 
     </div>
   );
