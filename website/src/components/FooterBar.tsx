@@ -23,7 +23,7 @@ const FooterBar: React.FC<FooterBarProps> = ({ cartItems, notifications }) => {
     {
       icon: FaMapMarkerAlt,
       label: "Explore",
-      path: "/",
+      path: "/explore",
       iconColor: "text-white",
     },
     {
@@ -53,15 +53,15 @@ const FooterBar: React.FC<FooterBarProps> = ({ cartItems, notifications }) => {
   };
 
   return (
-    <div className="fixed bottom-0 flex w-full bg-whitescale-105 justify-center z-50">
-      <div className="fixed bottom-0 w-[40vw] flex justify-around items-center rounded-3xl px-4 mx-2 my-4 z-50 bg-orangeCustom text-white shadow-lg shadow-black transition duration-500 bg-opacity-95">
+    <div className="fixed bottom-0 flex w-full bg-whitescale-105 justify-center z-50 bg-transparent">
+      <div className="fixed bottom-0 w-[40vw] flex justify-around items-center rounded-3xl px-4 mx-2 my-4 z-50 bg-redCustom text-white shadow-lg shadow-black transition duration-500 bg-opacity-95">
         {buttons.map((button, index) => (
           <div
             key={index}
             className="relative cursor-pointer p-2 flex items-center rounded-full transition-all"
             onClick={() => handleNavigate(button.path)}
           >
-            <button.icon className={`text-xl ${button.iconColor} hover:text-redCustom`} />
+            <button.icon className={`text-xl ${button.iconColor} hover:text-yellow-400`} />
             {button.badge && button.badge > 0 && (
               <span className="absolute -top-1 -right-2 bg-red-600 text-black rounded-full text-xs px-2">
                 {button.badge}

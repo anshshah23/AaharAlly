@@ -5,7 +5,6 @@ import "./globals.css";
 import {
   ClerkProvider,
 } from "@clerk/nextjs";
-import Navbar from "@/components/Navbar";
 import FooterBar from "@/components/FooterBar";
 
 const geistSans = localFont({
@@ -40,7 +39,6 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ClerkProvider>
-          <Navbar />
           <main className="py-16">
             {children}
           </main>

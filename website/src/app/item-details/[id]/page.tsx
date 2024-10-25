@@ -6,6 +6,7 @@ import axios from "axios";
 import Loading from "@/components/loading";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
+
 const IngredientsModal = ({ ingredients, onClose }: { ingredients: string[]; onClose: () => void }) => (
   <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
     <div className="bg-white p-5 rounded-lg shadow-lg max-w-md w-full">
