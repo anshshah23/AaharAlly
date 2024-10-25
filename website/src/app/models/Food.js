@@ -16,10 +16,6 @@ const foodSchema = new mongoose.Schema({ //require 20 document for each category
         type:Number,
         required:true,
     },
-    // item_category:{ add it manually
-    //     type:String,
-    //     required:true,
-    // },
     item_desc:{
         type:String,
         required:true

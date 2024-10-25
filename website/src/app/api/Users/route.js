@@ -14,13 +14,12 @@ export async function GET(req) {
         //     //fetch 10 food_item that comes under the food_category liked by this age grp people (if filter contains age)
         //     //fetch 10 food_item of each category selected by the user (if filter contains category)
         //     //region pending 
+        //     return NextResponse.json({ data, success: true }, { status: 200 });
         // }
         // else {
-        //     //display 5 food item of each category and return to client
-        //     //on client side : collect data and randomlly show it on UI
+            const data = await food.aggregate([{ $sample: { size: 20 } }]);
+            return NextResponse.json({ data, success: true }, { status: 200 });
         // }
-        const data = await food.find();
-        return NextResponse.json({data, success: true }, { status: 200 });
     }
     catch (err) {
         return NextResponse.json({ message: `Error processing request: ${err.message}`, success: false }, { status: 500 });
