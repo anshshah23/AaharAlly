@@ -6,10 +6,15 @@ import { NextResponse } from 'next/server';
 export async function GET(req) {
     const url = new URL(req.url);
     const age = url.searchParams.get('age');
+    const id = url.searchParams.get('id');
     const region = url.searchParams.get('region');
     const food_category = url.searchParams.get('category');
     try {
         await mongoConnect();
+        if(id){
+            const data = await food.findById({_id:id})
+            return NextResponse.json({ data, success: true }, { status: 200 });
+        }
         if (age || region || food_category) {
             //fetch 10 food_item that comes under the food_category liked by this age grp people (if filter contains age)
             //fetch 10 food_item of each category selected by the user (if filter contains category)
