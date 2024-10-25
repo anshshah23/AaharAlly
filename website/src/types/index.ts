@@ -1,4 +1,5 @@
 export type Food = {
+  region(region: any): boolean;
   _id: string;
   name: string;
   description: string;

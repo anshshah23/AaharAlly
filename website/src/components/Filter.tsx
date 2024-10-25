@@ -92,7 +92,6 @@ const Filters: React.FC = () => {
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    // Set URL params based on selected filters
     const selectedCategories = categoryItems
       .filter((item) => item.selected)
       .map((item) => item.label)
@@ -102,12 +101,20 @@ const Filters: React.FC = () => {
       .map((item) => item.label)
       .join(",");
 
-    const query: Record<string, string> = {};
-    if (selectedCategories) query.category = selectedCategories;
-    if (selectedRegions) query.region = selectedRegions;
+    // Create a URLSearchParams instance with current search params
+    const params = new URLSearchParams(window.location.search);
+    if (selectedCategories) {
+      params.set("category", selectedCategories);
+    } else {
+      params.delete("category");
+    }
+    if (selectedRegions) {
+      params.set("region", selectedRegions);
+    } else {
+      params.delete("region");
+    }
 
-    const queryString = new URLSearchParams(query).toString();
-    router.push(`?${queryString}`, undefined, { shallow: true });
+    router.push(`?${params.toString()}`, undefined, { shallow: true });
   }, [categoryItems, regionItems, router]);
 
   useEffect(() => {
@@ -152,7 +159,13 @@ const Filters: React.FC = () => {
     );
     setRegionItems(regionItems.map((item) => ({ ...item, selected: false })));
     setOpenDropdown(null);
-    router.push(",", undefined, { shallow: true });
+
+    // Reset URL without category and region, preserving other params
+    const params = new URLSearchParams(window.location.search);
+    params.delete("category");
+    params.delete("region");
+
+    router.push(`?${params.toString()}`, undefined, { shallow: true });
   };
 
   return (

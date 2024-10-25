@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Toaster } from 'react-hot-toast';
 import "./globals.css";
 import {
   ClerkProvider,
@@ -38,6 +39,7 @@ export default function RootLayout({
           <main className="pt-16">
             {children}
           </main>
+          <Toaster />
           <FooterBar />
         </ClerkProvider>
       </body>
