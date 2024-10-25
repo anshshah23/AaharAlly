@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React, { use, useEffect, useState } from "react";
 import { Food } from "@/types";
 import axios from "axios";
 import Loading from "@/components/loading";
@@ -13,16 +13,20 @@ function convertPrice(priceString: string) {
 
 const TacoCard = ({ params }: { params: { id: string } }) => {
   const [loading, setLoading] = useState(false);
-  const id = params.id;
+  const unwrappedParams = use<{ id: string }>(params);
+
+  const id = unwrappedParams.id;
   const [itemDetails, setItemDetails] = useState<Food>();
 
   useEffect(() => {
+    const controller = new AbortController();
     const fetchDetails = async () => {
       try {
         setLoading(true);
         console.log("calling details");
         const resp = await axios.get("/api/Users/", {
           params: { id },
+          signal: controller.signal,
         });
         console.log({ resp });
         setItemDetails(resp.data.data);
@@ -36,6 +40,7 @@ const TacoCard = ({ params }: { params: { id: string } }) => {
     if (id) {
       fetchDetails();
     }
+    return () => controller.abort();
   }, [id]);
 
   return (

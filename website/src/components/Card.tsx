@@ -1,4 +1,5 @@
 "use client";
+
 import {
   Card,
   CardHeader,
@@ -9,11 +10,10 @@ import {
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { FaStar, FaHeart, FaRegHeart } from "react-icons/fa";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import axios from "axios";
 import { Food } from "@/types";
 import Loading from "./loading";
-// import Dummp from "./data/dummy";
 
 export function BookingCard() {
   const [liked, setLiked] = useState(false);
@@ -21,40 +21,90 @@ export function BookingCard() {
   const handleClick = (id: string) => {
     router.push(`/item-details/${id}`);
   };
+
+  const searchParams = useSearchParams();
   const [loading, setLoading] = useState(false);
   const [foodArray, setFoodArray] = useState<Food[]>([]);
+  const [categories, setCategories] = useState<string[]>([]);
+  const [regions, setRegions] = useState<string[]>([]);
 
   useEffect(() => {
     setLoading(true);
     const fetchFood = async () => {
       try {
         const resp = await axios.get("/api/Users/", {});
-        console.log({ resp });
         setFoodArray(resp.data.data);
       } catch (error) {
+        console.error("Error fetching initial data:", error);
       } finally {
         setLoading(false);
       }
     };
     fetchFood();
   }, []);
+
+  useEffect(() => {
+    // Get the query parameters
+    const categoryParam = searchParams.get("category");
+    const regionParam = searchParams.get("region");
+
+    // Split and trim the categories and regions
+    const categoriesArray = categoryParam
+      ? categoryParam.split(",").map((cat) => cat.trim())
+      : [];
+    const regionsArray = regionParam
+      ? regionParam.split(",").map((reg) => reg.trim())
+      : [];
+
+    setCategories(categoriesArray);
+    setRegions(regionsArray);
+
+    // Fetch data from the API
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(`/api/Users`, {
+          params: {
+            categories: categoriesArray.join(","),
+            regions: regionsArray.join(","),
+          },
+        });
+        setFoodArray(response.data.data); // Set the fetched data
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    // Fetch data only if categories or regions are present
+    if (categoriesArray.length > 0 || regionsArray.length > 0) {
+      fetchData();
+    }
+  }, [searchParams]);
+
+  // Optional: Filter foodArray based on categories and regions if needed
+  const filteredFoodArray = foodArray.filter((item) => {
+    const categoryMatch =
+      categories.length === 0 || categories.includes(item.category);
+    const regionMatch = regions.length === 0 || regions.includes(item.region);
+    return categoryMatch && regionMatch;
+  });
+
   return (
     <div className="flex flex-wrap justify-center gap-8">
       {loading && <Loading />}
       {!loading &&
-        foodArray.map((item, _id) => (
+        filteredFoodArray.map((item, _id) => (
           <Card
             key={_id}
             onClick={() => handleClick(item._id)}
             className="w-full max-w-[26rem] shadow-lg sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] mb-20 cursor-pointer"
-            placeholder={"Cards"}
+            placeholder={undefined}
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
             <CardHeader
-              floated={false}
               color="blue-gray"
               className="relative h-56"
+              floated={false}
               placeholder={undefined}
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
@@ -78,9 +128,6 @@ export function BookingCard() {
               />
               <div className="absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60" />
               <IconButton
-                placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
                 size="sm"
                 color="red"
                 variant="text"
@@ -89,6 +136,9 @@ export function BookingCard() {
                   e.stopPropagation();
                   setLiked(!liked);
                 }}
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 {liked ? (
                   <FaHeart className="h-6 w-6 text-red-600" />

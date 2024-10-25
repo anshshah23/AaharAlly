@@ -1,3 +1,4 @@
+import { userData } from "@/app/models/UserData";
 import { food } from "../../models/Food";
 import { mongoConnect } from "../../utils/feature";
 import { NextResponse } from 'next/server';
@@ -16,10 +17,7 @@ export async function GET(req) {
             const data = await food.findById({ _id: id })
             return NextResponse.json({ data, success: true }, { status: 200 });
         }
-        if(meal_type){
-            const data = await food.find({meal_type})
-            return NextResponse.json({ data, success: true }, { status: 200 });
-        }
+
         if (age || region || category) {
             //fetch 10 food_item that comes under the food_category liked by this age grp people (if filter contains age)
             //fetch 10 food_item of each category selected by the user (if filter contains category)
@@ -28,23 +26,77 @@ export async function GET(req) {
             // if (age) {
             //     conditions.age_preference = age;
             // }
-            const conditions = {}
+            const conditions = {};
+            let categoriesArray = [];
+            if (meal_type) {
+                conditions.meal_type = meal_type;
+            }
             if (region) {
-                const regionsArray = region.split(',').map(item => item.trim()); // Trim whitespace
-                conditions.region = { $in: regionsArray }; // Use $in for filtering by multiple regions
+                const consumptionData = await userData.aggregate([
+                    {
+                        $match: { region }
+                    },
+                    {
+                        $group: {
+                            _id: { region: '$region', meal_category: '$meal_category' },
+                            categoryCount: { $sum: 1 }
+                        }
+                    },
+                    {
+                        $group: {
+                            _id: '$_id.region',
+                            totalOrdersInRegion: { $sum: '$categoryCount' },
+                            categories: {
+                                $push: {
+                                    meal_category: '$_id.meal_category',
+                                    categoryCount: '$categoryCount'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        $project: {
+                            _id: 0,
+                            region: '$_id',
+                            totalOrdersInRegion: 1,
+                            categories: {
+                                $map: {
+                                    input: '$categories',
+                                    as: 'category',
+                                    in: {
+                                        meal_category: '$$category.meal_category',
+                                        categoryCount: '$$category.categoryCount',
+                                        percentage: {
+                                            $multiply: [
+                                                { $divide: ['$$category.categoryCount', '$totalOrdersInRegion'] },
+                                                100
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]);
+
+                if (consumptionData.length > 0) {
+                    const mostConsumedCategory = consumptionData[0].categories.reduce((prev, current) => {
+                        return (prev.categoryCount > current.categoryCount) ? prev : current;
+                    });
+
+                    categoriesArray.push(mostConsumedCategory.meal_category);
+                }
             }
-    
-            // Check if category is provided and split it into an array
             if (category) {
-                const categoriesArray = category.split(',').map(item => item.trim()); // Trim whitespace
-                conditions.category = { $in: categoriesArray }; // Use $in for filtering by multiple categories
+                const incomingCategoriesArray = category.split(',').map(item => item.trim());
+                categoriesArray = [...new Set([...categoriesArray, ...incomingCategoriesArray])]; // Merge and remove duplicates
             }
-    
-            // Aggregation pipeline
-            const data = await food.aggregate([
-                { $match: conditions }, // Match conditions
-                { $limit: 10 } // Limit to 10 results
-            ]);
+
+            if (categoriesArray.length > 0) {
+                conditions.category = { $in: categoriesArray };
+            }
+
+            const data = await food.find(conditions)
             return NextResponse.json({ data, success: true }, { status: 200 });
         }
         else {
