@@ -24,5 +24,9 @@ const foodSchema = new mongoose.Schema({ //require 20 document for each category
         type: String,
         required: true
     },
+    meal_type: {
+        type: String,
+        required: true
+    }
 })
 export const food = mongoose.models.food || mongoose.model('food', foodSchema)

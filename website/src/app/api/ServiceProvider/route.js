@@ -3,13 +3,11 @@ import { mongoConnect } from '../../utils/feature';
 import { ServiceProvider } from '../../models/ServiceProvider';
 import { NextResponse } from 'next/server';
 
+
 export async function POST(req) {
     try {
         const data = await req.formData();
         const file = data.get('file');
-        if (!file) {
-            return NextResponse.json({ message: 'No file uploaded.', success: false }, { status: 400 });
-        }
 
         const buffer = await file.arrayBuffer();
         const workbook = XLSX.read(buffer, { type: 'buffer' });
@@ -18,22 +16,25 @@ export async function POST(req) {
         const sheet = workbook.Sheets[sheetName];
         const jsonData = XLSX.utils.sheet_to_json(sheet);
 
-        await mongoConnect()
+        await mongoConnect();
         const serviceProviders = [];
 
         for (const row of jsonData) {
-            const { item, item_image, item_price, item_desc } = row;
-            if (item && item_image && item_price && item_desc) {
+            const { item, item_image, item_price, item_desc, item_category } = row;
+            if (item && item_image && item_price && item_desc && item_category) {
                 serviceProviders.push({
                     name: item,
-                    url: item_image,
+                    image: item_image,
                     price: item_price,
-                    desc: item_desc,
+                    description: item_desc,
+                    category: item_category,
+                    rating: Math.floor(Math.random() * 5) + 1,
                 });
             } else {
                 return NextResponse.json({ message: `Fields Missing in the row - ${JSON.stringify(row)}`, success: false }, { status: 404 });
             }
         }
+
         try {
             await ServiceProvider.insertMany(serviceProviders);
             return NextResponse.json({ message: "Product Added Successfully", success: true }, { status: 201 });

@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 def process_data():
-    df = pd.read_csv("MOCK_DATA-_4_.csv")
+    df = pd.read_csv("MOCK_DATA.csv")
 
     bins = [0, 20, 25, 35, 45, 60, 100] 
     labels = ['<20', '20-25', '25-35', '35-45', '45-60', '60+']
