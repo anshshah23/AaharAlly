@@ -1,8 +1,8 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FaAngleDown, FaCheck } from "react-icons/fa";
-import "tailwindcss/tailwind.css";
 import { GrPowerReset } from "react-icons/gr";
+import "tailwindcss/tailwind.css";
 
 interface DropdownItem {
   label: string;
@@ -15,7 +15,6 @@ interface DropdownProps {
   onToggle: (index: number) => void;
   isOpen: boolean;
   toggleOpen: () => void;
-  reset: () => void;
 }
 
 const Dropdown: React.FC<DropdownProps> = ({
@@ -47,8 +46,9 @@ const Dropdown: React.FC<DropdownProps> = ({
             <li key={index}>
               <button
                 onClick={() => onToggle(index)}
-                className={`flex justify-between w-full px-4 py-2 text-left gap-2 hover:bg-gray-200 ${item.selected ? "bg-green-50 text-green-500" : ""
-                  }`}
+                className={`flex justify-between w-full px-4 py-2 text-left gap-2 hover:bg-gray-200 ${
+                  item.selected ? "bg-green-50 text-green-500" : ""
+                }`}
               >
                 {item.label}
                 {item.selected && <FaCheck className="text-green-400" />}
@@ -63,23 +63,9 @@ const Dropdown: React.FC<DropdownProps> = ({
 
 const Filters: React.FC = () => {
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
-  // Utility to transform frontend item labels to lowercase for backend
-  const transformToBackendFormat = (items: DropdownItem[]) => {
-    return items.map((item) => ({
-      label: item.label.toLowerCase(),
-      selected: item.selected,
-    }));
-  };
-  const sendDataToBackend = () => {
-    const backendCategoryItems = transformToBackendFormat(categoryItems);
-    const backendRegionItems = transformToBackendFormat(regionItems);
+  const categoryRef = useRef<HTMLDivElement>(null);
+  const regionRef = useRef<HTMLDivElement>(null);
 
-    // Send backendCategoryItems and backendRegionItems to the backend
-  };
-
-
-
-  // Food categories as filter items
   const [categoryItems, setCategoryItems] = useState<DropdownItem[]>([
     { label: "Vegan", selected: false },
     { label: "Dessert", selected: false },
@@ -93,7 +79,6 @@ const Filters: React.FC = () => {
     { label: "Healthy", selected: false },
   ]);
 
-  // Regions as filter items
   const [regionItems, setRegionItems] = useState<DropdownItem[]>([
     { label: "Tamil Nadu", selected: false },
     { label: "Punjab", selected: false },
@@ -106,6 +91,31 @@ const Filters: React.FC = () => {
     { label: "Karnataka", selected: false },
     { label: "Andhra Pradesh", selected: false },
   ]);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        categoryRef.current &&
+        !categoryRef.current.contains(event.target as Node) &&
+        openDropdown === 0
+      ) {
+        setOpenDropdown(null);
+      }
+
+      if (
+        regionRef.current &&
+        !regionRef.current.contains(event.target as Node) &&
+        openDropdown === 1
+      ) {
+        setOpenDropdown(null);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [openDropdown]);
 
   const handleToggle = (
     index: number,
@@ -127,22 +137,28 @@ const Filters: React.FC = () => {
   return (
     <div className="flex items-center justify-center w-full min-w-60 max-w-2xl mx-1 gap-x-4 z-30">
       <div className="flex flex-col md:flex-row gap-3 rounded-3xl">
-        <Dropdown
-          title="Category"
-          items={categoryItems}
-          isOpen={openDropdown === 0}
-          toggleOpen={() => setOpenDropdown(openDropdown === 0 ? null : 0)}
-          onToggle={(index) => handleToggle(index, categoryItems, setCategoryItems)}
-          reset={handleReset}
-        />
-        <Dropdown
-          title="Region"
-          items={regionItems}
-          isOpen={openDropdown === 1}
-          toggleOpen={() => setOpenDropdown(openDropdown === 1 ? null : 1)}
-          onToggle={(index) => handleToggle(index, regionItems, setRegionItems)}
-          reset={handleReset}
-        />
+        <div ref={categoryRef}>
+          <Dropdown
+            title="Category"
+            items={categoryItems}
+            isOpen={openDropdown === 0}
+            toggleOpen={() => setOpenDropdown(openDropdown === 0 ? null : 0)}
+            onToggle={(index) =>
+              handleToggle(index, categoryItems, setCategoryItems)
+            }
+          />
+        </div>
+        <div ref={regionRef}>
+          <Dropdown
+            title="Region"
+            items={regionItems}
+            isOpen={openDropdown === 1}
+            toggleOpen={() => setOpenDropdown(openDropdown === 1 ? null : 1)}
+            onToggle={(index) =>
+              handleToggle(index, regionItems, setRegionItems)
+            }
+          />
+        </div>
       </div>
       <div className="mb-3 relative">
         <button
