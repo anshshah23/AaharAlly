@@ -1,6 +1,5 @@
 import { BannerCarousel } from "@/components/BannerCarousel";
 import FilterComponent from "@/components/Filter";
-import BookingCarousel from "@/components/BookingCarousel";
 import FoodItemCard from "@/components/FoodItemCard";
 import Card from "@/components/Card";
 
