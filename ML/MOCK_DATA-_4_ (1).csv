@@ -1,0 +1,1001 @@
+age,food_item,meal_category,region,review
+48,Murukku,Street Food,Rajasthan,The food was decent
+15,Samosa,Indian Curry,Delhi,I enjoyed it
+38,Spring Rolls,Vegan,Gujarat,but the food was just average.
+62,Kachori,Chinese,Kerala,making it a good value.
+54,Vegan Pulao,Dessert,Delhi,I loved the combination of flavors; it was a delightful surprise.
+64,Butter Chicken,Dessert,Punjab,and the taste lived up to expectations.
+26,Mutton Rogan Josh,Snacks,Tamil Nadu,making it a memorable dish.
+36,Hot and Sour Soup,Street Food,Tamil Nadu,and I appreciated the creativity behind it.
+31,Goan Prawn Curry,Vegan,Karnataka,It was okay
+14,Oats Upma,Seafood,Tamil Nadu,The meal was packed with flavor; I can't wait to have it again!
+59,Butter Chicken,Indian Curry,Tamil Nadu,making it a memorable dish.
+57,Peda,Vegan,Punjab,The dish was well-prepared and the flavors were spot on!
+27,Tikki,Snacks,Gujarat,I found it to be too oily for my liking.
+24,Chicken Curry,Street Food,Punjab,and every bite was a joy!
+37,Rabri,Vegan,Punjab,It was quite disappointing; I expected a lot more flavor.
+27,Vada Pav,Cheesy,Karnataka,I was left wanting more; it felt incomplete.
+66,Salad,Healthy,Kerala,but I think it could use a bit more spice.
+59,Chaat,Snacks,Rajasthan,though not memorable.
+18,Murukku,Dessert,Rajasthan,The consistency was a bit strange; not what I expected.
+32,Kheer,Vegan,Maharashtra,and the taste did not disappoint.
+10,Dahi Puri,Vegan,Tamil Nadu,but I feel there are better options available.
+38,Vegetable Biryani,Indian Curry,Delhi,and I appreciated the creativity behind it.
+47,Cheese Stuffed Mushroom,Chinese,Delhi,and the taste did not disappoint.
+27,Dahi Puri,Seafood,Maharashtra,I loved the combination of flavors; it was a delightful surprise.
+37,Aloo Tikki,Dessert,Rajasthan,a satisfying meal that I would recommend.
+43,Spicy Prawn Curry,Indian Curry,Delhi,but I wouldn't order it again.
+46,Pav Bhaji,Snacks,Delhi,The meal had great potential but ultimately fell short.
+57,Aloo Tikki,Seafood,Uttar Pradesh,I was thrilled with how flavorful it was; a real treat!
+38,Tandoori Chicken,Indian Curry,Gujarat,The meal was satisfying
+55,Paneer Tikka,Seafood,Karnataka,making it a memorable dish.
+66,Dahi Puri,Dessert,Gujarat,It was fine
+11,Aloo Tikki,Cheesy,Punjab,Overall
+70,Sprouted Moong Salad,Indian Curry,Punjab,Absolutely loved the spices used; it was a delightful experience!
+51,Barfi,Chinese,Kerala,and every bite was a joy!
+30,Vegetable Biryani,Healthy,Maharashtra,a satisfying meal that I would recommend.
+47,Vegetable Biryani,Cheesy,Kerala,The meal was packed with flavor; I can't wait to have it again!
+64,Pani Puri,Snacks,Maharashtra,The flavors were unique
+25,Murukku,Cheesy,Uttar Pradesh,The aroma was inviting
+20,Pav Bhaji,Seafood,Delhi,but I think it could use a bit more spice.
+39,Pani Puri,Cheesy,Kerala,I enjoyed it
+33,Pakoras,Seafood,Gujarat,but I think it could use a bit more spice.
+20,Vegetable Chow Mein,Vegan,Karnataka,The overall experience was pleasant
+48,Sweet and Sour Chicken,Dessert,Maharashtra,but I think it could use a bit more spice.
+10,Cheesy Veggie Wrap,Spicy,Delhi,The aroma was inviting
+54,Oats Upma,Spicy,Uttar Pradesh,and I appreciated the creativity behind it.
+38,Paneer Butter Masala,Indian Curry,Karnataka,making it a memorable dish.
+36,Dal Makhani,Street Food,Delhi,I was left wanting more; it felt incomplete.
+47,Cheese Dosa,Dessert,Maharashtra,The meal was satisfying
+32,Chaat,Street Food,Uttar Pradesh,Absolutely loved the spices used; it was a delightful experience!
+69,Salad,Healthy,Tamil Nadu,but I feel there are better options available.
+33,Stuffed Capsicum,Healthy,Kerala,The aroma was inviting
+41,Rajma,Healthy,Punjab,It was fine
+70,Hakka Noodles,Street Food,Tamil Nadu,and the taste lived up to expectations.
+13,Tandoori Cauliflower,Street Food,Gujarat,but I feel there are better options available.
+55,Chicken Vindaloo,Cheesy,Punjab,I enjoyed it
+34,Grilled Paneer,Indian Curry,Kerala,but I expected more based on the reviews.
+15,Fish Fry,Cheesy,Rajasthan,The dish was well-prepared and the flavors were spot on!
+68,Fish Tikka,Spicy,Delhi,The dish was well-prepared and the flavors were spot on!
+64,Fish Curry,Healthy,Delhi,The portion size was generous
+13,Aloo Gobi,Cheesy,Maharashtra,but it missed the mark.
+63,Stuffed Capsicum,Vegan,Punjab,a satisfying meal that I would recommend.
+32,Spicy Szechuan Noodles,Seafood,Rajasthan,The presentation was impressive
+54,Mixed Vegetable Stir Fry,Spicy,Punjab,The meal was satisfying
+60,Kuchcha Aam Ki Barfi,Vegan,Kerala,The flavors were unique
+49,Rajma Chawal,Spicy,Maharashtra,I enjoyed it
+24,Oats Upma,Chinese,Tamil Nadu,The aroma was inviting
+41,Fish Tikka,Spicy,Gujarat,The texture was perfect
+59,Cheese Stuffed Mushroom,Indian Curry,Delhi,The service was excellent
+22,Paneer Butter Masala,Spicy,Kerala,The food was decent
+66,Mixed Vegetable Stir Fry,Cheesy,Uttar Pradesh,I enjoyed the freshness of the ingredients; it made a difference.
+10,Cheesy Garlic Bread,Healthy,West Bengal,I was not a fan of the seasoning; it felt a bit off.
+22,Chana Masala,Chinese,West Bengal,It was fine
+33,Dal Tadka,Snacks,Maharashtra,I enjoyed the freshness of the ingredients; it made a difference.
+44,Kachori,Snacks,Tamil Nadu,but I expected more based on the reviews.
+24,Cheese Stuffed Mushroom,Indian Curry,Delhi,making it a memorable dish.
+47,Kachori,Seafood,Punjab,but the seasoning could improve.
+49,Vada Pav,Chinese,West Bengal,It was just alright; I wouldn't go out of my way to have it again.
+64,Cheese Samosa,Indian Curry,Uttar Pradesh,It was quite disappointing; I expected a lot more flavor.
+62,Kung Pao Chicken,Street Food,Tamil Nadu,I appreciated the effort put into the dish
+49,Vegetable Soup,Seafood,Uttar Pradesh,The dish was well-prepared and the flavors were spot on!
+26,Cheesy Pasta,Indian Curry,Maharashtra,The presentation was impressive
+18,Chicken Curry,Indian Curry,Kerala,The food was decent
+38,Cheesy Veggie Wrap,Snacks,West Bengal,making it a good value.
+13,Tandoori Cauliflower,Seafood,Delhi,The meal was packed with flavor; I can't wait to have it again!
+24,Spring Rolls,Street Food,Karnataka,I found it to be too oily for my liking.
+11,Pakoras,Spicy,Gujarat,I found the meal to be quite average; nothing particularly stood out.
+67,Gulab Jamun,Vegan,Tamil Nadu,but the food was just average.
+55,Spicy Prawn Curry,Cheesy,Karnataka,The meal was packed with flavor; I can't wait to have it again!
+60,Dal Makhani,Spicy,Tamil Nadu,It was quite disappointing; I expected a lot more flavor.
+33,Prawn Biryani,Indian Curry,Tamil Nadu,The dish was average; I expected more based on the hype.
+35,Masala Dosa,Chinese,Karnataka,The dish was well-prepared and the flavors were spot on!
+57,Chicken Curry,Dessert,Rajasthan,The aroma was inviting
+55,Prawn Masala,Cheesy,Kerala,I was thrilled with how flavorful it was; a real treat!
+67,Jalebi,Chinese,Karnataka,but it missed the mark.
+29,Murukku,Cheesy,West Bengal,and I appreciated the creativity behind it.
+49,Ghar Ka Khana,Street Food,Gujarat,and the taste did not disappoint.
+28,Fish Curry,Spicy,Uttar Pradesh,and the taste lived up to expectations.
+58,Kachori,Indian Curry,Uttar Pradesh,but I feel there are better options available.
+29,Tandoori Fish,Indian Curry,Karnataka,The meal was satisfying
+26,Rajma Chawal,Chinese,Maharashtra,I was surprised by how bland the dish turned out to be.
+59,Cheesy Veggie Wrap,Seafood,Maharashtra,It was okay
+28,Paneer Tikka Masala,Street Food,Tamil Nadu,I was not a fan of the seasoning; it felt a bit off.
+62,Kachori,Cheesy,Gujarat,I loved the combination of flavors; it was a delightful surprise.
+40,Cheesy Garlic Bread,Cheesy,Kerala,but I wouldn't order it again.
+11,Mac and Cheese,Seafood,Gujarat,and the taste did not disappoint.
+16,Chili Chicken,Street Food,Gujarat,I was surprised by how bland the dish turned out to be.
+18,Aloo Tikki Chaat,Healthy,Maharashtra,I appreciated the effort put into the dish
+28,Baingan Bharta,Snacks,Maharashtra,The dish was well-prepared and the flavors were spot on!
+27,Fried Rice,Healthy,Tamil Nadu,The overall experience was pleasant
+43,Vegetable Soup,Snacks,Karnataka,The meal was satisfying
+39,Barfi,Seafood,Delhi,The flavors were unique
+39,Vegetable Biryani,Dessert,Punjab,The aroma was inviting
+40,Chaat,Healthy,Tamil Nadu,but I feel there are better options available.
+46,Ghar Ka Khana,Vegan,Maharashtra,but it missed the mark.
+15,Hakka Noodles,Indian Curry,Rajasthan,I was left wanting more; it felt incomplete.
+33,Ladoo,Chinese,Maharashtra,and I appreciated the creativity behind it.
+10,Malabar Fish Curry,Cheesy,Uttar Pradesh,but I expected more based on the reviews.
+13,Vada Pav,Cheesy,Punjab,I was not a fan of the seasoning; it felt a bit off.
+29,Chana Masala,Seafood,Uttar Pradesh,but I expected more based on the reviews.
+48,Tandoori Chicken,Indian Curry,Gujarat,but I feel there are better options available.
+34,Chili Chicken,Spicy,Maharashtra,making it a memorable dish.
+63,Hot and Sour Soup,Healthy,Kerala,It was fine
+32,Chana Masala,Indian Curry,Karnataka,The portion size was generous
+39,Baingan Bharta,Chinese,Uttar Pradesh,a satisfying meal that I would recommend.
+65,Kachori,Spicy,Delhi,making it a good value.
+11,Murukku,Cheesy,West Bengal,The portion size was generous
+16,Mutton Rogan Josh,Seafood,Punjab,The meal was packed with flavor; I can't wait to have it again!
+30,Sprouted Moong Salad,Spicy,Karnataka,but I feel there are better options available.
+54,Bombil Fry,Healthy,Maharashtra,I found it to be too oily for my liking.
+40,Cheesy Pasta,Chinese,West Bengal,I appreciated the effort put into the dish
+12,Cheesy Garlic Bread,Indian Curry,Delhi,The presentation was impressive
+38,Chicken Curry,Vegan,Kerala,The meal was packed with flavor; I can't wait to have it again!
+49,Cheesy Garlic Bread,Chinese,Maharashtra,The overall experience was pleasant
+28,Rasgulla,Healthy,Punjab,and the taste lived up to expectations.
+30,Chaat,Snacks,Gujarat,The consistency was a bit strange; not what I expected.
+28,Oats Upma,Vegan,Tamil Nadu,The food was decent
+38,Chicken Vindaloo,Chinese,Punjab,I was surprised by how bland the dish turned out to be.
+23,Pani Puri,Chinese,Uttar Pradesh,but the food was just average.
+32,Zucchini Noodles,Chinese,Karnataka,The overall experience was pleasant
+17,Rabri,Street Food,Kerala,The portion size was generous
+57,Salad,Indian Curry,Karnataka,but I expected more based on the reviews.
+29,Fish Fry,Dessert,Uttar Pradesh,but the food was just average.
+17,Goan Prawn Curry,Vegan,Karnataka,I loved the combination of flavors; it was a delightful surprise.
+43,Rabri,Vegan,Tamil Nadu,I appreciated the effort put into the dish
+25,Cheesy Garlic Bread,Seafood,West Bengal,I was surprised by how bland the dish turned out to be.
+67,Mac and Cheese,Dessert,Punjab,but I feel there are better options available.
+48,Murukku,Dessert,West Bengal,and I appreciated the creativity behind it.
+37,Fish Curry,Dessert,Tamil Nadu,and the taste did not disappoint.
+46,Aloo Gobi,Spicy,Delhi,I enjoyed it
+53,Mutton Rogan Josh,Vegan,Tamil Nadu,The flavors were unique
+37,Vada Pav,Vegan,West Bengal,I was thrilled with how flavorful it was; a real treat!
+36,Aloo Tikki Chaat,Street Food,Kerala,I was not a fan of the seasoning; it felt a bit off.
+51,Mutton Rogan Josh,Spicy,Uttar Pradesh,I was not a fan of the seasoning; it felt a bit off.
+56,Bhindi Masala,Cheesy,Gujarat,The meal had great potential but ultimately fell short.
+43,Pani Puri,Cheesy,Karnataka,The meal was packed with flavor; I can't wait to have it again!
+35,Spring Rolls,Healthy,Rajasthan,Overall
+26,Vegan Pulao,Chinese,Delhi,The meal was satisfying
+31,Ghar Ka Khana,Vegan,Delhi,I loved the combination of flavors; it was a delightful surprise.
+22,Dal Tadka,Seafood,Gujarat,It was fine
+16,Ladoo,Snacks,Karnataka,though not memorable.
+54,Butter Chicken,Seafood,Kerala,but it missed the mark.
+51,Salad,Chinese,Uttar Pradesh,It was okay
+68,Paneer Tikka,Cheesy,West Bengal,but I feel there are better options available.
+13,Fish Curry,Street Food,Karnataka,The portion size was generous
+61,Vegetable Soup,Dessert,Tamil Nadu,The consistency was a bit strange; not what I expected.
+33,Paneer Tikka Masala,Healthy,Rajasthan,though not memorable.
+33,Fish Curry,Chinese,Uttar Pradesh,I found the meal to be quite average; nothing particularly stood out.
+69,Palak Chaat,Indian Curry,Kerala,The texture was perfect
+46,Dim Sum,Snacks,Gujarat,It was just alright; I wouldn't go out of my way to have it again.
+53,Stuffed Capsicum,Chinese,Tamil Nadu,but I wouldn't order it again.
+47,Chicken Curry,Seafood,Maharashtra,The food was decent
+20,Aloo Tikki,Seafood,Delhi,The texture was perfect
+32,Chicken Curry,Chinese,Tamil Nadu,The texture was perfect
+67,Cheesy Garlic Bread,Seafood,Maharashtra,I loved the combination of flavors; it was a delightful surprise.
+20,Jalebi,Snacks,Karnataka,It was fine
+10,Spicy Prawn Curry,Chinese,Uttar Pradesh,The meal was packed with flavor; I can't wait to have it again!
+28,Murukku,Dessert,Punjab,and I appreciated the creativity behind it.
+26,Fish Tikka,Snacks,Rajasthan,The dish was well-prepared and the flavors were spot on!
+39,Chicken Vindaloo,Snacks,Karnataka,and every bite was a joy!
+69,Kheer,Dessert,Delhi,The food was decent
+31,Kheer,Healthy,Punjab,and I appreciated the creativity behind it.
+67,Grilled Paneer,Spicy,Uttar Pradesh,It was just alright; I wouldn't go out of my way to have it again.
+38,Vegetable Soup,Healthy,Maharashtra,The overall experience was pleasant
+69,Dahi Puri,Snacks,Tamil Nadu,and I appreciated the creativity behind it.
+54,Rabri,Vegan,Gujarat,I found the meal to be quite average; nothing particularly stood out.
+51,Sev Puri,Seafood,Maharashtra,Overall
+57,Chili Chicken,Dessert,Rajasthan,I was surprised by how bland the dish turned out to be.
+70,Ghar Ka Khana,Spicy,Rajasthan,I was thrilled with how flavorful it was; a real treat!
+40,Pani Puri,Street Food,Delhi,I appreciated the effort put into the dish
+33,Prawn Masala,Indian Curry,Karnataka,and every bite was a joy!
+13,Stuffed Capsicum,Dessert,Karnataka,I loved the combination of flavors; it was a delightful surprise.
+60,Manchurian,Seafood,Punjab,making it a good value.
+47,Rajma,Seafood,Tamil Nadu,and the taste did not disappoint.
+52,Crab Masala,Vegan,Kerala,Overall
+70,Palak Paneer,Indian Curry,Karnataka,and the taste lived up to expectations.
+16,Spring Rolls,Healthy,Karnataka,I found the meal to be quite average; nothing particularly stood out.
+30,Cheese Pav Bhaji,Cheesy,Rajasthan,I found it to be too oily for my liking.
+55,Chaat,Dessert,Rajasthan,The dish was well-prepared and the flavors were spot on!
+69,Rasgulla,Street Food,Maharashtra,but the food was just average.
+48,Chicken Vindaloo,Cheesy,Gujarat,It was quite disappointing; I expected a lot more flavor.
+47,Vegetable Soup,Dessert,Kerala,but it missed the mark.
+14,Murukku,Street Food,Karnataka,Absolutely loved the spices used; it was a delightful experience!
+50,Methi Paratha,Street Food,Delhi,I found the meal to be quite average; nothing particularly stood out.
+52,Grilled Paneer,Vegan,West Bengal,but I wouldn't order it again.
+44,Gulab Jamun,Snacks,Punjab,making it a good value.
+65,Kheer,Snacks,Tamil Nadu,I enjoyed it
+43,Cheese Samosa,Chinese,Kerala,The meal was satisfying
+50,Aloo Tikki Chaat,Vegan,Maharashtra,It was fine
+53,Crab Masala,Street Food,Gujarat,I found it to be too oily for my liking.
+18,Gulab Jamun,Indian Curry,Uttar Pradesh,The portion size was generous
+12,Stuffed Capsicum,Snacks,Maharashtra,The presentation was impressive
+39,Gulab Jamun,Chinese,Punjab,I was not a fan of the seasoning; it felt a bit off.
+16,Cheesy Garlic Bread,Vegan,West Bengal,The portion size was generous
+13,Gulab Jamun,Street Food,Punjab,The service was excellent
+26,Manchurian,Indian Curry,Maharashtra,It was quite disappointing; I expected a lot more flavor.
+55,Chili Chicken,Spicy,West Bengal,Absolutely loved the spices used; it was a delightful experience!
+52,Spicy Prawn Curry,Street Food,Gujarat,It was quite disappointing; I expected a lot more flavor.
+25,Sev Puri,Healthy,Tamil Nadu,but I wouldn't order it again.
+57,Cheese Dosa,Cheesy,Karnataka,It was just alright; I wouldn't go out of my way to have it again.
+55,Paneer Butter Masala,Cheesy,Kerala,Overall
+47,Jalebi,Spicy,Punjab,but I expected more based on the reviews.
+29,Kung Pao Chicken,Street Food,Rajasthan,The portion size was generous
+49,Chana Masala,Street Food,Punjab,It was fine
+52,Vegan Pulao,Cheesy,Delhi,I was thrilled with how flavorful it was; a real treat!
+21,Vegetable Chow Mein,Healthy,Rajasthan,and I appreciated the creativity behind it.
+25,Murukku,Healthy,Karnataka,The dish was average; I expected more based on the hype.
+17,Vegetable Chow Mein,Healthy,Kerala,I enjoyed it
+30,Murukku,Street Food,Tamil Nadu,The presentation was impressive
+30,Dahi Puri,Seafood,Tamil Nadu,The consistency was a bit strange; not what I expected.
+21,Peda,Seafood,Tamil Nadu,The texture was perfect
+34,Masala Dosa,Dessert,Punjab,and I appreciated the creativity behind it.
+31,Ladoo,Healthy,Gujarat,I found it to be too oily for my liking.
+44,Cheese Stuffed Mushroom,Healthy,Rajasthan,The dish was well-prepared and the flavors were spot on!
+58,Pakoras,Street Food,Uttar Pradesh,The flavors were unique
+51,Chaat,Chinese,Maharashtra,but I feel there are better options available.
+34,Mutton Rogan Josh,Chinese,Tamil Nadu,and the taste lived up to expectations.
+30,Chicken Vindaloo,Spicy,West Bengal,and every bite was a joy!
+45,Goan Prawn Curry,Seafood,Maharashtra,and every bite was a joy!
+52,Vegan Pulao,Indian Curry,Gujarat,The meal had great potential but ultimately fell short.
+11,Pakoras,Chinese,West Bengal,The ingredients felt fresh
+53,Gulab Jamun,Seafood,Tamil Nadu,though not memorable.
+58,Salad,Spicy,Gujarat,but I think it could use a bit more spice.
+58,Chana Masala,Street Food,Rajasthan,but I expected more based on the reviews.
+40,Fried Rice,Chinese,Punjab,I enjoyed it
+52,Kachori,Chinese,Punjab,I loved the combination of flavors; it was a delightful surprise.
+19,Ladoo,Indian Curry,Delhi,It was quite disappointing; I expected a lot more flavor.
+58,Aloo Gobi,Indian Curry,Rajasthan,making it a good value.
+64,Sprouted Moong Salad,Indian Curry,Kerala,but I wouldn't order it again.
+57,Vegetable Biryani,Chinese,Rajasthan,The food was decent
+29,Vada Pav,Seafood,Karnataka,I found the meal to be quite average; nothing particularly stood out.
+27,Fried Rice,Snacks,West Bengal,but the seasoning could improve.
+11,Fish Fry,Street Food,West Bengal,Overall
+17,Samosa,Snacks,Tamil Nadu,I loved the combination of flavors; it was a delightful surprise.
+32,Tikki,Snacks,Tamil Nadu,but the food was just average.
+19,Pani Puri,Healthy,Kerala,I was left wanting more; it felt incomplete.
+30,Methi Paratha,Cheesy,Gujarat,but the food was just average.
+25,Barfi,Healthy,Gujarat,The ingredients felt fresh
+61,Baingan Bharta,Healthy,Punjab,making it a good value.
+42,Chicken Vindaloo,Dessert,Gujarat,The consistency was a bit strange; not what I expected.
+32,Chili Chicken,Snacks,Uttar Pradesh,Overall
+30,Pani Puri,Cheesy,Tamil Nadu,making it a memorable dish.
+24,Cheese Samosa,Vegan,Tamil Nadu,It was quite disappointing; I expected a lot more flavor.
+22,Barfi,Healthy,Kerala,It was just alright; I wouldn't go out of my way to have it again.
+21,Palak Paneer,Street Food,Uttar Pradesh,but I feel there are better options available.
+62,Paneer Tikka,Dessert,Uttar Pradesh,though not memorable.
+32,Spicy Prawn Curry,Vegan,West Bengal,a satisfying meal that I would recommend.
+57,Kung Pao Chicken,Spicy,Karnataka,but the seasoning could improve.
+67,Kachori,Indian Curry,Tamil Nadu,The overall experience was pleasant
+49,Tandoori Fish,Seafood,Maharashtra,making it a good value.
+35,Jalebi,Dessert,Gujarat,I was left wanting more; it felt incomplete.
+23,Spicy Szechuan Noodles,Street Food,Gujarat,It was okay
+53,Dim Sum,Chinese,Uttar Pradesh,making it a good value.
+34,Chaat,Indian Curry,Delhi,I found the meal to be quite average; nothing particularly stood out.
+37,Tikki,Dessert,Rajasthan,It was fine
+21,Fish Tikka,Spicy,Karnataka,The portion size was generous
+27,Methi Paratha,Street Food,Gujarat,The food was decent
+10,Pav Bhaji,Chinese,Tamil Nadu,The flavors were unique
+46,Sev,Vegan,Gujarat,The food was decent
+58,Peda,Cheesy,Uttar Pradesh,though not memorable.
+54,Fish Curry,Dessert,Kerala,The portion size was generous
+67,Chaat,Street Food,Kerala,I was left wanting more; it felt incomplete.
+61,Chaat,Dessert,Tamil Nadu,making it a memorable dish.
+23,Pani Puri,Snacks,Karnataka,but I wouldn't order it again.
+46,Aloo Gobi,Seafood,West Bengal,I appreciated the effort put into the dish
+48,Butter Chicken,Seafood,Gujarat,The food was decent
+58,Ghar Ka Khana,Cheesy,West Bengal,The service was excellent
+52,Tandoori Chicken,Snacks,Kerala,Absolutely loved the spices used; it was a delightful experience!
+43,Aloo Gobi,Chinese,Maharashtra,but I think it could use a bit more spice.
+27,Hot and Sour Soup,Seafood,Maharashtra,The texture was perfect
+58,Grilled Paneer,Healthy,Delhi,I was not a fan of the seasoning; it felt a bit off.
+23,Grilled Paneer,Spicy,Uttar Pradesh,The meal was satisfying
+39,Tandoori Cauliflower,Seafood,Rajasthan,I was surprised by how bland the dish turned out to be.
+22,Manchurian,Vegan,Uttar Pradesh,and every bite was a joy!
+67,Bombil Fry,Healthy,Rajasthan,and the taste did not disappoint.
+25,Fish Tikka,Chinese,Karnataka,The overall experience was pleasant
+38,Spicy Szechuan Noodles,Indian Curry,Rajasthan,but the seasoning could improve.
+56,Cheesy Garlic Bread,Street Food,West Bengal,I loved the combination of flavors; it was a delightful surprise.
+67,Malabar Fish Curry,Dessert,Kerala,I enjoyed it
+22,Kuchcha Aam Ki Barfi,Street Food,Karnataka,but I expected more based on the reviews.
+13,Vada Pav,Snacks,West Bengal,I enjoyed it
+51,Aloo Tikki,Spicy,Delhi,a satisfying meal that I would recommend.
+24,Sprouted Moong Salad,Chinese,West Bengal,but I feel there are better options available.
+69,Paneer Butter Masala,Dessert,Maharashtra,but it missed the mark.
+39,Vegetable Biryani,Snacks,Punjab,The meal was packed with flavor; I can't wait to have it again!
+63,Chana Masala,Vegan,West Bengal,The service was excellent
+25,Vada Pav,Healthy,West Bengal,making it a good value.
+29,Chaat,Cheesy,Maharashtra,making it a good value.
+50,Mac and Cheese,Seafood,Kerala,I was surprised by how bland the dish turned out to be.
+53,Stuffed Bell Peppers,Dessert,Kerala,Overall
+54,Rajma Chawal,Street Food,West Bengal,I was left wanting more; it felt incomplete.
+10,Pork Ribs,Healthy,Karnataka,Overall
+39,Rajma,Dessert,Punjab,Overall
+45,Chili Chicken,Snacks,Rajasthan,The meal had great potential but ultimately fell short.
+42,Grilled Paneer,Dessert,Delhi,I found it to be too oily for my liking.
+32,Kachori,Seafood,Gujarat,It was just alright; I wouldn't go out of my way to have it again.
+70,Pav Bhaji,Chinese,Maharashtra,and the taste lived up to expectations.
+21,Spring Rolls,Snacks,Karnataka,I was not a fan of the seasoning; it felt a bit off.
+24,Grilled Paneer,Snacks,Delhi,The portion size was generous
+29,Rajma Chawal,Chinese,Delhi,The meal was packed with flavor; I can't wait to have it again!
+31,Mac and Cheese,Street Food,Karnataka,The service was excellent
+69,Masala Dosa,Indian Curry,Tamil Nadu,I enjoyed it
+57,Zucchini Noodles,Vegan,Rajasthan,It was quite disappointing; I expected a lot more flavor.
+16,Peda,Healthy,Delhi,The service was excellent
+67,Vegan Pulao,Street Food,Punjab,and the taste lived up to expectations.
+34,Kheer,Seafood,Uttar Pradesh,It was okay
+39,Pork Ribs,Cheesy,Kerala,The overall experience was pleasant
+32,Pakoras,Indian Curry,West Bengal,I loved the combination of flavors; it was a delightful surprise.
+51,Dim Sum,Vegan,Rajasthan,I was not a fan of the seasoning; it felt a bit off.
+59,Samosa,Dessert,Punjab,I was left wanting more; it felt incomplete.
+50,Cheesy Garlic Bread,Indian Curry,Delhi,I found it to be too oily for my liking.
+70,Rabri,Vegan,Tamil Nadu,but I think it could use a bit more spice.
+57,Chili Chicken,Seafood,Delhi,but it missed the mark.
+33,Aloo Tikki,Healthy,Punjab,I enjoyed the freshness of the ingredients; it made a difference.
+35,Goan Prawn Curry,Indian Curry,Punjab,The aroma was inviting
+10,Gajar Halwa,Spicy,Uttar Pradesh,The meal was satisfying
+39,Pani Puri,Street Food,Karnataka,It was quite disappointing; I expected a lot more flavor.
+55,Fish Curry,Street Food,West Bengal,It was just alright; I wouldn't go out of my way to have it again.
+44,Fish Tikka,Street Food,Uttar Pradesh,I was surprised by how bland the dish turned out to be.
+44,Dahi Puri,Dessert,Delhi,I found it to be too oily for my liking.
+44,Cheesy Veggie Wrap,Vegan,West Bengal,The meal had great potential but ultimately fell short.
+61,Spring Rolls,Seafood,Punjab,making it a memorable dish.
+56,Aloo Tikki Chaat,Snacks,Uttar Pradesh,The presentation was impressive
+29,Zucchini Noodles,Chinese,Gujarat,The overall experience was pleasant
+55,Cheese Pav Bhaji,Street Food,West Bengal,and I appreciated the creativity behind it.
+57,Mac and Cheese,Indian Curry,Tamil Nadu,and every bite was a joy!
+54,Spring Rolls,Spicy,Punjab,The texture was perfect
+33,Cheese Dosa,Vegan,Delhi,and the taste lived up to expectations.
+27,Vegetable Soup,Healthy,Tamil Nadu,making it a good value.
+51,Cheese Samosa,Chinese,Punjab,I enjoyed it
+28,Rabri,Spicy,Punjab,The meal had great potential but ultimately fell short.
+53,Hakka Noodles,Indian Curry,Rajasthan,but it missed the mark.
+46,Mac and Cheese,Snacks,Punjab,The dish was well-prepared and the flavors were spot on!
+60,Dal Makhani,Snacks,Punjab,The meal was satisfying
+22,Dhokla,Spicy,Delhi,The consistency was a bit strange; not what I expected.
+62,Bhel Puri,Dessert,Tamil Nadu,I appreciated the effort put into the dish
+57,Vegetable Soup,Spicy,Gujarat,The presentation was impressive
+11,Spring Rolls,Street Food,Maharashtra,I was surprised by how bland the dish turned out to be.
+68,Cheese Naan,Spicy,West Bengal,Absolutely loved the spices used; it was a delightful experience!
+15,Pani Puri,Street Food,Delhi,The meal was packed with flavor; I can't wait to have it again!
+68,Chicken Curry,Healthy,Delhi,I was left wanting more; it felt incomplete.
+64,Crab Masala,Chinese,West Bengal,I was left wanting more; it felt incomplete.
+65,Palak Paneer,Indian Curry,Tamil Nadu,The consistency was a bit strange; not what I expected.
+65,Cheese Dosa,Seafood,Maharashtra,I was thrilled with how flavorful it was; a real treat!
+38,Chili Chicken,Indian Curry,Kerala,I was left wanting more; it felt incomplete.
+57,Samosa,Cheesy,Karnataka,The service was excellent
+19,Zucchini Noodles,Seafood,Uttar Pradesh,It was okay
+29,Masala Dosa,Chinese,Gujarat,It was okay
+38,Masala Dosa,Chinese,West Bengal,The dish was average; I expected more based on the hype.
+63,Chana Masala,Snacks,Kerala,The ingredients felt fresh
+18,Hakka Noodles,Snacks,Uttar Pradesh,I appreciated the effort put into the dish
+49,Paneer Butter Masala,Seafood,West Bengal,but I expected more based on the reviews.
+50,Chaat,Spicy,Tamil Nadu,The service was excellent
+22,Dim Sum,Vegan,Kerala,but I wouldn't order it again.
+44,Chicken Curry,Healthy,Maharashtra,I found it to be too oily for my liking.
+17,Fish Fry,Dessert,West Bengal,It was fine
+21,Cheesy Garlic Bread,Indian Curry,Maharashtra,The dish was well-prepared and the flavors were spot on!
+54,Cheesy Veggie Wrap,Snacks,Gujarat,I was thrilled with how flavorful it was; a real treat!
+44,Kheer,Indian Curry,Gujarat,The texture was perfect
+65,Methi Paratha,Cheesy,Gujarat,making it a good value.
+24,Chana Masala,Chinese,Uttar Pradesh,I was thrilled with how flavorful it was; a real treat!
+27,Cheesy Pasta,Snacks,Punjab,The texture was perfect
+41,Fish Fry,Cheesy,Karnataka,but it missed the mark.
+18,Malabar Fish Curry,Healthy,Kerala,I found it to be too oily for my liking.
+45,Chicken Curry,Indian Curry,Uttar Pradesh,The portion size was generous
+70,Samosa,Street Food,Punjab,though not memorable.
+12,Tikki,Spicy,West Bengal,The presentation was impressive
+22,Kung Pao Chicken,Cheesy,Karnataka,The consistency was a bit strange; not what I expected.
+58,Spicy Szechuan Noodles,Chinese,West Bengal,but it missed the mark.
+12,Aloo Gobi,Seafood,Tamil Nadu,a satisfying meal that I would recommend.
+21,Paneer Tikka Masala,Chinese,Maharashtra,The service was excellent
+29,Bombil Fry,Seafood,Kerala,I was not a fan of the seasoning; it felt a bit off.
+31,Tandoori Fish,Healthy,Gujarat,The food was decent
+70,Grilled Paneer,Vegan,Maharashtra,but the food was just average.
+68,Murukku,Vegan,West Bengal,The meal was packed with flavor; I can't wait to have it again!
+31,Quinoa Pulao,Indian Curry,Kerala,but I feel there are better options available.
+43,Murukku,Seafood,Delhi,The ingredients felt fresh
+68,Cheese Stuffed Mushroom,Cheesy,Gujarat,The food was decent
+11,Kadai Paneer,Indian Curry,West Bengal,but I expected more based on the reviews.
+14,Prawn Masala,Street Food,Karnataka,The ingredients felt fresh
+63,Vegetable Chow Mein,Spicy,Maharashtra,but it missed the mark.
+67,Samosa,Cheesy,Gujarat,The portion size was generous
+33,Dal Makhani,Seafood,Karnataka,The meal had great potential but ultimately fell short.
+69,Dal Tadka,Street Food,Maharashtra,but the seasoning could improve.
+21,Pakoras,Cheesy,Maharashtra,The dish was well-prepared and the flavors were spot on!
+40,Chili Chicken,Spicy,Maharashtra,The dish was well-prepared and the flavors were spot on!
+29,Pav Bhaji,Indian Curry,Punjab,The food was decent
+23,Spring Rolls,Spicy,Karnataka,making it a good value.
+47,Mutton Rogan Josh,Snacks,Maharashtra,but I wouldn't order it again.
+54,Chicken Vindaloo,Healthy,Karnataka,but the food was just average.
+33,Dal Makhani,Healthy,Rajasthan,but I expected more based on the reviews.
+36,Cheese Pav Bhaji,Snacks,Maharashtra,The meal was packed with flavor; I can't wait to have it again!
+12,Kadai Paneer,Healthy,Tamil Nadu,The flavors were unique
+34,Sprouted Moong Salad,Indian Curry,West Bengal,Absolutely loved the spices used; it was a delightful experience!
+45,Hakka Noodles,Cheesy,Delhi,but it missed the mark.
+40,Ladoo,Snacks,Gujarat,The ingredients felt fresh
+40,Mixed Vegetable Stir Fry,Vegan,Karnataka,The service was excellent
+15,Momos,Cheesy,Tamil Nadu,but I think it could use a bit more spice.
+45,Stuffed Bell Peppers,Spicy,Punjab,Overall
+11,Cheese Pav Bhaji,Indian Curry,Maharashtra,The dish was average; I expected more based on the hype.
+67,Murukku,Indian Curry,Karnataka,but I expected more based on the reviews.
+44,Oats Upma,Spicy,Karnataka,The meal had great potential but ultimately fell short.
+56,Fish Curry,Dessert,Karnataka,The dish was well-prepared and the flavors were spot on!
+70,Aloo Gobi,Spicy,Rajasthan,and the taste lived up to expectations.
+53,Tandoori Chicken,Indian Curry,Karnataka,though not memorable.
+11,Cheese Dosa,Dessert,Gujarat,The food was decent
+59,Vegetable Chow Mein,Healthy,Tamil Nadu,but the food was just average.
+25,Salad,Dessert,Punjab,but I wouldn't order it again.
+15,Pani Puri,Indian Curry,Maharashtra,The consistency was a bit strange; not what I expected.
+48,Cheese Naan,Dessert,Rajasthan,but the food was just average.
+30,Spicy Prawn Curry,Spicy,Delhi,but I think it could use a bit more spice.
+57,Palak Paneer,Dessert,Tamil Nadu,The food was decent
+61,Prawn Masala,Seafood,Delhi,but it missed the mark.
+19,Aloo Gobi,Healthy,West Bengal,The portion size was generous
+43,Tandoori Fish,Street Food,Punjab,It was fine
+42,Sprouted Moong Salad,Healthy,Kerala,but the food was just average.
+53,Spicy Szechuan Noodles,Seafood,Kerala,but I wouldn't order it again.
+52,Sev Puri,Healthy,Maharashtra,The consistency was a bit strange; not what I expected.
+41,Butter Chicken,Indian Curry,Punjab,I appreciated the effort put into the dish
+51,Pani Puri,Dessert,Uttar Pradesh,but the seasoning could improve.
+48,Cheese Samosa,Dessert,Delhi,The consistency was a bit strange; not what I expected.
+36,Jalebi,Chinese,Karnataka,It was just alright; I wouldn't go out of my way to have it again.
+44,Baingan Bharta,Healthy,Maharashtra,but I expected more based on the reviews.
+59,Oats Upma,Indian Curry,Karnataka,but it missed the mark.
+31,Fish Curry,Vegan,Rajasthan,but it missed the mark.
+65,Methi Paratha,Snacks,West Bengal,The overall experience was pleasant
+24,Cheese Stuffed Mushroom,Dessert,Tamil Nadu,I found it to be too oily for my liking.
+70,Rasgulla,Indian Curry,Maharashtra,The service was excellent
+17,Chili Chicken,Vegan,Maharashtra,but I wouldn't order it again.
+41,Tandoori Fish,Street Food,Rajasthan,Overall
+53,Aloo Gobi,Street Food,Gujarat,but the food was just average.
+56,Dal Makhani,Street Food,Punjab,The dish was well-prepared and the flavors were spot on!
+57,Spring Rolls,Cheesy,Uttar Pradesh,The dish was well-prepared and the flavors were spot on!
+10,Gulab Jamun,Cheesy,Delhi,The aroma was inviting
+33,Barfi,Dessert,Delhi,and the taste lived up to expectations.
+48,Sev Puri,Healthy,West Bengal,The meal was satisfying
+49,Rasgulla,Vegan,Punjab,and the taste lived up to expectations.
+62,Chaat,Street Food,West Bengal,making it a memorable dish.
+18,Paneer Butter Masala,Snacks,Rajasthan,The dish was well-prepared and the flavors were spot on!
+66,Goan Prawn Curry,Street Food,Delhi,I found it to be too oily for my liking.
+19,Cheesy Garlic Bread,Dessert,Uttar Pradesh,though not memorable.
+46,Bhel Puri,Vegan,Gujarat,The meal had great potential but ultimately fell short.
+27,Dim Sum,Street Food,Tamil Nadu,but the food was just average.
+10,Aloo Gobi,Spicy,Rajasthan,making it a memorable dish.
+59,Chana Masala,Indian Curry,Rajasthan,It was okay
+13,Manchurian,Street Food,Delhi,making it a good value.
+27,Cheese Naan,Healthy,Delhi,It was just alright; I wouldn't go out of my way to have it again.
+13,Samosa,Spicy,Delhi,It was just alright; I wouldn't go out of my way to have it again.
+17,Chicken Curry,Dessert,Tamil Nadu,I enjoyed the freshness of the ingredients; it made a difference.
+69,Mixed Vegetable Stir Fry,Vegan,Gujarat,Overall
+56,Momos,Dessert,Rajasthan,I found the meal to be quite average; nothing particularly stood out.
+46,Vada Pav,Chinese,Punjab,and every bite was a joy!
+24,Spicy Prawn Curry,Indian Curry,West Bengal,The presentation was impressive
+38,Momos,Spicy,Maharashtra,I found the meal to be quite average; nothing particularly stood out.
+65,Fish Tikka,Vegan,Uttar Pradesh,and the taste did not disappoint.
+41,Vegetable Soup,Vegan,Kerala,The ingredients felt fresh
+31,Vada Pav,Street Food,West Bengal,The flavors were unique
+55,Fish Tikka,Healthy,Punjab,making it a memorable dish.
+35,Baingan Bharta,Spicy,Punjab,The overall experience was pleasant
+57,Murukku,Street Food,Gujarat,The ingredients felt fresh
+25,Paneer Tikka Masala,Chinese,Maharashtra,making it a memorable dish.
+62,Vegetable Biryani,Spicy,Kerala,and the taste did not disappoint.
+57,Cheesy Garlic Bread,Snacks,Karnataka,Overall
+23,Spicy Szechuan Noodles,Spicy,Delhi,The portion size was generous
+65,Palak Chaat,Cheesy,Tamil Nadu,but I wouldn't order it again.
+25,Cheese Stuffed Mushroom,Healthy,Kerala,It was just alright; I wouldn't go out of my way to have it again.
+45,Prawn Biryani,Dessert,West Bengal,but the seasoning could improve.
+38,Malabar Fish Curry,Snacks,Delhi,and the taste lived up to expectations.
+70,Cheese Stuffed Mushroom,Seafood,Tamil Nadu,I enjoyed it
+23,Kachori,Healthy,Kerala,a satisfying meal that I would recommend.
+40,Chana Masala,Spicy,West Bengal,I enjoyed it
+50,Chana Masala,Street Food,Rajasthan,and I appreciated the creativity behind it.
+27,Prawn Masala,Cheesy,Rajasthan,I appreciated the effort put into the dish
+55,Gajar Halwa,Spicy,Rajasthan,I appreciated the effort put into the dish
+69,Stuffed Bell Peppers,Seafood,Tamil Nadu,I was not a fan of the seasoning; it felt a bit off.
+70,Gulab Jamun,Snacks,Punjab,The consistency was a bit strange; not what I expected.
+54,Dahi Puri,Street Food,Karnataka,It was okay
+27,Vegetable Soup,Street Food,Punjab,It was okay
+48,Fish Tikka,Chinese,Delhi,I found it to be too oily for my liking.
+33,Sev,Snacks,Delhi,The meal was satisfying
+38,Tandoori Chicken,Vegan,West Bengal,The texture was perfect
+46,Kachori,Cheesy,Maharashtra,though not memorable.
+66,Aloo Gobi,Healthy,Gujarat,The presentation was impressive
+14,Rajma Chawal,Indian Curry,Uttar Pradesh,but I wouldn't order it again.
+28,Rajma Chawal,Cheesy,Rajasthan,I was left wanting more; it felt incomplete.
+46,Kadai Paneer,Chinese,Rajasthan,but I think it could use a bit more spice.
+19,Fish Curry,Chinese,Kerala,I enjoyed it
+36,Stuffed Bell Peppers,Chinese,Karnataka,The meal was satisfying
+10,Chicken Vindaloo,Seafood,Rajasthan,The meal had great potential but ultimately fell short.
+15,Rajma Chawal,Cheesy,West Bengal,The flavors were unique
+70,Methi Paratha,Dessert,Maharashtra,I appreciated the effort put into the dish
+47,Murukku,Indian Curry,Tamil Nadu,making it a memorable dish.
+24,Kachori,Vegan,Rajasthan,I found it to be too oily for my liking.
+47,Hakka Noodles,Snacks,Uttar Pradesh,The dish was average; I expected more based on the hype.
+51,Quinoa Pulao,Indian Curry,Karnataka,The meal was satisfying
+53,Spicy Szechuan Noodles,Cheesy,Delhi,I enjoyed it
+30,Peda,Chinese,Rajasthan,It was quite disappointing; I expected a lot more flavor.
+39,Kuchcha Aam Ki Barfi,Vegan,West Bengal,though not memorable.
+55,Kachori,Vegan,Gujarat,The texture was perfect
+67,Mac and Cheese,Street Food,Gujarat,The dish was average; I expected more based on the hype.
+40,Ladoo,Seafood,Punjab,and every bite was a joy!
+45,Gulab Jamun,Indian Curry,Kerala,but I wouldn't order it again.
+65,Bombil Fry,Snacks,Karnataka,but the seasoning could improve.
+26,Ghar Ka Khana,Dessert,Punjab,The dish was average; I expected more based on the hype.
+23,Pork Ribs,Street Food,Punjab,and every bite was a joy!
+49,Grilled Paneer,Seafood,West Bengal,The portion size was generous
+56,Sweet and Sour Chicken,Seafood,Punjab,The ingredients felt fresh
+13,Grilled Paneer,Spicy,West Bengal,The dish was average; I expected more based on the hype.
+15,Palak Paneer,Spicy,Punjab,The ingredients felt fresh
+26,Cheesy Pasta,Healthy,Delhi,but it missed the mark.
+44,Gajar Halwa,Indian Curry,Uttar Pradesh,The dish was well-prepared and the flavors were spot on!
+43,Pakoras,Spicy,Rajasthan,The aroma was inviting
+37,Rabri,Dessert,West Bengal,but I expected more based on the reviews.
+69,Vegetable Soup,Dessert,Tamil Nadu,The meal had great potential but ultimately fell short.
+13,Masala Dosa,Street Food,West Bengal,The ingredients felt fresh
+46,Prawn Biryani,Healthy,Gujarat,It was fine
+11,Spicy Prawn Curry,Street Food,Karnataka,but the food was just average.
+26,Kheer,Dessert,Delhi,The dish was well-prepared and the flavors were spot on!
+54,Bombil Fry,Cheesy,Karnataka,I appreciated the effort put into the dish
+23,Chana Masala,Vegan,Uttar Pradesh,Absolutely loved the spices used; it was a delightful experience!
+54,Salad,Chinese,Uttar Pradesh,but it missed the mark.
+63,Kachori,Indian Curry,Delhi,It was okay
+65,Stuffed Capsicum,Seafood,West Bengal,The flavors were unique
+49,Spicy Szechuan Noodles,Cheesy,Delhi,I found the meal to be quite average; nothing particularly stood out.
+32,Hot and Sour Soup,Snacks,West Bengal,Absolutely loved the spices used; it was a delightful experience!
+28,Baingan Bharta,Chinese,Karnataka,The dish was well-prepared and the flavors were spot on!
+65,Spring Rolls,Healthy,Gujarat,The texture was perfect
+66,Methi Paratha,Spicy,Gujarat,but it missed the mark.
+49,Prawn Biryani,Healthy,Gujarat,It was just alright; I wouldn't go out of my way to have it again.
+27,Cheese Samosa,Indian Curry,Uttar Pradesh,I enjoyed the freshness of the ingredients; it made a difference.
+56,Spring Rolls,Spicy,Karnataka,but the food was just average.
+19,Salad,Seafood,Uttar Pradesh,The ingredients felt fresh
+10,Kung Pao Chicken,Spicy,Karnataka,The aroma was inviting
+25,Bhel Puri,Snacks,Rajasthan,The portion size was generous
+23,Fish Curry,Dessert,Punjab,I was surprised by how bland the dish turned out to be.
+29,Gulab Jamun,Chinese,West Bengal,and the taste lived up to expectations.
+25,Goan Prawn Curry,Street Food,Kerala,and I appreciated the creativity behind it.
+36,Prawn Biryani,Seafood,Uttar Pradesh,I was left wanting more; it felt incomplete.
+29,Sweet and Sour Chicken,Chinese,Tamil Nadu,I appreciated the effort put into the dish
+35,Stuffed Capsicum,Vegan,Karnataka,I was thrilled with how flavorful it was; a real treat!
+52,Jalebi,Indian Curry,Rajasthan,and the taste did not disappoint.
+41,Chicken Vindaloo,Vegan,Uttar Pradesh,I found the meal to be quite average; nothing particularly stood out.
+48,Fish Tikka,Seafood,Tamil Nadu,It was okay
+37,Vegetable Soup,Spicy,Gujarat,I found it to be too oily for my liking.
+25,Kung Pao Chicken,Cheesy,Kerala,I found the meal to be quite average; nothing particularly stood out.
+50,Chili Chicken,Street Food,Delhi,I appreciated the effort put into the dish
+56,Dal Makhani,Spicy,West Bengal,The food was decent
+49,Prawn Biryani,Seafood,Karnataka,It was okay
+42,Malabar Fish Curry,Snacks,West Bengal,It was okay
+36,Mac and Cheese,Dessert,Delhi,The ingredients felt fresh
+48,Gulab Jamun,Healthy,Tamil Nadu,though not memorable.
+63,Kadai Paneer,Chinese,Maharashtra,making it a memorable dish.
+70,Kheer,Snacks,Tamil Nadu,but I think it could use a bit more spice.
+10,Mac and Cheese,Snacks,Gujarat,I was not a fan of the seasoning; it felt a bit off.
+27,Gajar Halwa,Cheesy,Maharashtra,The portion size was generous
+33,Vegetable Biryani,Seafood,Karnataka,but the seasoning could improve.
+38,Vegetable Biryani,Cheesy,Gujarat,The flavors were unique
+54,Cheese Dosa,Street Food,Punjab,The ingredients felt fresh
+63,Prawn Biryani,Spicy,West Bengal,I was surprised by how bland the dish turned out to be.
+25,Malabar Fish Curry,Chinese,Karnataka,making it a memorable dish.
+62,Methi Paratha,Cheesy,West Bengal,The flavors were unique
+12,Chaat,Indian Curry,Karnataka,but I wouldn't order it again.
+35,Malabar Fish Curry,Spicy,Gujarat,The overall experience was pleasant
+30,Kadai Paneer,Snacks,Karnataka,I appreciated the effort put into the dish
+66,Zucchini Noodles,Chinese,Karnataka,though not memorable.
+63,Murukku,Seafood,West Bengal,The aroma was inviting
+28,Paneer Tikka Masala,Snacks,Uttar Pradesh,but the seasoning could improve.
+48,Sweet and Sour Chicken,Healthy,Delhi,The meal was packed with flavor; I can't wait to have it again!
+13,Hot and Sour Soup,Vegan,Maharashtra,I found it to be too oily for my liking.
+41,Rasgulla,Snacks,Uttar Pradesh,and every bite was a joy!
+16,Pav Bhaji,Spicy,Tamil Nadu,but I feel there are better options available.
+67,Tikki,Healthy,West Bengal,I loved the combination of flavors; it was a delightful surprise.
+56,Chana Masala,Chinese,Kerala,The aroma was inviting
+51,Chaat,Indian Curry,Karnataka,The presentation was impressive
+22,Murukku,Street Food,Punjab,and I appreciated the creativity behind it.
+26,Mac and Cheese,Seafood,Uttar Pradesh,Absolutely loved the spices used; it was a delightful experience!
+35,Bhel Puri,Vegan,Tamil Nadu,The service was excellent
+13,Sev Puri,Cheesy,Punjab,Absolutely loved the spices used; it was a delightful experience!
+63,Crab Masala,Healthy,Gujarat,and I appreciated the creativity behind it.
+21,Masala Dosa,Seafood,Uttar Pradesh,The overall experience was pleasant
+28,Tandoori Fish,Chinese,Maharashtra,The dish was average; I expected more based on the hype.
+34,Chana Masala,Seafood,Delhi,but I wouldn't order it again.
+35,Paneer Butter Masala,Indian Curry,Maharashtra,I found the meal to be quite average; nothing particularly stood out.
+28,Chili Chicken,Dessert,Maharashtra,but I think it could use a bit more spice.
+20,Baingan Bharta,Healthy,Delhi,The food was decent
+62,Dal Makhani,Seafood,Gujarat,and the taste did not disappoint.
+37,Manchurian,Street Food,Gujarat,I loved the combination of flavors; it was a delightful surprise.
+24,Chicken Vindaloo,Street Food,Tamil Nadu,but I expected more based on the reviews.
+10,Hakka Noodles,Healthy,Gujarat,The dish was well-prepared and the flavors were spot on!
+39,Tandoori Cauliflower,Vegan,Uttar Pradesh,making it a good value.
+67,Pani Puri,Spicy,Punjab,The service was excellent
+13,Ladoo,Vegan,Kerala,The meal had great potential but ultimately fell short.
+55,Spicy Szechuan Noodles,Street Food,Rajasthan,It was okay
+52,Vegetable Biryani,Indian Curry,Tamil Nadu,I found it to be too oily for my liking.
+39,Sev,Spicy,Maharashtra,I was surprised by how bland the dish turned out to be.
+30,Pav Bhaji,Cheesy,Rajasthan,and the taste did not disappoint.
+62,Cheese Samosa,Snacks,Uttar Pradesh,It was quite disappointing; I expected a lot more flavor.
+16,Kadai Paneer,Snacks,Karnataka,but I think it could use a bit more spice.
+47,Mutton Rogan Josh,Vegan,Gujarat,but I wouldn't order it again.
+33,Sev,Cheesy,West Bengal,It was okay
+29,Bombil Fry,Vegan,Tamil Nadu,The meal was satisfying
+60,Chana Masala,Spicy,Karnataka,The meal was satisfying
+59,Kheer,Dessert,Karnataka,making it a good value.
+21,Crab Masala,Vegan,Punjab,making it a good value.
+61,Momos,Chinese,Gujarat,I was surprised by how bland the dish turned out to be.
+61,Fish Curry,Vegan,West Bengal,I was surprised by how bland the dish turned out to be.
+52,Bhindi Masala,Vegan,Gujarat,I enjoyed it
+60,Cheese Samosa,Dessert,Karnataka,The meal was packed with flavor; I can't wait to have it again!
+18,Gulab Jamun,Snacks,Gujarat,I was not a fan of the seasoning; it felt a bit off.
+57,Vegan Pulao,Cheesy,Delhi,The consistency was a bit strange; not what I expected.
+42,Tandoori Cauliflower,Healthy,Kerala,The dish was average; I expected more based on the hype.
+38,Spicy Szechuan Noodles,Seafood,Tamil Nadu,The service was excellent
+38,Paneer Butter Masala,Healthy,Punjab,but I think it could use a bit more spice.
+50,Vegetable Biryani,Cheesy,Uttar Pradesh,but it missed the mark.
+46,Ghar Ka Khana,Snacks,Tamil Nadu,but the food was just average.
+38,Cheesy Veggie Wrap,Dessert,Punjab,The overall experience was pleasant
+49,Fish Fry,Indian Curry,Kerala,but the food was just average.
+32,Vegetable Soup,Cheesy,Uttar Pradesh,but I expected more based on the reviews.
+45,Chaat,Seafood,Punjab,The dish was average; I expected more based on the hype.
+16,Barfi,Spicy,Gujarat,The dish was well-prepared and the flavors were spot on!
+25,Prawn Biryani,Chinese,Kerala,but I wouldn't order it again.
+54,Kuchcha Aam Ki Barfi,Indian Curry,Punjab,making it a good value.
+42,Cheese Dosa,Chinese,Karnataka,It was okay
+64,Gulab Jamun,Snacks,Uttar Pradesh,but I wouldn't order it again.
+38,Bhel Puri,Spicy,Gujarat,I enjoyed the freshness of the ingredients; it made a difference.
+38,Gulab Jamun,Dessert,West Bengal,It was fine
+23,Paneer Tikka,Spicy,Karnataka,The consistency was a bit strange; not what I expected.
+28,Chicken Vindaloo,Indian Curry,Delhi,The aroma was inviting
+48,Spring Rolls,Street Food,Karnataka,a satisfying meal that I would recommend.
+58,Vegetable Biryani,Seafood,Kerala,but the seasoning could improve.
+51,Mutton Rogan Josh,Seafood,Gujarat,I found it to be too oily for my liking.
+70,Kuchcha Aam Ki Barfi,Healthy,Tamil Nadu,The aroma was inviting
+18,Prawn Masala,Seafood,Gujarat,and the taste did not disappoint.
+62,Cheese Dosa,Spicy,Karnataka,but it missed the mark.
+39,Rabri,Healthy,Delhi,I found it to be too oily for my liking.
+56,Vegetable Chow Mein,Healthy,Delhi,but I think it could use a bit more spice.
+34,Vada Pav,Cheesy,Delhi,but I feel there are better options available.
+24,Tandoori Chicken,Cheesy,Gujarat,The ingredients felt fresh
+25,Rabri,Dessert,Rajasthan,a satisfying meal that I would recommend.
+39,Masala Dosa,Seafood,Karnataka,I appreciated the effort put into the dish
+12,Spicy Prawn Curry,Dessert,Karnataka,a satisfying meal that I would recommend.
+20,Pani Puri,Spicy,Uttar Pradesh,The overall experience was pleasant
+56,Kung Pao Chicken,Street Food,Tamil Nadu,Overall
+68,Pakoras,Street Food,Punjab,It was quite disappointing; I expected a lot more flavor.
+31,Vegetable Biryani,Street Food,Kerala,The meal had great potential but ultimately fell short.
+48,Prawn Masala,Cheesy,Uttar Pradesh,I found the meal to be quite average; nothing particularly stood out.
+28,Spring Rolls,Vegan,Rajasthan,The portion size was generous
+35,Kheer,Spicy,Karnataka,The food was decent
+27,Prawn Biryani,Spicy,Punjab,I enjoyed the freshness of the ingredients; it made a difference.
+66,Prawn Masala,Seafood,Karnataka,and every bite was a joy!
+16,Chicken Curry,Indian Curry,Kerala,but I think it could use a bit more spice.
+15,Cheesy Garlic Bread,Indian Curry,Uttar Pradesh,and I appreciated the creativity behind it.
+24,Chili Chicken,Street Food,Delhi,I was not a fan of the seasoning; it felt a bit off.
+51,Tandoori Cauliflower,Spicy,Rajasthan,The meal was packed with flavor; I can't wait to have it again!
+25,Tikki,Dessert,Gujarat,a satisfying meal that I would recommend.
+63,Kachori,Chinese,Tamil Nadu,I enjoyed it
+19,Stuffed Bell Peppers,Street Food,Punjab,The ingredients felt fresh
+15,Aloo Gobi,Dessert,Punjab,I loved the combination of flavors; it was a delightful surprise.
+55,Mutton Rogan Josh,Spicy,Karnataka,and the taste lived up to expectations.
+58,Fish Curry,Cheesy,Kerala,The ingredients felt fresh
+63,Bombil Fry,Snacks,Karnataka,The food was decent
+58,Murukku,Vegan,Tamil Nadu,It was just alright; I wouldn't go out of my way to have it again.
+63,Ghar Ka Khana,Spicy,Maharashtra,The portion size was generous
+55,Chili Chicken,Healthy,Rajasthan,Absolutely loved the spices used; it was a delightful experience!
+64,Chaat,Seafood,Delhi,making it a memorable dish.
+44,Rasgulla,Snacks,Maharashtra,I enjoyed the freshness of the ingredients; it made a difference.
+58,Tandoori Chicken,Street Food,Punjab,The meal was packed with flavor; I can't wait to have it again!
+28,Peda,Seafood,Punjab,It was just alright; I wouldn't go out of my way to have it again.
+66,Cheese Stuffed Mushroom,Vegan,Maharashtra,but it missed the mark.
+30,Spring Rolls,Snacks,Uttar Pradesh,The texture was perfect
+52,Pani Puri,Cheesy,Gujarat,making it a memorable dish.
+66,Hakka Noodles,Snacks,West Bengal,The flavors were unique
+10,Vada Pav,Dessert,Delhi,I found the meal to be quite average; nothing particularly stood out.
+33,Samosa,Snacks,Delhi,I was left wanting more; it felt incomplete.
+12,Cheesy Pasta,Chinese,Punjab,The dish was average; I expected more based on the hype.
+33,Vegetable Biryani,Indian Curry,Tamil Nadu,I enjoyed it
+30,Barfi,Spicy,Delhi,The portion size was generous
+14,Sev,Healthy,Rajasthan,a satisfying meal that I would recommend.
+23,Dahi Puri,Cheesy,Delhi,I was thrilled with how flavorful it was; a real treat!
+55,Ladoo,Street Food,Karnataka,a satisfying meal that I would recommend.
+55,Methi Paratha,Vegan,Tamil Nadu,Overall
+25,Quinoa Pulao,Indian Curry,Delhi,The texture was perfect
+33,Fish Tikka,Seafood,Rajasthan,I enjoyed it
+15,Tandoori Cauliflower,Street Food,Delhi,The portion size was generous
+31,Cheesy Pasta,Seafood,West Bengal,I enjoyed the freshness of the ingredients; it made a difference.
+32,Crab Masala,Snacks,Kerala,The ingredients felt fresh
+38,Dhokla,Seafood,Delhi,and the taste lived up to expectations.
+47,Kachori,Spicy,Maharashtra,The service was excellent
+20,Sev Puri,Seafood,Uttar Pradesh,The meal was packed with flavor; I can't wait to have it again!
+66,Sprouted Moong Salad,Healthy,Tamil Nadu,but I feel there are better options available.
+48,Salad,Dessert,Punjab,The aroma was inviting
+48,Pani Puri,Cheesy,Karnataka,I was left wanting more; it felt incomplete.
+38,Kung Pao Chicken,Snacks,Tamil Nadu,but I feel there are better options available.
+19,Quinoa Pulao,Spicy,Delhi,making it a good value.
+40,Chana Masala,Dessert,Karnataka,I loved the combination of flavors; it was a delightful surprise.
+16,Tikki,Dessert,Punjab,and every bite was a joy!
+16,Fish Curry,Chinese,Uttar Pradesh,The dish was average; I expected more based on the hype.
+41,Stuffed Capsicum,Dessert,Delhi,It was fine
+30,Vegetable Soup,Seafood,Delhi,though not memorable.
+48,Pani Puri,Vegan,Kerala,making it a memorable dish.
+29,Butter Chicken,Healthy,Tamil Nadu,making it a good value.
+55,Kachori,Indian Curry,Punjab,Absolutely loved the spices used; it was a delightful experience!
+17,Quinoa Pulao,Chinese,Tamil Nadu,I enjoyed the freshness of the ingredients; it made a difference.
+18,Crab Masala,Chinese,Karnataka,I found the meal to be quite average; nothing particularly stood out.
+40,Gajar Halwa,Dessert,Uttar Pradesh,making it a good value.
+18,Tandoori Chicken,Cheesy,Uttar Pradesh,I was thrilled with how flavorful it was; a real treat!
+60,Chicken Curry,Indian Curry,Karnataka,but I think it could use a bit more spice.
+53,Spring Rolls,Chinese,Kerala,but the food was just average.
+19,Chili Chicken,Chinese,Rajasthan,It was fine
+43,Cheese Naan,Chinese,Punjab,but I expected more based on the reviews.
+27,Gulab Jamun,Healthy,Rajasthan,The dish was average; I expected more based on the hype.
+70,Kachori,Healthy,Karnataka,Absolutely loved the spices used; it was a delightful experience!
+68,Zucchini Noodles,Street Food,Rajasthan,The aroma was inviting
+58,Peda,Snacks,Kerala,Overall
+30,Bombil Fry,Snacks,Tamil Nadu,and the taste did not disappoint.
+16,Momos,Cheesy,Delhi,The dish was average; I expected more based on the hype.
+47,Kachori,Seafood,Karnataka,and the taste did not disappoint.
+28,Aloo Gobi,Snacks,Maharashtra,I was not a fan of the seasoning; it felt a bit off.
+20,Cheesy Garlic Bread,Dessert,Maharashtra,The presentation was impressive
+70,Pork Ribs,Snacks,Punjab,I found it to be too oily for my liking.
+34,Butter Chicken,Vegan,Uttar Pradesh,The portion size was generous
+40,Sev Puri,Healthy,Uttar Pradesh,Overall
+42,Barfi,Dessert,Kerala,but I think it could use a bit more spice.
+55,Manchurian,Street Food,Maharashtra,The dish was well-prepared and the flavors were spot on!
+40,Chaat,Cheesy,Delhi,I was surprised by how bland the dish turned out to be.
+54,Samosa,Cheesy,Uttar Pradesh,The food was decent
+62,Samosa,Indian Curry,Tamil Nadu,The meal was packed with flavor; I can't wait to have it again!
+54,Dahi Puri,Healthy,Kerala,but I feel there are better options available.
+15,Cheese Dosa,Seafood,West Bengal,It was quite disappointing; I expected a lot more flavor.
+41,Tandoori Fish,Chinese,Rajasthan,The food was decent
+51,Vegetable Chow Mein,Street Food,Maharashtra,but I think it could use a bit more spice.
+11,Chili Chicken,Vegan,Delhi,Absolutely loved the spices used; it was a delightful experience!
+25,Bhel Puri,Chinese,Karnataka,It was quite disappointing; I expected a lot more flavor.
+52,Salad,Dessert,Maharashtra,making it a good value.
+69,Vegetable Soup,Snacks,Gujarat,but the food was just average.
+12,Cheese Dosa,Seafood,Rajasthan,The service was excellent
+39,Cheesy Pasta,Seafood,West Bengal,I found the meal to be quite average; nothing particularly stood out.
+36,Stuffed Bell Peppers,Seafood,Kerala,making it a good value.
+38,Salad,Chinese,Uttar Pradesh,I was left wanting more; it felt incomplete.
+30,Sev,Vegan,Punjab,The meal had great potential but ultimately fell short.
+70,Murukku,Healthy,Uttar Pradesh,I was not a fan of the seasoning; it felt a bit off.
+15,Stuffed Bell Peppers,Spicy,Uttar Pradesh,making it a memorable dish.
+64,Sev,Dessert,Punjab,I appreciated the effort put into the dish
+42,Chicken Vindaloo,Cheesy,Kerala,I found the meal to be quite average; nothing particularly stood out.
+60,Chicken Curry,Vegan,Gujarat,I was left wanting more; it felt incomplete.
+14,Gajar Halwa,Seafood,Punjab,but I think it could use a bit more spice.
+12,Mutton Rogan Josh,Vegan,Uttar Pradesh,I loved the combination of flavors; it was a delightful surprise.
+63,Zucchini Noodles,Vegan,Rajasthan,I was surprised by how bland the dish turned out to be.
+65,Peda,Seafood,Gujarat,I enjoyed the freshness of the ingredients; it made a difference.
+10,Peda,Cheesy,Uttar Pradesh,I appreciated the effort put into the dish
+46,Oats Upma,Snacks,Kerala,I enjoyed it
+60,Methi Paratha,Cheesy,Uttar Pradesh,I enjoyed it
+39,Sweet and Sour Chicken,Snacks,Rajasthan,but the seasoning could improve.
+56,Pork Ribs,Seafood,Punjab,The presentation was impressive
+61,Rajma,Cheesy,Karnataka,but it missed the mark.
+52,Sev Puri,Spicy,Uttar Pradesh,The overall experience was pleasant
+52,Kheer,Indian Curry,Maharashtra,The food was decent
+35,Vegetable Biryani,Dessert,Maharashtra,The meal was packed with flavor; I can't wait to have it again!
+28,Cheese Dosa,Snacks,Maharashtra,and every bite was a joy!
+28,Bhindi Masala,Vegan,Maharashtra,I appreciated the effort put into the dish
+66,Vegetable Chow Mein,Snacks,Punjab,I appreciated the effort put into the dish
+32,Methi Paratha,Seafood,Karnataka,though not memorable.
+61,Fried Rice,Seafood,Gujarat,I was surprised by how bland the dish turned out to be.
+56,Ghar Ka Khana,Seafood,Punjab,The dish was average; I expected more based on the hype.
+52,Aloo Tikki,Cheesy,West Bengal,Absolutely loved the spices used; it was a delightful experience!
+30,Gulab Jamun,Chinese,Delhi,The portion size was generous
+53,Spicy Szechuan Noodles,Seafood,Delhi,The texture was perfect
+57,Kachori,Spicy,Uttar Pradesh,Overall
+14,Murukku,Street Food,Kerala,The service was excellent
+35,Fish Curry,Indian Curry,Tamil Nadu,The flavors were unique
+36,Dal Tadka,Dessert,Delhi,The texture was perfect
+16,Vegetable Biryani,Street Food,Punjab,The aroma was inviting
+25,Sweet and Sour Chicken,Street Food,Tamil Nadu,It was quite disappointing; I expected a lot more flavor.
+68,Aloo Tikki Chaat,Spicy,Rajasthan,The aroma was inviting
+64,Samosa,Healthy,Uttar Pradesh,The meal was satisfying
+41,Jalebi,Spicy,Punjab,a satisfying meal that I would recommend.
+12,Gulab Jamun,Seafood,Uttar Pradesh,and every bite was a joy!
+41,Stuffed Bell Peppers,Chinese,Maharashtra,The dish was well-prepared and the flavors were spot on!
+43,Stuffed Bell Peppers,Cheesy,Karnataka,and the taste lived up to expectations.
+25,Vegetable Chow Mein,Indian Curry,Kerala,though not memorable.
+19,Sweet and Sour Chicken,Spicy,Kerala,making it a good value.
+19,Prawn Biryani,Vegan,Punjab,and every bite was a joy!
+29,Dhokla,Indian Curry,Kerala,and the taste did not disappoint.
+43,Murukku,Spicy,Uttar Pradesh,The flavors were unique
+40,Fish Curry,Vegan,Uttar Pradesh,but I feel there are better options available.
+22,Hakka Noodles,Snacks,Rajasthan,The meal was packed with flavor; I can't wait to have it again!
+42,Prawn Biryani,Vegan,Punjab,I was surprised by how bland the dish turned out to be.
+13,Tandoori Cauliflower,Indian Curry,Kerala,but the seasoning could improve.
+14,Mac and Cheese,Spicy,Maharashtra,but I feel there are better options available.
+16,Pork Ribs,Cheesy,Rajasthan,The food was decent
+10,Palak Paneer,Dessert,Kerala,but the food was just average.
+60,Tikki,Seafood,Gujarat,though not memorable.
+59,Momos,Cheesy,West Bengal,The flavors were unique
+59,Tandoori Cauliflower,Spicy,Karnataka,I loved the combination of flavors; it was a delightful surprise.
+45,Ghar Ka Khana,Street Food,Karnataka,The meal was packed with flavor; I can't wait to have it again!
+11,Samosa,Dessert,Tamil Nadu,The consistency was a bit strange; not what I expected.
+53,Vegetable Chow Mein,Indian Curry,West Bengal,making it a memorable dish.
+56,Rajma,Vegan,Tamil Nadu,The portion size was generous
+30,Sev Puri,Chinese,Delhi,but the seasoning could improve.
+63,Malabar Fish Curry,Snacks,Uttar Pradesh,The ingredients felt fresh
+50,Kung Pao Chicken,Spicy,Uttar Pradesh,and the taste did not disappoint.
+35,Spring Rolls,Street Food,Rajasthan,and the taste lived up to expectations.
+19,Vegan Pulao,Spicy,Gujarat,The food was decent
+53,Spring Rolls,Dessert,West Bengal,The service was excellent
+17,Pakoras,Healthy,Maharashtra,but the food was just average.
+45,Murukku,Snacks,Maharashtra,I was thrilled with how flavorful it was; a real treat!
+60,Gulab Jamun,Vegan,Rajasthan,The service was excellent
+55,Sweet and Sour Chicken,Dessert,Delhi,It was okay
+41,Hot and Sour Soup,Seafood,Kerala,The meal was satisfying
+58,Stuffed Capsicum,Indian Curry,Kerala,but it missed the mark.
+34,Paneer Tikka Masala,Healthy,Karnataka,The meal had great potential but ultimately fell short.
+13,Aloo Tikki Chaat,Healthy,Tamil Nadu,making it a good value.
+44,Kachori,Spicy,Rajasthan,though not memorable.
+59,Spring Rolls,Vegan,Delhi,I found the meal to be quite average; nothing particularly stood out.
+51,Spicy Szechuan Noodles,Seafood,Kerala,I appreciated the effort put into the dish
+46,Tandoori Chicken,Dessert,Delhi,I appreciated the effort put into the dish
+41,Oats Upma,Vegan,Kerala,but I feel there are better options available.
+22,Murukku,Snacks,Kerala,and the taste did not disappoint.
+24,Chaat,Snacks,West Bengal,I loved the combination of flavors; it was a delightful surprise.
+42,Tandoori Fish,Dessert,Karnataka,The dish was well-prepared and the flavors were spot on!
+64,Bhindi Masala,Dessert,Uttar Pradesh,but I expected more based on the reviews.
+14,Pakoras,Healthy,Rajasthan,but I expected more based on the reviews.
+70,Aloo Tikki,Street Food,Rajasthan,I found it to be too oily for my liking.
+10,Bombil Fry,Dessert,Uttar Pradesh,a satisfying meal that I would recommend.
+20,Rajma Chawal,Cheesy,Punjab,The service was excellent
+61,Vegetable Biryani,Cheesy,Tamil Nadu,making it a good value.
+15,Fish Curry,Seafood,Maharashtra,I was left wanting more; it felt incomplete.
+58,Cheesy Garlic Bread,Street Food,Uttar Pradesh,though not memorable.
+57,Sev,Cheesy,Kerala,It was okay
+51,Bombil Fry,Healthy,Delhi,The meal was packed with flavor; I can't wait to have it again!
+61,Vegetable Biryani,Cheesy,Punjab,The consistency was a bit strange; not what I expected.
+38,Fish Curry,Healthy,Kerala,I found it to be too oily for my liking.
+18,Samosa,Vegan,West Bengal,a satisfying meal that I would recommend.
+18,Tandoori Fish,Spicy,Delhi,I loved the combination of flavors; it was a delightful surprise.
+53,Vegan Pulao,Dessert,Maharashtra,The food was decent
+18,Kachori,Cheesy,Gujarat,The aroma was inviting
+65,Kadai Paneer,Cheesy,West Bengal,The aroma was inviting
+28,Butter Chicken,Indian Curry,West Bengal,The service was excellent
+10,Paneer Butter Masala,Spicy,Tamil Nadu,making it a memorable dish.
+27,Prawn Masala,Street Food,Karnataka,I was left wanting more; it felt incomplete.
+32,Spicy Prawn Curry,Vegan,Delhi,I enjoyed the freshness of the ingredients; it made a difference.
+25,Mac and Cheese,Snacks,West Bengal,The dish was well-prepared and the flavors were spot on!
+42,Vada Pav,Snacks,Maharashtra,The overall experience was pleasant
+48,Samosa,Snacks,Uttar Pradesh,but I feel there are better options available.
+35,Gulab Jamun,Dessert,Maharashtra,I found the meal to be quite average; nothing particularly stood out.
+12,Cheese Samosa,Healthy,Tamil Nadu,The meal had great potential but ultimately fell short.
+36,Pani Puri,Dessert,Maharashtra,Overall
+11,Cheese Naan,Seafood,West Bengal,but I feel there are better options available.
+14,Palak Chaat,Cheesy,Uttar Pradesh,I was not a fan of the seasoning; it felt a bit off.
+10,Momos,Healthy,West Bengal,but I expected more based on the reviews.
+54,Kachori,Snacks,Uttar Pradesh,but the food was just average.
+35,Cheesy Pasta,Spicy,Kerala,The service was excellent
+70,Stuffed Capsicum,Healthy,Rajasthan,but it missed the mark.
+41,Grilled Paneer,Vegan,Tamil Nadu,I loved the combination of flavors; it was a delightful surprise.
+27,Kung Pao Chicken,Street Food,Punjab,I found it to be too oily for my liking.
+63,Crab Masala,Street Food,Uttar Pradesh,The portion size was generous
+38,Hakka Noodles,Spicy,West Bengal,I found it to be too oily for my liking.
+21,Ladoo,Cheesy,Gujarat,The consistency was a bit strange; not what I expected.
+12,Vegetable Biryani,Spicy,Uttar Pradesh,The service was excellent
+24,Pani Puri,Street Food,Kerala,I found the meal to be quite average; nothing particularly stood out.
+49,Samosa,Chinese,Tamil Nadu,I enjoyed the freshness of the ingredients; it made a difference.
+16,Kuchcha Aam Ki Barfi,Snacks,Punjab,The meal was satisfying
+15,Rajma Chawal,Spicy,Tamil Nadu,The aroma was inviting
+55,Chicken Vindaloo,Spicy,Rajasthan,though not memorable.
+47,Ladoo,Cheesy,Tamil Nadu,though not memorable.
+13,Palak Chaat,Seafood,Tamil Nadu,It was quite disappointing; I expected a lot more flavor.
+63,Cheese Naan,Dessert,Rajasthan,I was not a fan of the seasoning; it felt a bit off.
+67,Kadai Paneer,Snacks,Uttar Pradesh,The aroma was inviting
+20,Chana Masala,Dessert,Maharashtra,and every bite was a joy!
+19,Mixed Vegetable Stir Fry,Seafood,Uttar Pradesh,Absolutely loved the spices used; it was a delightful experience!
+53,Fish Fry,Snacks,West Bengal,but I wouldn't order it again.
+64,Vegan Pulao,Seafood,Karnataka,and the taste lived up to expectations.
+46,Murukku,Healthy,Delhi,I was thrilled with how flavorful it was; a real treat!
+35,Spicy Szechuan Noodles,Seafood,Gujarat,and the taste did not disappoint.
+26,Bombil Fry,Seafood,West Bengal,The meal was satisfying
+36,Fish Tikka,Cheesy,Delhi,I was surprised by how bland the dish turned out to be.
+62,Chaat,Cheesy,Tamil Nadu,and the taste lived up to expectations.
+10,Mixed Vegetable Stir Fry,Healthy,Gujarat,The portion size was generous
+39,Vegetable Soup,Cheesy,Maharashtra,and the taste lived up to expectations.
+44,Rabri,Indian Curry,Karnataka,The meal was packed with flavor; I can't wait to have it again!
+26,Sweet and Sour Chicken,Indian Curry,Kerala,The food was decent
+61,Sev,Cheesy,Kerala,I enjoyed it
+38,Pani Puri,Chinese,West Bengal,The aroma was inviting
+58,Tikki,Street Food,Maharashtra,The food was decent
+13,Tandoori Chicken,Indian Curry,Gujarat,I appreciated the effort put into the dish
+54,Rasgulla,Indian Curry,Delhi,I found it to be too oily for my liking.
+33,Crab Masala,Seafood,Karnataka,The ingredients felt fresh
+38,Aloo Tikki Chaat,Chinese,Gujarat,but I expected more based on the reviews.
+56,Pani Puri,Healthy,West Bengal,The texture was perfect
+58,Momos,Street Food,West Bengal,The overall experience was pleasant
+26,Stuffed Bell Peppers,Seafood,Delhi,I was left wanting more; it felt incomplete.
+31,Sev Puri,Spicy,Kerala,I was surprised by how bland the dish turned out to be.
+22,Pani Puri,Indian Curry,Punjab,The dish was average; I expected more based on the hype.
+43,Paneer Tikka,Cheesy,Uttar Pradesh,Overall
+36,Cheese Dosa,Healthy,Maharashtra,The meal had great potential but ultimately fell short.
+63,Tikki,Cheesy,Punjab,making it a good value.
+13,Gajar Halwa,Vegan,Delhi,I loved the combination of flavors; it was a delightful surprise.
+30,Fried Rice,Spicy,Gujarat,but the seasoning could improve.
+67,Paneer Tikka Masala,Vegan,Karnataka,The presentation was impressive
+35,Malabar Fish Curry,Street Food,Punjab,The aroma was inviting
+20,Pav Bhaji,Spicy,Uttar Pradesh,and the taste lived up to expectations.
+67,Rasgulla,Chinese,Maharashtra,I was left wanting more; it felt incomplete.
+55,Dim Sum,Dessert,Maharashtra,The meal was satisfying
+24,Butter Chicken,Spicy,Punjab,but the seasoning could improve.
+60,Chicken Vindaloo,Snacks,Kerala,I was not a fan of the seasoning; it felt a bit off.
+67,Pani Puri,Seafood,Delhi,I loved the combination of flavors; it was a delightful surprise.
+35,Salad,Indian Curry,Delhi,The service was excellent
+53,Dal Tadka,Chinese,West Bengal,I found the meal to be quite average; nothing particularly stood out.
+20,Fried Rice,Spicy,Gujarat,The presentation was impressive
+55,Salad,Dessert,Gujarat,though not memorable.
+28,Chicken Curry,Indian Curry,West Bengal,The food was decent
+44,Chana Masala,Healthy,Rajasthan,but I feel there are better options available.
+47,Barfi,Chinese,Maharashtra,The presentation was impressive
+20,Sweet and Sour Chicken,Snacks,Rajasthan,I enjoyed the freshness of the ingredients; it made a difference.
+46,Chicken Curry,Cheesy,Punjab,The meal was satisfying
+16,Cheesy Veggie Wrap,Dessert,Uttar Pradesh,I loved the combination of flavors; it was a delightful surprise.
+45,Tandoori Chicken,Seafood,Karnataka,The meal was satisfying
+66,Quinoa Pulao,Street Food,Kerala,and the taste lived up to expectations.
+33,Mixed Vegetable Stir Fry,Cheesy,West Bengal,The texture was perfect
+45,Pav Bhaji,Chinese,Punjab,The texture was perfect
+24,Samosa,Indian Curry,Maharashtra,but the seasoning could improve.
+20,Vegetable Soup,Street Food,Tamil Nadu,The overall experience was pleasant
+20,Bombil Fry,Seafood,Tamil Nadu,but the food was just average.
+39,Chaat,Cheesy,Rajasthan,a satisfying meal that I would recommend.
+11,Paneer Tikka,Vegan,Gujarat,I enjoyed it
+41,Chaat,Seafood,Gujarat,but the food was just average.
+16,Kheer,Seafood,Tamil Nadu,but I think it could use a bit more spice.
+28,Fried Rice,Indian Curry,Kerala,It was okay
+32,Spring Rolls,Healthy,Maharashtra,The flavors were unique
+13,Bhindi Masala,Spicy,Uttar Pradesh,The meal was satisfying
+57,Samosa,Indian Curry,Delhi,I enjoyed it
+56,Prawn Masala,Cheesy,Punjab,I was thrilled with how flavorful it was; a real treat!
+25,Ladoo,Street Food,Kerala,The meal had great potential but ultimately fell short.
+68,Prawn Biryani,Dessert,Gujarat,making it a memorable dish.
+43,Murukku,Indian Curry,Punjab,The ingredients felt fresh
+50,Bombil Fry,Snacks,Uttar Pradesh,but it missed the mark.
+54,Paneer Tikka Masala,Seafood,Punjab,The dish was average; I expected more based on the hype.
+55,Murukku,Indian Curry,Karnataka,The meal was satisfying
+48,Aloo Gobi,Chinese,Uttar Pradesh,I loved the combination of flavors; it was a delightful surprise.
+17,Rabri,Snacks,Maharashtra,The food was decent
+47,Butter Chicken,Dessert,Tamil Nadu,I enjoyed the freshness of the ingredients; it made a difference.
+47,Hakka Noodles,Street Food,Delhi,I was not a fan of the seasoning; it felt a bit off.
+16,Quinoa Pulao,Healthy,Kerala,and every bite was a joy!
+60,Butter Chicken,Vegan,Tamil Nadu,The consistency was a bit strange; not what I expected.
+29,Cheesy Garlic Bread,Spicy,Rajasthan,The texture was perfect
+66,Paneer Tikka Masala,Dessert,Gujarat,I found it to be too oily for my liking.
+43,Dahi Puri,Spicy,Maharashtra,The overall experience was pleasant
+60,Pav Bhaji,Chinese,Kerala,The meal had great potential but ultimately fell short.
+35,Ghar Ka Khana,Seafood,West Bengal,The overall experience was pleasant
+46,Pani Puri,Seafood,West Bengal,The ingredients felt fresh
+66,Gulab Jamun,Spicy,Punjab,The portion size was generous
+20,Vada Pav,Cheesy,Uttar Pradesh,though not memorable.
+50,Rabri,Vegan,Uttar Pradesh,though not memorable.
+32,Peda,Dessert,Rajasthan,The meal had great potential but ultimately fell short.
+26,Tandoori Fish,Seafood,Rajasthan,I enjoyed the freshness of the ingredients; it made a difference.
+61,Cheesy Garlic Bread,Healthy,Delhi,The aroma was inviting
+55,Bhindi Masala,Spicy,Maharashtra,but the food was just average.
+56,Murukku,Dessert,Karnataka,but I think it could use a bit more spice.
+70,Hot and Sour Soup,Spicy,Delhi,The meal was satisfying
+12,Chili Chicken,Dessert,Tamil Nadu,I was surprised by how bland the dish turned out to be.
+15,Jalebi,Vegan,Delhi,but I wouldn't order it again.
+65,Cheese Naan,Vegan,Punjab,I appreciated the effort put into the dish
+34,Gulab Jamun,Chinese,Uttar Pradesh,but it missed the mark.
+36,Dal Makhani,Seafood,Karnataka,though not memorable.
+31,Hot and Sour Soup,Healthy,Gujarat,but it missed the mark.
+36,Bhindi Masala,Spicy,Maharashtra,but I feel there are better options available.
+42,Prawn Biryani,Chinese,West Bengal,I appreciated the effort put into the dish
+65,Tandoori Cauliflower,Healthy,West Bengal,The service was excellent
+55,Hakka Noodles,Snacks,Maharashtra,and the taste did not disappoint.
+45,Quinoa Pulao,Seafood,Gujarat,The dish was average; I expected more based on the hype.
+10,Fried Rice,Dessert,Delhi,though not memorable.
+58,Cheesy Veggie Wrap,Cheesy,West Bengal,The meal was packed with flavor; I can't wait to have it again!
+37,Dal Tadka,Vegan,West Bengal,making it a memorable dish.
+26,Hot and Sour Soup,Chinese,Punjab,Absolutely loved the spices used; it was a delightful experience!
+31,Palak Chaat,Healthy,Punjab,The consistency was a bit strange; not what I expected.
+58,Chicken Vindaloo,Chinese,West Bengal,Overall
+18,Peda,Chinese,Kerala,I found it to be too oily for my liking.
+42,Salad,Vegan,Tamil Nadu,It was quite disappointing; I expected a lot more flavor.
+37,Fish Tikka,Street Food,Karnataka,The dish was well-prepared and the flavors were spot on!
+20,Chili Chicken,Vegan,Gujarat,I was surprised by how bland the dish turned out to be.
+21,Chana Masala,Healthy,Gujarat,I was surprised by how bland the dish turned out to be.
