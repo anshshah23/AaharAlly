@@ -64,7 +64,7 @@ const Dropdown: React.FC<DropdownProps> = ({
 
 const Filters: React.FC = () => {
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false); // Control modal state
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [categoryItems, setCategoryItems] = useState<DropdownItem[]>([
     { label: "Vegan", selected: false },
     { label: "Dessert", selected: false },

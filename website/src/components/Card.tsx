@@ -14,6 +14,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import axios from "axios";
 import { Food } from "@/types";
 import Loading from "./loading";
+import { useUser } from "@clerk/nextjs";
 
 export function BookingCard() {
   const [liked, setLiked] = useState(false);
@@ -21,6 +22,7 @@ export function BookingCard() {
   const handleClick = (id: string) => {
     router.push(`/item-details/${id}`);
   };
+  const { user } = useUser();
 
   const searchParams = useSearchParams();
   const [loading, setLoading] = useState(false);
@@ -40,6 +42,11 @@ export function BookingCard() {
     };
     fetchFood();
   }, []);
+
+  useEffect(() => {
+    const email = user?.primaryEmailAddress?.emailAddress;
+    console.log(email);
+  }, [user]);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -63,6 +70,7 @@ export function BookingCard() {
             categories: categoriesArray.join(","),
             regions: regionsArray.join(","),
             meal_type: mealTypeParam,
+            age: user?.unsafeMetadata.age,
           },
           signal,
         });
@@ -88,7 +96,7 @@ export function BookingCard() {
 
     // Cleanup function to cancel the previous request if searchParams change
     return () => controller.abort();
-  }, [searchParams]);
+  }, [searchParams, user?.unsafeMetadata.age]);
 
   return (
     <div className="flex flex-wrap justify-center gap-8">
@@ -98,7 +106,7 @@ export function BookingCard() {
           <Card
             key={_id}
             onClick={() => handleClick(item._id)}
-            className="w-full max-w-[26rem] shadow-lg sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] cursor-pointer"
+            className="group w-full max-w-[26rem] shadow-lg sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] cursor-pointer hover:scale-105 hover:shadow-blue-gray-300 hover:shadow-lg transition-transform duration-300 ease-in-out"
             placeholder={"Cards"}
           >
             <CardHeader
@@ -119,7 +127,7 @@ export function BookingCard() {
               <Image
                 src={item.image}
                 alt={item.name}
-                className="object-cover"
+                className="object-cover group-hover:scale-110 group-hover:shadow-xl transition-transform duration-300 ease-in-out"
                 loading="lazy"
                 width={500}
                 height={500}
