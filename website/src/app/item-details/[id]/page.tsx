@@ -57,7 +57,7 @@ const TacoCard = ({ params }: { params: { id: string } }) => {
               alt={itemDetails.name}
               width={400}
               height={400}
-              className="rounded-xl w-full h-[75vh] object-cover shadow-lg shadow-gray-600 "
+              className="rounded-xl w-full h-[75vh] object-cover shadow-lg shadow-gray-600 hover:scale-105 transition duration-500 ease-in-out hover:shadow-xl hover:shadow-gray-800"
             />
             <button className="absolute top-2 right-2 text-2xl text-red-500 focus:outline-none">
               ❤️
@@ -122,10 +122,10 @@ const TacoCard = ({ params }: { params: { id: string } }) => {
             </div>
 
             <div className="flex justify-between items-center mt-5">
-              <button className="bg-orangeCustom text-white p-2 rounded-lg shadow-lg shadow-orangeCustom hover:bg-deep-orange-600 transition duration-300">
+              <button className="bg-orangeCustom text-white p-2 rounded-lg shadow-lg shadow-orangeCustom hover:bg-deep-orange-600 hover:shadow-deep-orange-700 transition duration-500">
                 Add to Cart
               </button>
-              <button className="bg-greenCustom text-white p-2 rounded-lg shadow-lg shadow-greenCustom hover:bg-light-green-600 transition duration-300">
+              <button className="bg-greenCustom text-white p-2 rounded-lg shadow-lg shadow-greenCustom hover:bg-light-green-700 hover:shadow-light-green-700 transition duration-500">
                 View Recipe
               </button>
             </div>
