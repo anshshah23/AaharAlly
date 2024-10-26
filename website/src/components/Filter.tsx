@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { FaAngleDown, FaCheck } from "react-icons/fa";
 import { GrPowerReset } from "react-icons/gr";
 import { useRouter, useSearchParams } from "next/navigation";
+import AgeModal from "./AgeModal"; // Import AgeModal component
 
 interface DropdownItem {
   label: string;
@@ -46,8 +47,9 @@ const Dropdown: React.FC<DropdownProps> = ({
             <li key={index}>
               <button
                 onClick={() => onToggle(index)}
-                className={`flex justify-between w-full px-4 py-2 text-left gap-2 hover:bg-gray-200 ${item.selected ? "bg-green-50 text-green-500" : ""
-                  }`}
+                className={`flex justify-between w-full px-4 py-2 text-left gap-2 hover:bg-gray-200 ${
+                  item.selected ? "bg-green-50 text-green-500" : ""
+                }`}
               >
                 {item.label}
                 {item.selected && <FaCheck className="text-green-400" />}
@@ -62,6 +64,7 @@ const Dropdown: React.FC<DropdownProps> = ({
 
 const Filters: React.FC = () => {
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false); // Control modal state
   const [categoryItems, setCategoryItems] = useState<DropdownItem[]>([
     { label: "Vegan", selected: false },
     { label: "Dessert", selected: false },
@@ -101,7 +104,6 @@ const Filters: React.FC = () => {
       .map((item) => item.label)
       .join(",");
 
-    // Create a URLSearchParams instance with current search params
     const params = new URLSearchParams(window.location.search);
     if (selectedCategories) {
       params.set("category", selectedCategories);
@@ -118,7 +120,6 @@ const Filters: React.FC = () => {
   }, [categoryItems, regionItems, router]);
 
   useEffect(() => {
-    // Set initial selected items based on URL params
     const categoryParam = searchParams.get("category");
     const regionParam = searchParams.get("region");
 
@@ -160,12 +161,15 @@ const Filters: React.FC = () => {
     setRegionItems(regionItems.map((item) => ({ ...item, selected: false })));
     setOpenDropdown(null);
 
-    // Reset URL without category and region, preserving other params
     const params = new URLSearchParams(window.location.search);
     params.delete("category");
     params.delete("region");
 
     router.push(`?${params.toString()}`, undefined, { shallow: true });
+  };
+
+  const handleOpenModal = () => {
+    setIsModalOpen(true);
   };
 
   return (
@@ -196,7 +200,14 @@ const Filters: React.FC = () => {
           <GrPowerReset className="md:hidden" />
           <span className="hidden md:inline">Reset</span>
         </button>
+        <button
+          onClick={handleOpenModal}
+          className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition ml-2"
+        >
+          Extras
+        </button>
       </div>
+      <AgeModal isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
     </div>
   );
 };
