@@ -6,7 +6,7 @@ export function BannerCarousel() {
   return (
     <Carousel
       placeholder={"HomeCarousel"}
-      className="rounded-3xl h-[35vh]"
+      className="rounded-3xl h-[40vh]"
       autoplay={true}
       loop={true}
       navigation={({ setActiveIndex, activeIndex, length }) => (
@@ -21,21 +21,21 @@ export function BannerCarousel() {
       )} 
       >
       <Image
-        src={"https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"}
+        src={"/images/food1.svg"}
         alt="image 1"
         className="h-full w-full object-cover"
         width={500}
         height={500}
       />
       <Image
-        src={"https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"}
+        src={"/images/food2.svg"}
         alt="image 2"
         className="h-full w-full object-cover"
         width={500}
         height={500}
       />
       <Image
-        src={"https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"}
+        src={"/images/food3.svg"}
         alt="image 3"
         className="h-full w-full object-cover"
         width={500}
