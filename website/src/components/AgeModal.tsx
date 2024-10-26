@@ -1,19 +1,23 @@
 "use client";
-import { useState } from "react";
-
+import { useUser } from "@clerk/nextjs";
+import { useEffect, useState } from "react";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 interface AgeModalProps {
   isModalOpen: boolean;
   setIsModalOpen: (open: boolean) => void;
 }
 
+const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GENAI!);
 const AgeModal: React.FC<AgeModalProps> = ({ isModalOpen, setIsModalOpen }) => {
   const [age, setAge] = useState("");
+  const { user } = useUser();
   const [selectedDisease, setSelectedDisease] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const diseases = [
     { label: "Diabetes", value: "Diabetes" },
     { label: "Hypoglycemia", value: "Hypoglycemia" },
-    { label: "Gastroparesis", value: "Gastroparesis" }, 
+    { label: "Gastroparesis", value: "Gastroparesis" },
     { label: "IBS", value: "IBS" },
     { label: "Peptic Ulcer", value: "Peptic Ulcer" },
     { label: "Hyperthyroidism", value: "Hyperthyroidism" },
@@ -22,19 +26,41 @@ const AgeModal: React.FC<AgeModalProps> = ({ isModalOpen, setIsModalOpen }) => {
     { label: "Addison's Disease", value: "Addison's Disease" },
   ];
 
-  const handleAgeSubmit = () => {
-    if (age) {
-      console.log(`User's age: ${age}`);
+  useEffect(() => {
+    const age = user?.unsafeMetadata.age;
+    console.log("age:", age);
+  }, [user]);
+
+  async function call(disease: string) {
+    setLoading(true);
+    const model = genAI.getGenerativeModel({
+      model: "gemini-1.5-flash",
+    });
+    const prompt = `I have ${disease}. Suggest me only 20 best food items from this food item array: [\n  "Tofu Scramble",\n  "Vegan Burger",\n  "Falafel",\n  "Vegan Sushi",\n  "Vegan Pizza",\n  "Vegan Chili",\n  "Vegan Pasta",\n  "Vegan Salad",\n  "Vegan Smoothie",\n  "Vegan Ice Cream",\n  "Jackfruit Tacos",\n  "Vegan Curry",\n  "Vegan Ramen",\n  "Vegan Stir-Fry",\n  "Vegan Quesadillas",\n  "Vegan Nachos",\n  "Vegan Pancakes",\n  "Vegan Waffles",\n  "Vegan Shepherd's Pie",\n  "Vegan Lasagna",\n  "Chocolate Chip Cookies",\n  "Cheesecake",\n  "Brownie",\n  "Ice Cream Sundae",\n  "Apple Pie",\n  "Tiramisu",\n  "Fruit Tart",\n  "Crème brûlée",\n  "Pancakes",\n  "Waffles",\n  "Donut",\n  "Cupcake",\n  "Mousse",\n  "Flan",\n  "Pie",\n  "Pudding",\n  "Ice Cream",\n  "Sorbet",\n  "Cake",\n  "Macarons",\n  "Tacos",\n  "Hot Dogs",\n  "Pizza by the Slice",\n  "Falafel",\n  "Empanadas",\n  "Chicken and Waffles",\n  "Ice Cream",\n  "Fried Chicken",\n  "Sushi",\n  "Popcorn",\n  "Pretzels",\n  "Waffles",\n  "Grilled Cheese",\n  "Poutine",\n  "Spring Rolls",\n  "Arepas",\n  "Crepes",\n  "Shawarma",\n  "Chicken Skewers",\n  "Fruit Smoothies",\n  "Spicy Kimchi Fried Rice",\n  "Buffalo Wings",\n  "Spicy Sichuan Noodles",\n  "Jalapeño Popper Pizza",\n  "Spicy Tuna Roll",\n  "Jerk Chicken",\n  "Spicy Thai Curry",\n  "Nashville Hot Chicken Sandwich",\n  "Spicy Shrimp Tacos",\n  "Sriracha Mayo Fries",\n  "Sambal Fried Rice",\n  "Ghost Pepper Wings",\n  "Spicy Korean BBQ",\n  "Spicy Arrabiata Pasta",\n  "Spicy Beef & Broccoli",\n  "Chilli Con Carne",\n  "Spicy Tuna Poke Bowl",\n  "Spicy Chorizo Quesadilla",\n  "Spicy Shrimp Pad Thai",\n  "Spicy Black Bean Burgers",\n  "Mac and Cheese",\n  "Cheese Pizza",\n  "Grilled Cheese Sandwich",\n  "Cheese Quesadilla",\n  "Cheesy Fries",\n  "Cheese Fondue",\n  "Cheese Curds",\n  "Cheesy Bread",\n  "Cheese and Broccoli Soup",\n  "Cheesecake",\n  "Mozzarella Sticks",\n  "Cheesy Potatoes",\n  "Macaroni and Cheese Bites",\n  "Cheese Ravioli",\n  "Cheese Tortellini",\n  "Cheese Stuffed Peppers",\n  "Cheese Ball",\n  "Cheese and Sausage Pizza",\n  "Cheesy Chicken Alfredo",\n  "Nachos",\n  "Kung Pao Chicken",\n  "Mapo Tofu",\n  "Chow Mein",\n  "Egg Rolls",\n  "Sweet and Sour Pork",\n  "General Tso's Chicken",\n  "Fried Rice",\n  "Wonton Soup",\n  "Peking Duck",\n  "Dim Sum",\n  "Spring Rolls",\n  "Moo Shu Pork",\n  "Sesame Chicken",\n  "Beef and Broccoli",\n  "Dan Dan Noodles",\n  "Hot and Sour Soup",\n  "Szechuan Green Beans",\n  "Steamed Fish",\n  "Lo Mein",\n  "Pot Stickers",\n  "Butter Chicken",\n  "Chicken Tikka Masala",\n  "Saag Paneer",\n  "Aloo Gobi",\n  "Chana Masala",\n  "Vindaloo",\n  "Malai Kofta",\n  " Rogan Josh",\n  "Biryani",\n  "Palak Paneer",\n  "Tandoori Chicken",\n  "Daal Makhani",\n  "Kadai Paneer",\n  "Chicken Curry",\n  "Fish Curry",\n  "Lamb Curry",\n  "Matar Paneer",\n  "Baingan Bharta",\n  "Chicken Tikka",\n  "Vegetable Curry",\n  "Potato Chips",\n  "Popcorn",\n  "Trail Mix",\n  "Fruit Snacks",\n  "Pretzels",\n  "Chocolate Bar",\n  "Yogurt",\n  "Crackers",\n  "Fruit",\n  "Energy Bars",\n  "Rice Cakes",\n  "Beef Jerky",\n  "Cheese",\n  "Nuts",\n  "Hummus",\n  "Hard-Boiled Eggs",\n  "Frozen Yogurt",\n  "Smoothie",\n  "Granola Bars",\n  "Candy",\n  "Salmon",\n  "Tuna",\n  "Shrimp",\n  "Crab",\n  "Lobster",\n  "Scallops",\n  "Oysters",\n  "Mussels",\n  "Clams",\n  "Cod",\n  "Haddock",\n  "Halibut",\n  "Swordfish",\n  "Mahi-Mahi",\n  "Snapper",\n  "Grouper",\n  "Octopus",\n  "Squid",\n  "Clam Chowder",\n  "Sushi",\n  "Avocado",\n  "Salmon",\n  "Broccoli",\n  "Quinoa",\n  "Blueberries",\n  "Sweet Potatoes",\n  "Spinach",\n  "Chickpeas",\n  "Almonds",\n  "Brown Rice",\n  "Lentils",\n  "Edamame",\n  "Greek Yogurt",\n  "Apples",\n  "Eggs",\n  "Oats",\n  "Tomatoes",\n  "Kale",\n  "Bananas",\n  "Tofu\"\n]   which will be good for me also make sure to give me proper json containing list of items from this and not other things in output\n`;
+    try {
+      const result = await model.generateContent(prompt);
+      const responseText = result.response.text();
+      const jsonMatch = responseText.match(/(\[.*?\])/s);
+
+      if (jsonMatch && jsonMatch[1]) {
+        const jsonResponse = JSON.parse(jsonMatch[1]);
+        console.log(JSON.stringify(jsonResponse, null, 2));
+      } else {
+        console.error("No valid JSON found in the response.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  const handleDiseaseSubmit = async () => {
+    if (selectedDisease) {
+      await call(selectedDisease);
       setIsModalOpen(false);
     }
   };
-
-  const handleDiseaseSubmit = () => {
-    if (selectedDisease) {
-      console.log(`User's Disease: ${selectedDisease}`);
-      setIsModalOpen(false);
-    }
-  }
 
   return (
     <>
@@ -43,7 +69,10 @@ const AgeModal: React.FC<AgeModalProps> = ({ isModalOpen, setIsModalOpen }) => {
           <div className="bg-white p-5 rounded-2xl shadow-lg w-full max-w-md">
             <h2 className="text-lg font-semibold mb-4">
               Enter Your Details
-              <button onClick={() => setIsModalOpen(false)} className="float-right">
+              <button
+                onClick={() => setIsModalOpen(false)}
+                className="float-right"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
@@ -60,19 +89,17 @@ const AgeModal: React.FC<AgeModalProps> = ({ isModalOpen, setIsModalOpen }) => {
                 </svg>
               </button>
             </h2>
-            <input
-              type="number"
-              value={age}
-              onChange={(e) => setAge(e.target.value)}
-              className="border rounded-xl p-2 w-[48%] mb-4"
-              placeholder="Your age"
-            />
-            <button
-              onClick={handleAgeSubmit}
-              className="bg-red-500 text-white p-2 mx-2 rounded-xl hover:bg-red-600 transition duration-300 w-[48%]"
-            >
-              Submit
-            </button>
+            {!user?.unsafeMetadata?.age && (
+              <>
+                <input
+                  type="number"
+                  value={age}
+                  onChange={(e) => setAge(e.target.value)}
+                  className="border rounded-xl p-2 w-full mb-4"
+                  placeholder="Your age"
+                />
+              </>
+            )}
             <select
               value={selectedDisease}
               onChange={(e) => setSelectedDisease(e.target.value)}
@@ -86,10 +113,11 @@ const AgeModal: React.FC<AgeModalProps> = ({ isModalOpen, setIsModalOpen }) => {
               ))}
             </select>
             <button
+              disabled={loading}
               onClick={handleDiseaseSubmit}
               className="bg-red-500 text-white p-2 rounded-xl hover:bg-red-600 transition duration-300 w-full"
             >
-              Submit
+              {loading ? "Processing..." : "Get Food"}
             </button>
           </div>
         </div>

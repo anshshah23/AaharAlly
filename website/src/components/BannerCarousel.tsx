@@ -1,7 +1,7 @@
 "use client";
 import { Carousel } from "@material-tailwind/react";
 import Image from "next/image";
- 
+
 export function BannerCarousel() {
 
   const images = [
@@ -24,8 +24,11 @@ export function BannerCarousel() {
           {new Array(length).fill("").map((_, i) => (
             <span
               key={i}
-              className={`block h-1 cursor-pointer rounded-3xl transition-all content-[''] ${activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"}`}
-              onClick={() => setActiveIndex(i)} />
+              className={`block h-1 cursor-pointer rounded-3xl transition-all content-[''] ${
+                activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"
+              }`}
+              onClick={() => setActiveIndex(i)}
+            />
           ))}
         </div>
       )} 
