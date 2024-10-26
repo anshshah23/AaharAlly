@@ -44,6 +44,11 @@ export function BookingCard() {
   }, []);
 
   useEffect(() => {
+    const email = user?.primaryEmailAddress?.emailAddress;
+    console.log(email);
+  }, [user]);
+
+  useEffect(() => {
     const controller = new AbortController();
     const signal = controller.signal;
     const categoryParam = searchParams.get("category");
