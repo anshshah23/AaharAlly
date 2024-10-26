@@ -14,6 +14,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import axios from "axios";
 import { Food } from "@/types";
 import Loading from "./loading";
+import { useUser } from "@clerk/nextjs";
 
 export function BookingCard() {
   const [liked, setLiked] = useState(false);
@@ -21,6 +22,7 @@ export function BookingCard() {
   const handleClick = (id: string) => {
     router.push(`/item-details/${id}`);
   };
+  const { user } = useUser();
 
   const searchParams = useSearchParams();
   const [loading, setLoading] = useState(false);
@@ -63,6 +65,7 @@ export function BookingCard() {
             categories: categoriesArray.join(","),
             regions: regionsArray.join(","),
             meal_type: mealTypeParam,
+            age: user?.unsafeMetadata.age,
           },
           signal,
         });
@@ -88,7 +91,7 @@ export function BookingCard() {
 
     // Cleanup function to cancel the previous request if searchParams change
     return () => controller.abort();
-  }, [searchParams]);
+  }, [searchParams, user?.unsafeMetadata.age]);
 
   return (
     <div className="flex flex-wrap justify-center gap-8">
@@ -98,14 +101,18 @@ export function BookingCard() {
           <Card
             key={_id}
             onClick={() => handleClick(item._id)}
-            className="w-full max-w-[26rem] shadow-lg sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] cursor-pointer"
+            className="group w-full max-w-[26rem] shadow-lg sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] cursor-pointer hover:scale-105 hover:shadow-blue-gray-300 hover:shadow-lg transition-transform duration-300 ease-in-out"
             placeholder={"Cards"}
+            onPointerEnterCapture={undefined}
+            onPointerLeaveCapture={undefined}
           >
             <CardHeader
               color="blue-gray"
               className="relative h-56"
               floated={false}
               placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               <div className="absolute top-4 left-4 z-10">
                 <div className="!rounded-full bg-peachCustom bg-opacity-85 px-2 py-1 text-white text-xs md:text-sm">
@@ -119,7 +126,7 @@ export function BookingCard() {
               <Image
                 src={item.image}
                 alt={item.name}
-                className="object-cover"
+                className="object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out"
                 loading="lazy"
                 width={500}
                 height={500}
@@ -135,6 +142,8 @@ export function BookingCard() {
                   setLiked(!liked);
                 }}
                 placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 {liked ? (
                   <FaHeart className="h-6 w-6 text-red-600" />
@@ -145,6 +154,8 @@ export function BookingCard() {
             </CardHeader>
             <CardBody
               placeholder={undefined}
+              onPointerEnterCapture={undefined}
+              onPointerLeaveCapture={undefined}
             >
               <div className="mb-1 flex items-center justify-between">
                 <Typography
@@ -152,6 +163,8 @@ export function BookingCard() {
                   color="blue-gray"
                   className="hover:text-redCustom font-medium"
                   placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   {item.name}
                 </Typography>
@@ -159,6 +172,8 @@ export function BookingCard() {
                   color="blue-gray"
                   className="flex items-center gap-1.5 font-normal"
                   placeholder={undefined}
+                  onPointerEnterCapture={undefined}
+                  onPointerLeaveCapture={undefined}
                 >
                   <FaStar className="text-yellow-500 h-5 w-5" />
                   {item.rating}
@@ -167,6 +182,8 @@ export function BookingCard() {
               <Typography
                 color="gray"
                 placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
               >
                 {item.description}
               </Typography>
