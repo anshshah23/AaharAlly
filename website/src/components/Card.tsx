@@ -15,9 +15,9 @@ import axios from "axios";
 import { Food } from "@/types";
 import Loading from "./loading";
 import { useUser } from "@clerk/nextjs";
+import toast from "react-hot-toast";
 
 export function BookingCard() {
-  const [liked, setLiked] = useState(false);
   const router = useRouter();
   const handleClick = (id: string) => {
     router.push(`/item-details/${id}`);
@@ -26,13 +26,20 @@ export function BookingCard() {
 
   const searchParams = useSearchParams();
   const [loading, setLoading] = useState(false);
+  const [likeLoading, setLikeLoading] = useState(false);
   const [foodArray, setFoodArray] = useState<Food[]>([]);
+  const [likedItem, setLikedItem] = useState<string[]>([]);
 
   useEffect(() => {
     setLoading(true);
     const fetchFood = async () => {
+      if (!user?.unsafeMetadata.age) {
+        return;
+      }
       try {
-        const resp = await axios.get("/api/Users/");
+        const resp = await axios.get("/api/Users/", {
+          params: { age: user?.unsafeMetadata.age },
+        });
         setFoodArray(resp.data.data);
       } catch (error) {
         console.error("Error fetching initial data:", error);
@@ -41,12 +48,57 @@ export function BookingCard() {
       }
     };
     fetchFood();
-  }, []);
+  }, [user?.unsafeMetadata.age]);
 
   useEffect(() => {
-    const email = user?.primaryEmailAddress?.emailAddress;
-    console.log(email);
+    const fetchLike = async () => {
+      try {
+        setLikeLoading(true);
+        if (!user?.primaryEmailAddress?.emailAddress) {
+          return;
+        }
+        const resp = await axios.get("/api/fav-food-list/", {
+          params: { email: user?.primaryEmailAddress?.emailAddress },
+        });
+        if (
+          resp.data.favoriteFoods.length &&
+          resp.data.favoriteFoods.length > 0
+        ) {
+          setLikedItem(
+            resp.data.favoriteFoods.map((m: { _id: string }) => m._id)
+          );
+        }
+      } catch (error) {
+        toast.error(error.response.message);
+      } finally {
+        setLikeLoading(false);
+      }
+    };
+
+    fetchLike();
   }, [user]);
+
+  const likeProduct = async (like: boolean, id: string) => {
+    try {
+      setLikeLoading(true);
+      console.log("adding");
+      const resp = await axios.post("/api/add-fav-food/", {
+        foodId: id,
+        like,
+        email: user?.primaryEmailAddress?.emailAddress,
+      });
+      if (
+        resp.data.user.favoriteFoods.length &&
+        resp.data.user.favoriteFoods.length > 0
+      ) {
+        setLikedItem(resp.data.user.favoriteFoods);
+      }
+    } catch (error) {
+      console.log({ error });
+    } finally {
+      setLikeLoading(false);
+    }
+  };
 
   useEffect(() => {
     const controller = new AbortController();
@@ -94,7 +146,6 @@ export function BookingCard() {
       fetchData();
     }
 
-    // Cleanup function to cancel the previous request if searchParams change
     return () => controller.abort();
   }, [searchParams, user?.unsafeMetadata.age]);
 
@@ -141,16 +192,20 @@ export function BookingCard() {
                 size="sm"
                 color="red"
                 variant="text"
+                disabled={likeLoading}
                 className="!absolute top-4 right-4 rounded-full"
                 onClick={(e) => {
                   e.stopPropagation();
-                  setLiked(!liked);
+                  likeProduct(
+                    likedItem.find((itm) => itm == item._id) ? false : true,
+                    item._id
+                  );
                 }}
                 placeholder={undefined}
                 onPointerEnterCapture={undefined}
                 onPointerLeaveCapture={undefined}
               >
-                {liked ? (
+                {(likedItem.find((itm) => itm == item._id) ? true : false) ? (
                   <FaHeart className="h-6 w-6 text-red-600" />
                 ) : (
                   <FaRegHeart className="h-6 w-6" />
