@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { SignInButton, useUser, UserButton } from '@clerk/nextjs';
+import { SignInButton, UserButton, useUser } from '@clerk/nextjs';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Search Bar */}
-                <div className="flex justify-center min-w-[80px] sm:min-w-[240px] md:min-w-[360px] lg:min-w-[10vw] !max-w-[180px] sm:!max-w-[300px] md:!max-w-[360px] lg:!max-w-[10vw]">
+                <div className="flex shadow-md shadow-peachCustom justify-center min-w-[80px] sm:min-w-[240px] md:min-w-[360px] lg:min-w-[10vw] !max-w-[180px] sm:!max-w-[300px] md:!max-w-[360px] lg:!max-w-[10vw]">
                     <div className="flex bg-peachCustom py-1.5 px-2 rounded-l-lg items-center gap-1.5 w-full">
                         <svg
                             className="text-redCustom min-w-[20px] min-h-[20px] fill-redCustom"

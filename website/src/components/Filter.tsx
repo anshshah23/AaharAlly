@@ -1,8 +1,8 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaAngleDown, FaCheck } from "react-icons/fa";
-import "tailwindcss/tailwind.css";
 import { GrPowerReset } from "react-icons/gr";
+import { useRouter, useSearchParams } from "next/navigation";
 
 interface DropdownItem {
   label: string;
@@ -15,7 +15,6 @@ interface DropdownProps {
   onToggle: (index: number) => void;
   isOpen: boolean;
   toggleOpen: () => void;
-  reset: () => void;
 }
 
 const Dropdown: React.FC<DropdownProps> = ({
@@ -63,23 +62,6 @@ const Dropdown: React.FC<DropdownProps> = ({
 
 const Filters: React.FC = () => {
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
-  // Utility to transform frontend item labels to lowercase for backend
-  const transformToBackendFormat = (items: DropdownItem[]) => {
-    return items.map((item) => ({
-      label: item.label.toLowerCase(),
-      selected: item.selected,
-    }));
-  };
-  const sendDataToBackend = () => {
-    const backendCategoryItems = transformToBackendFormat(categoryItems);
-    const backendRegionItems = transformToBackendFormat(regionItems);
-
-    // Send backendCategoryItems and backendRegionItems to the backend
-  };
-
-
-
-  // Food categories as filter items
   const [categoryItems, setCategoryItems] = useState<DropdownItem[]>([
     { label: "Vegan", selected: false },
     { label: "Dessert", selected: false },
@@ -93,7 +75,6 @@ const Filters: React.FC = () => {
     { label: "Healthy", selected: false },
   ]);
 
-  // Regions as filter items
   const [regionItems, setRegionItems] = useState<DropdownItem[]>([
     { label: "Tamil Nadu", selected: false },
     { label: "Punjab", selected: false },
@@ -107,6 +88,60 @@ const Filters: React.FC = () => {
     { label: "Andhra Pradesh", selected: false },
   ]);
 
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    const selectedCategories = categoryItems
+      .filter((item) => item.selected)
+      .map((item) => item.label)
+      .join(",");
+    const selectedRegions = regionItems
+      .filter((item) => item.selected)
+      .map((item) => item.label)
+      .join(",");
+
+    // Create a URLSearchParams instance with current search params
+    const params = new URLSearchParams(window.location.search);
+    if (selectedCategories) {
+      params.set("category", selectedCategories);
+    } else {
+      params.delete("category");
+    }
+    if (selectedRegions) {
+      params.set("region", selectedRegions);
+    } else {
+      params.delete("region");
+    }
+
+    router.push(`?${params.toString()}`, undefined, { shallow: true });
+  }, [categoryItems, regionItems, router]);
+
+  useEffect(() => {
+    // Set initial selected items based on URL params
+    const categoryParam = searchParams.get("category");
+    const regionParam = searchParams.get("region");
+
+    if (categoryParam) {
+      const categories = categoryParam.split(",");
+      setCategoryItems((items) =>
+        items.map((item) => ({
+          ...item,
+          selected: categories.includes(item.label),
+        }))
+      );
+    }
+    if (regionParam) {
+      const regions = regionParam.split(",");
+      setRegionItems((items) =>
+        items.map((item) => ({
+          ...item,
+          selected: regions.includes(item.label),
+        }))
+      );
+    }
+  }, [searchParams]);
+
   const handleToggle = (
     index: number,
     items: DropdownItem[],
@@ -119,9 +154,19 @@ const Filters: React.FC = () => {
   };
 
   const handleReset = () => {
-    setCategoryItems(categoryItems.map((item) => ({ ...item, selected: false })));
+    setCategoryItems(
+      categoryItems.map((item) => ({ ...item, selected: false }))
+    );
     setRegionItems(regionItems.map((item) => ({ ...item, selected: false })));
     setOpenDropdown(null);
+
+    // Reset URL without category and region, preserving other params
+    const params = new URLSearchParams(window.location.search);
+    params.delete("category");
+    params.delete("region");
+    params.delete("meal_type");
+
+    router.push(`?${params.toString()}`, undefined, { shallow: true });
   };
 
   return (
@@ -132,8 +177,9 @@ const Filters: React.FC = () => {
           items={categoryItems}
           isOpen={openDropdown === 0}
           toggleOpen={() => setOpenDropdown(openDropdown === 0 ? null : 0)}
-          onToggle={(index) => handleToggle(index, categoryItems, setCategoryItems)}
-          reset={handleReset}
+          onToggle={(index) =>
+            handleToggle(index, categoryItems, setCategoryItems)
+          }
         />
         <Dropdown
           title="Region"
@@ -141,7 +187,6 @@ const Filters: React.FC = () => {
           isOpen={openDropdown === 1}
           toggleOpen={() => setOpenDropdown(openDropdown === 1 ? null : 1)}
           onToggle={(index) => handleToggle(index, regionItems, setRegionItems)}
-          reset={handleReset}
         />
       </div>
       <div className="mb-3 relative">

@@ -2,6 +2,8 @@ import * as XLSX from 'xlsx';
 import { mongoConnect } from '../../utils/feature';
 import { NextResponse } from 'next/server';
 import { userData } from '../../models/UserData';
+import path from "path"
+import fs from "fs"
 
 export async function POST(req) {
     try {
@@ -53,16 +55,12 @@ export async function GET() {
         await mongoConnect();
         const data = await userData.find({}).lean();
         const csv = parse(data);
+        const mlFolderPath = path.join(process.cwd(), '..', 'ML'); 
+        const filePath = path.join(mlFolderPath, 'MOCK_DATA.csv');
 
-        const headers = {
-            'Content-Type': 'text/csv',
-            'Content-Disposition': 'attachment; filename="data.csv"',
-        };
-
-        return new NextResponse(csv, {
-            status: 200,
-            headers: headers,
-        });
+        fs.mkdirSync(mlFolderPath, { recursive: true });
+        fs.writeFileSync(filePath, csv);
+        return NextResponse.json({ message: "File Given to Model successfully" }, { status: 200 });
     } catch (err) {
         return NextResponse.json({ message: `Error processing request: ${err.message}`, success: false }, { status: 500 });
     }
