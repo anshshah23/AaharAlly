@@ -117,7 +117,9 @@ const AgeModal: React.FC<AgeModalProps> = ({ isModalOpen, setIsModalOpen }) => {
               onClick={handleDiseaseSubmit}
               className="bg-red-500 text-white p-2 rounded-xl hover:bg-red-600 transition duration-300 w-full"
             >
-              Submit
+              {
+                loading ? "Processing..." : "Get Food"
+              }
             </button>
           </div>
         </div>
