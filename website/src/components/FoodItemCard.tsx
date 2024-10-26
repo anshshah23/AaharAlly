@@ -43,7 +43,7 @@ function FoodCategoryCards() {
           <div
             key={category.name}
             onClick={() => handleCategoryClick(category)}
-            className={`flex flex-col items-center w-[50px] h-[70px] md:w-[80px] md:h-[100px] p-2 md:p-5   rounded-full cursor-pointer transition-all duration-300
+            className={`flex flex-col items-center w-[50px] h-[70px] md:w-[80px] md:h-[100px] p-2 md:p-5  rounded-full cursor-pointer transition-all duration-300
               ${
                 selectedCategory === category.name
                   ? "bg-orangeCustom shadow-xl"
@@ -56,7 +56,7 @@ function FoodCategoryCards() {
                   : "0px 8px 20px rgba(0, 0, 0, 0.1)",
             }}
           >
-            <div className="mb-1 md:mb-2 object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out">
+            <div className="mb-1 md:mb-2 object-cover group-hover:scale-110 group-hover:shadow-orangeCustom group-hover:shadow-lg transition-transform duration-300 ease-in-out">
               <Image
                 src={category.img}
                 alt={category.name}
