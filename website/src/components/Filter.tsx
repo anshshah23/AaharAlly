@@ -165,6 +165,7 @@ const Filters: React.FC = () => {
     const params = new URLSearchParams(window.location.search);
     params.delete("category");
     params.delete("region");
+    params.delete("meal_type");
 
     router.push(`?${params.toString()}`, undefined, { shallow: true });
   };
