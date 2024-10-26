@@ -8,6 +8,13 @@ const nextConfig: NextConfig = {
       "t3.ftcdn.net",
       "png.pngtree.com",
       "www.shutterstock.com",
+      "media.istockphoto.com",
+      "static.vecteezy.com",
+      "image.shutterstock.com",
+      "img.freepik.com",
+      "www.eatingwell.com",
+      "watermark.lovepik.com",
+      "media.gettyimages.com",
     ],
     remotePatterns: [
       {
@@ -27,6 +34,10 @@ const nextConfig: NextConfig = {
         hostname: "t3.ftcdn.net",
         port: "",
         pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "**",
       },
     ],
   },

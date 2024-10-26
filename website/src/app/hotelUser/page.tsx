@@ -4,6 +4,7 @@ import OrderDistributionPieChart from './components/OrderDistributionPieChart';
 import CategoryOrdersBarChart from './components/CategoryOrdersBarChart';
 import OrdersTrendLineChart from './components/OrdersTrendLineChart';
 import FileAdd from './components/FileAdd';
+import Loader from '@/components/loading';
 
 const COLORS = [
   '#FF0000', // Red
@@ -51,7 +52,9 @@ const AdminDashboard = () => {
     fetchData();
   }, []);
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <div>
+    <Loader />
+  </div>;
   if (error) return <div>Error: {error}</div>;
 
   return (

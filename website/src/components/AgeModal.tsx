@@ -1,51 +1,48 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-function AgeModal() {
+interface AgeModalProps {
+  isModalOpen: boolean;
+  setIsModalOpen: (open: boolean) => void;
+}
+
+const AgeModal: React.FC<AgeModalProps> = ({ isModalOpen, setIsModalOpen }) => {
   const [age, setAge] = useState("");
   const [selectedDisease, setSelectedDisease] = useState("");
-  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const diseases = [
     { label: "Diabetes", value: "Diabetes" },
     { label: "Hypoglycemia", value: "Hypoglycemia" },
-    { label: "Gastroparesis", value: "Gastroparesis" },
-    { label: "Pregnancy", value: "Pregnancy" },
+    { label: "Gastroparesis", value: "Gastroparesis" }, 
     { label: "IBS", value: "IBS" },
     { label: "Peptic Ulcer", value: "Peptic Ulcer" },
     { label: "Hyperthyroidism", value: "Hyperthyroidism" },
     { label: "Kidney Disease", value: "Kidney Disease" },
     { label: "Cystic Fibrosis", value: "Cystic Fibrosis" },
     { label: "Addison's Disease", value: "Addison's Disease" },
-    { label: "Eating Disorders", value: "Eating Disorders" },
-    { label: "Liver Disease", value: "Liver Disease" },
-    { label: "Metabolic Disorders", value: "Metabolic Disorders" },
-    { label: "Post-Surgery", value: "Post-Surgery" },
   ];
 
-  // Check session storage to see if modal has been shown today
-  useEffect(() => {
-    const today = new Date().toDateString();
-    const lastVisit = sessionStorage.getItem("lastVisit");
-    if (lastVisit !== today) {
-      setIsModalOpen(true);
-      sessionStorage.setItem("lastVisit", today);
-    }
-  }, []);
-
   const handleAgeSubmit = () => {
-    if (age && selectedDisease) {
-      console.log(`User's age: ${age}, Disease: ${selectedDisease}`);
+    if (age) {
+      console.log(`User's age: ${age}`);
       setIsModalOpen(false);
     }
   };
+
+  const handleDiseaseSubmit = () => {
+    if (selectedDisease) {
+      console.log(`User's Disease: ${selectedDisease}`);
+      setIsModalOpen(false);
+    }
+  }
 
   return (
     <>
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="bg-white p-5 rounded-2xl shadow-lg w-full max-w-md">
-            <h2 className="text-lg font-semibold mb-4">Enter Your Details
+            <h2 className="text-lg font-semibold mb-4">
+              Enter Your Details
               <button onClick={() => setIsModalOpen(false)} className="float-right">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -67,9 +64,15 @@ function AgeModal() {
               type="number"
               value={age}
               onChange={(e) => setAge(e.target.value)}
-              className="border rounded-xl p-2 w-full mb-4"
+              className="border rounded-xl p-2 w-[48%] mb-4"
               placeholder="Your age"
             />
+            <button
+              onClick={handleAgeSubmit}
+              className="bg-red-500 text-white p-2 mx-2 rounded-xl hover:bg-red-600 transition duration-300 w-[48%]"
+            >
+              Submit
+            </button>
             <select
               value={selectedDisease}
               onChange={(e) => setSelectedDisease(e.target.value)}
@@ -83,8 +86,8 @@ function AgeModal() {
               ))}
             </select>
             <button
-              onClick={handleAgeSubmit}
-              className="bg-redCustom text-white p-2 rounded-xl hover:bg-orangeCustom transition duration-300 w-full"
+              onClick={handleDiseaseSubmit}
+              className="bg-red-500 text-white p-2 rounded-xl hover:bg-red-600 transition duration-300 w-full"
             >
               Submit
             </button>
@@ -93,6 +96,6 @@ function AgeModal() {
       )}
     </>
   );
-}
+};
 
 export default AgeModal;

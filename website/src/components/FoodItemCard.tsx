@@ -17,10 +17,10 @@ function FoodCategoryCards() {
   const router = useRouter();
 
   useEffect(() => {
-    const mealType = searchParams.get("meal_type");
-    if (mealType) {
-      setSelectedCategory(mealType);
-    }
+    const mealType = searchParams.get("meal_type") ?? undefined;
+
+    console.log("meal type: " + mealType);
+    setSelectedCategory(mealType);
   }, [searchParams]);
 
   const handleCategoryClick = (category: { name: string }) => {
@@ -65,7 +65,7 @@ function FoodCategoryCards() {
               />
             </div>
             <span
-              className={`text-xs ${
+              className={`text-xs font-bold ${
                 selectedCategory === category.name
                   ? "text-white"
                   : "text-gray-800"

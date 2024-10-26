@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { FaSpinner } from 'react-icons/fa';
 import { toast, Toaster } from 'react-hot-toast';
+import axios from 'axios';
 
 const ServiceProviderUpload = () => {
     const [file, setFile] = useState(null);
@@ -19,8 +20,8 @@ const ServiceProviderUpload = () => {
 
     const fetchData = async () => {
         try {
-            const response = await fetch('http://127.0.0.1:5000/api/get_data',{
-                method:"GET",
+            const response = await fetch('https://2wl9vj7n-5000.inc1.devtunnels.ms/api/get_data', {
+                method: "GET",
             });
 
             if (!response.ok) {
@@ -31,7 +32,10 @@ const ServiceProviderUpload = () => {
 
             if (result.success) {
                 console.log(result.data);
-                //TODO: store in db
+                const resp = await axios.post("/api/FoodPreferences/", { ...result.data.data })
+                if (!resp.ok) {
+                    return
+                }
                 toast.success("Model 🎉")
                 return;
             } else {
@@ -55,6 +59,7 @@ const ServiceProviderUpload = () => {
                 toast.error(response.message)
                 throw new Error('Failed to fetch CSV data');
             }
+
             toast.success("File Given to the ML Model Successfully")
             await fetchData();
             return;
