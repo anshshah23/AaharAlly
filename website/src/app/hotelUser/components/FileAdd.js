@@ -17,19 +17,46 @@ const ServiceProviderUpload = () => {
         setFile1(event.target.files[0]);
     };
 
+    const fetchData = async () => {
+        try {
+            const response = await fetch('http://127.0.0.1:5000/api/get_data',{
+                method:"GET",
+            });
+
+            if (!response.ok) {
+                throw new Error(`Error: ${response.statusText}`);
+            }
+
+            const result = await response.json();
+
+            if (result.success) {
+                console.log(result.data);
+                //TODO: store in db
+                toast.success("Model 🎉")
+                return;
+            } else {
+                toast.error("Model 😭")
+                return;
+            }
+        } catch (err) {
+            toast.error(err.message);
+        }
+    };
+
     async function downloadCSV() {
         try {
             toast.loading('Preparing download...', { id: 'download' });
-    
+
             const response = await fetch('/api/UserData', {
                 method: 'GET',
             });
-    
+
             if (!response.ok) {
                 toast.error(response.message)
                 throw new Error('Failed to fetch CSV data');
             }
             toast.success("File Given to the ML Model Successfully")
+            await fetchData();
             return;
         } catch (error) {
             toast.error(`Error downloading CSV: ${error.message}`, { id: 'download' });
@@ -38,7 +65,7 @@ const ServiceProviderUpload = () => {
             toast.dismiss('download');
         }
     }
-    
+
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -85,7 +112,7 @@ const ServiceProviderUpload = () => {
 
             const result = await response.json();
             toast.success(result.message);
-            const upload = await downloadCSV(); 
+            const upload = await downloadCSV();
         } catch (error) {
             toast.error(`Error uploading file: ${error.message}`);
         } finally {
