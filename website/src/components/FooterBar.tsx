@@ -53,7 +53,7 @@ const FooterBar: React.FC<FooterBarProps> = ({ cartItems, notifications }) => {
   };
 
   return (
-    <div className="fixed bottom-0 flex w-full bg-whitescale-105 justify-center">
+    <div className="fixed bottom-0 flex w-full bg-whitescale-105 justify-center z-50">
       <div className="fixed bottom-0 w-[40vw] flex justify-around items-center rounded-3xl px-4 mx-2 my-4 z-50 bg-orangeCustom text-white shadow-md shadow-orangeCustom transition duration-500">
         {buttons.map((button, index) => (
           <div

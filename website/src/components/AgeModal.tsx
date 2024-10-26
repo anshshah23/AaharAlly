@@ -66,6 +66,7 @@ const AgeModal: React.FC<AgeModalProps> = ({ isModalOpen, setIsModalOpen }) => {
           age,
         },
       })
+      setIsModalOpen(false);
     }
   }
 
