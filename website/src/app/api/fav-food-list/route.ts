@@ -6,7 +6,6 @@ mongoConnect();
 
 export async function GET(req: NextRequest) {
   const email = req.nextUrl.searchParams.get("email");
-
   try {
     const user = await User.findOne({ email: email }).populate("favoriteFoods");
     if (!user) {

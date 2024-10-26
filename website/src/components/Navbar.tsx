@@ -39,7 +39,9 @@ const Navbar = () => {
         const resp = await axios.post("/api/user-info", {
           email,
         });
-        toast.success(resp.data.message);
+        if (resp.status === 201) {
+          toast.success(resp.data.message);
+        }
       } catch (error) {
         toast.success(error.response.data.message);
       }
@@ -51,11 +53,10 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 ${
-        isScrolled
+      className={`fixed top-0 w-full z-50 ${isScrolled
           ? "bg-white shadow-md shadow-opacity-40 shadow-black"
           : "bg-white"
-      } transition duration-300`}
+        } transition duration-300`}
     >
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center px-2 md:px-10 py-2">
         <div className="flex justify-start items-center">
