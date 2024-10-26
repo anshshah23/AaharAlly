@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { FaSpinner } from 'react-icons/fa';
 import { toast, Toaster } from 'react-hot-toast';
+import axios from 'axios';
 
 const ServiceProviderUpload = () => {
     const [file, setFile] = useState(null);
@@ -17,19 +18,50 @@ const ServiceProviderUpload = () => {
         setFile1(event.target.files[0]);
     };
 
+    const fetchData = async () => {
+        try {
+            const response = await fetch('https://2wl9vj7n-5000.inc1.devtunnels.ms/api/get_data', {
+                method: "GET",
+            });
+
+            if (!response.ok) {
+                throw new Error(`Error: ${response.statusText}`);
+            }
+
+            const result = await response.json();
+
+            if (result.success) {
+                console.log(result.data);
+                const resp = await axios.post("/api/FoodPreferences/", { ...result.data.data })
+                if (!resp.ok) {
+                    return
+                }
+                toast.success("Model 🎉")
+                return;
+            } else {
+                toast.error("Model 😭")
+                return;
+            }
+        } catch (err) {
+            toast.error(err.message);
+        }
+    };
+
     async function downloadCSV() {
         try {
             toast.loading('Preparing download...', { id: 'download' });
-    
+
             const response = await fetch('/api/UserData', {
                 method: 'GET',
             });
-    
+
             if (!response.ok) {
                 toast.error(response.message)
                 throw new Error('Failed to fetch CSV data');
             }
+
             toast.success("File Given to the ML Model Successfully")
+            await fetchData();
             return;
         } catch (error) {
             toast.error(`Error downloading CSV: ${error.message}`, { id: 'download' });
@@ -38,7 +70,7 @@ const ServiceProviderUpload = () => {
             toast.dismiss('download');
         }
     }
-    
+
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -85,7 +117,7 @@ const ServiceProviderUpload = () => {
 
             const result = await response.json();
             toast.success(result.message);
-            const upload = await downloadCSV(); 
+            const upload = await downloadCSV();
         } catch (error) {
             toast.error(`Error uploading file: ${error.message}`);
         } finally {

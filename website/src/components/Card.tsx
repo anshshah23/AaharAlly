@@ -42,7 +42,7 @@ export function BookingCard() {
   }, []);
 
   useEffect(() => {
-    const controller = new AbortController(); // Create a new AbortController instance
+    const controller = new AbortController();
     const signal = controller.signal;
     const categoryParam = searchParams.get("category");
     const regionParam = searchParams.get("region");
@@ -64,7 +64,7 @@ export function BookingCard() {
             regions: regionsArray.join(","),
             meal_type: mealTypeParam,
           },
-          signal, // Pass the abort signal to the request
+          signal,
         });
         setFoodArray(response.data.data);
       } catch (error) {
@@ -78,7 +78,11 @@ export function BookingCard() {
       }
     };
 
-    if (categoriesArray.length > 0 || regionsArray.length > 0) {
+    if (
+      categoriesArray.length > 0 ||
+      regionsArray.length > 0 ||
+      mealTypeParam
+    ) {
       fetchData();
     }
 
