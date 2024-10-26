@@ -60,15 +60,15 @@ const AgeModal: React.FC<AgeModalProps> = ({ isModalOpen, setIsModalOpen }) => {
       await call(selectedDisease);
       setIsModalOpen(false);
     }
-    if(age){
+    if (age) {
       user?.update({
         unsafeMetadata: {
           age,
         },
-      })
+      });
       setIsModalOpen(false);
     }
-  }
+  };
 
   return (
     <>
