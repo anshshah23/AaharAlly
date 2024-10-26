@@ -106,8 +106,6 @@ export function BookingCard() {
               className="relative h-56"
               floated={false}
               placeholder={undefined}
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}
             >
               <div className="absolute top-4 left-4 z-10">
                 <div className="!rounded-full bg-peachCustom bg-opacity-85 px-2 py-1 text-white text-xs md:text-sm">
@@ -137,8 +135,6 @@ export function BookingCard() {
                   setLiked(!liked);
                 }}
                 placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
               >
                 {liked ? (
                   <FaHeart className="h-6 w-6 text-red-600" />
@@ -149,8 +145,6 @@ export function BookingCard() {
             </CardHeader>
             <CardBody
               placeholder={undefined}
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}
             >
               <div className="mb-1 flex items-center justify-between">
                 <Typography
@@ -158,8 +152,6 @@ export function BookingCard() {
                   color="blue-gray"
                   className="hover:text-redCustom font-medium"
                   placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
                 >
                   {item.name}
                 </Typography>
@@ -167,8 +159,6 @@ export function BookingCard() {
                   color="blue-gray"
                   className="flex items-center gap-1.5 font-normal"
                   placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
                 >
                   <FaStar className="text-yellow-500 h-5 w-5" />
                   {item.rating}
@@ -177,8 +167,6 @@ export function BookingCard() {
               <Typography
                 color="gray"
                 placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
               >
                 {item.description}
               </Typography>

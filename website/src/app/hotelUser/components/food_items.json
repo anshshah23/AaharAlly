@@ -1,0 +1,1802 @@
+[
+  {
+    "name": "Tofu Scramble",
+    "price": "$8-12",
+    "rating": "4.5",
+    "description": "A hearty and flavorful breakfast or brunch dish made with crumbled tofu, vegetables, and spices, often served with toast or tortillas.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1606756790138-261d2b21cd75?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxUb2Z1JTIwU2NyYW1ibGV8ZW58MHx8fHwxNzI5ODU0NTE3fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Vegan Burger",
+    "price": "$10-15",
+    "rating": "4",
+    "description": "A plant-based patty made from ingredients like black beans, lentils, or mushrooms, served on a bun with toppings like lettuce, tomato, and vegan cheese.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1627587780063-1655815c958b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMEJ1cmdlcnxlbnwwfHx8fDE3Mjk4NTQ1MTd8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Falafel",
+    "price": "$5-8",
+    "rating": "4.5",
+    "description": "Crispy chickpea fritters seasoned with spices and often served in a pita bread with hummus, tahini, and vegetables.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1542528180-a1208c5169a5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxGYWxhZmVsfGVufDB8fHx8MTcyOTg1NDUxOHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Vegan Sushi",
+    "price": "$12-20",
+    "rating": "4",
+    "description": "Sushi rolls made with seaweed, rice, and a variety of vegan fillings, such as avocado, cucumber, and tofu.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1602554171817-8467dd4310d9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMFN1c2hpfGVufDB8fHx8MTcyOTg1NDUxOHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Vegan Pizza",
+    "price": "$10-15",
+    "rating": "4",
+    "description": "A pizza topped with vegan cheese, vegetables, and plant-based meat alternatives, such as seitan or tempeh.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMFBpenphfGVufDB8fHx8MTcyOTg1NDUxOXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Vegan Chili",
+    "price": "$6-10",
+    "rating": "4.5",
+    "description": "A hearty and flavorful chili made with beans, vegetables, and spices, often served with cornbread or rice.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1534132927252-b55bbafba352?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMENoaWxpfGVufDB8fHx8MTcyOTg1NDUxOXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Vegan Pasta",
+    "price": "$10-15",
+    "rating": "4",
+    "description": "Pasta dishes with vegan sauces, such as marinara, pesto, or creamy cashew-based sauces, and often include vegetables and plant-based protein.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1481931098730-318b6f776db0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMFBhc3RhfGVufDB8fHx8MTcyOTg1NDUyMHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Vegan Salad",
+    "price": "$8-12",
+    "rating": "4",
+    "description": "A fresh and healthy salad with a variety of vegetables, fruits, and nuts, often topped with a vegan dressing.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1587118058092-28bd1a8b2f38?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMFNhbGFkfGVufDB8fHx8MTcyOTg1NDUyMHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Vegan Smoothie",
+    "price": "$5-8",
+    "rating": "4.5",
+    "description": "A refreshing and nutritious drink made with fruits, vegetables, and plant-based milk.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1490818387583-1baba5e638af?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMFNtb290aGllfGVufDB8fHx8MTcyOTg1NDUyMHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Vegan Ice Cream",
+    "price": "$4-6",
+    "rating": "4.5",
+    "description": "A creamy and delicious frozen dessert made with plant-based ingredients, such as coconut milk, almond milk, or cashews.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/flagged/photo-1568625365032-32ebd987d414?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMEljZSUyMENyZWFtfGVufDB8fHx8MTcyOTg1NDUyMXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Jackfruit Tacos",
+    "price": "$10-15",
+    "rating": "4.5",
+    "description": "Tacos filled with jackfruit, which has a texture similar to pulled pork, and topped with your favorite vegan toppings.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1596626233681-39f5eb87d501?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxKYWNrZnJ1aXQlMjBUYWNvc3xlbnwwfHx8fDE3Mjk4NTQ1MjF8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Vegan Curry",
+    "price": "$12-18",
+    "rating": "4",
+    "description": "A flavorful and aromatic curry made with vegetables, tofu, or seitan, and often served with rice or naan bread.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1532768907235-78653b7dc71d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMEN1cnJ5fGVufDB8fHx8MTcyOTg1NDUyMnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Vegan Ramen",
+    "price": "$8-12",
+    "rating": "4.5",
+    "description": "A comforting and flavorful ramen bowl with a vegan broth, noodles, vegetables, and a plant-based protein, like tofu or mushrooms.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1498601761256-9e93c6f5c181?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMFJhbWVufGVufDB8fHx8MTcyOTg1NDUyMnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Vegan Stir-Fry",
+    "price": "$10-15",
+    "rating": "4.5",
+    "description": "A quick and easy meal with stir-fried vegetables, tofu, or seitan, and served over rice or noodles.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMFN0aXItRnJ5fGVufDB8fHx8MTcyOTg1NDUyM3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Vegan Quesadillas",
+    "price": "$8-12",
+    "rating": "4",
+    "description": "Grilled tortillas filled with vegan cheese, vegetables, and beans, often served with salsa and guacamole.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1662117819116-bf760122f737?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMFF1ZXNhZGlsbGFzfGVufDB8fHx8MTcyOTg1NDUyM3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Vegan Nachos",
+    "price": "$10-15",
+    "rating": "4",
+    "description": "Nachos loaded with tortilla chips, vegan cheese, beans, salsa, guacamole, and other toppings.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1681495511953-2a9cdc11ed1a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyME5hY2hvc3xlbnwwfHx8fDE3Mjk4NTQ1MjR8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Vegan Pancakes",
+    "price": "$8-12",
+    "rating": "4.5",
+    "description": "Fluffy pancakes made with plant-based milk and flour, often served with vegan syrup and fruit.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1598515502205-edead2148047?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMFBhbmNha2VzfGVufDB8fHx8MTcyOTg1NDUyNXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Vegan Waffles",
+    "price": "$8-12",
+    "rating": "4",
+    "description": "Crispy waffles made with plant-based milk and flour, often served with vegan syrup, fruit, and whipped cream.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1505253304499-671c55fb57fe?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMFdhZmZsZXN8ZW58MHx8fHwxNzI5ODU0NTI1fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Vegan Shepherd's Pie",
+    "price": "$12-18",
+    "rating": "4.5",
+    "description": "A hearty and comforting dish made with a lentil or mushroom filling topped with mashed potatoes.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMFNoZXBoZXJkJTI3cyUyMFBpZXxlbnwwfHx8fDE3Mjk4NTQ1MjV8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Vegan Lasagna",
+    "price": "$14-20",
+    "rating": "4",
+    "description": "Lasagna with layers of pasta, vegan cheese, tomato sauce, and vegetables, often with a plant-based meat alternative.",
+    "category": "Vegan",
+    "image": "https://images.unsplash.com/photo-1640063414338-af9faa0c2485?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxWZWdhbiUyMExhc2FnbmF8ZW58MHx8fHwxNzI5ODU0NTI2fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "price": "$2-3",
+    "rating": "4.5/5",
+    "description": "Classic chewy chocolate chip cookies, baked fresh and perfect with a glass of milk.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1506184341422-6cc152ae474b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxDaG9jb2xhdGUlMjBDaGlwJTIwQ29va2llc3xlbnwwfHx8fDE3Mjk4NTQ1Mjd8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cheesecake",
+    "price": "$5-8",
+    "rating": "4.7/5",
+    "description": "Creamy and rich cheesecake, often topped with fruit or chocolate.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1508737804141-4c3b688e2546?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxDaGVlc2VjYWtlfGVufDB8fHx8MTcyOTg1NDUyN3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Brownie",
+    "price": "$2-4",
+    "rating": "4.3/5",
+    "description": "Fudgy and decadent brownie, best enjoyed warm with a scoop of ice cream.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1607920592591-aebc36b403ad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxCcm93bmllfGVufDB8fHx8MTcyOTg1NDUyN3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Ice Cream Sundae",
+    "price": "$4-6",
+    "rating": "4.2/5",
+    "description": "Classic ice cream sundae with your choice of flavors, toppings, and sauces.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1541996275318-4890e83660a1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxJY2UlMjBDcmVhbSUyMFN1bmRhZXxlbnwwfHx8fDE3Mjk4NTQ1Mjh8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Apple Pie",
+    "price": "$3-5",
+    "rating": "4.6/5",
+    "description": "Warm and comforting apple pie, filled with sweet and tart apples and topped with a flaky crust.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1601000937971-d464714b9e6f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxBcHBsZSUyMFBpZXxlbnwwfHx8fDE3Mjk4NTQ1Mjl8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Tiramisu",
+    "price": "$6-9",
+    "rating": "4.8/5",
+    "description": "Coffee-flavored Italian dessert with layers of ladyfingers, mascarpone cream, and cocoa powder.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1542326237-94b1c5a538d4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxUaXJhbWlzdXxlbnwwfHx8fDE3Mjk4NTQ1Mjl8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Fruit Tart",
+    "price": "$4-7",
+    "rating": "4.4/5",
+    "description": "A delicate tart crust filled with fresh fruit and topped with a glaze.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1468218620578-e8d78dcda7b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxGcnVpdCUyMFRhcnR8ZW58MHx8fHwxNzI5ODU0NTMwfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Crème brûlée",
+    "price": "$6-10",
+    "rating": "4.9/5",
+    "description": "Rich custard dessert with a caramelized sugar topping, often flavored with vanilla or citrus.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1565087181016-192f416d21fb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxDciVDMyVBOG1lJTIwYnIlQzMlQkJsJUMzJUE5ZXxlbnwwfHx8fDE3Mjk4NTQ1MzB8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Pancakes",
+    "price": "$4-6",
+    "rating": "4.0/5",
+    "description": "Fluffy pancakes, perfect for breakfast or brunch, topped with syrup, fruit, or whipped cream.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1497445702960-c21c96af4c68?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxQYW5jYWtlc3xlbnwwfHx8fDE3Mjk4NTQ1MzF8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Waffles",
+    "price": "$4-6",
+    "rating": "4.1/5",
+    "description": "Crispy waffles, served with a variety of toppings like fruit, chocolate, or whipped cream.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1491435154725-690cead8920e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxXYWZmbGVzfGVufDB8fHx8MTcyOTg1NDUzMXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Donut",
+    "price": "$1-2",
+    "rating": "3.8/5",
+    "description": "Frittered pastry, often glazed or filled with various flavors.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1527515545081-5db817172677?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxEb251dHxlbnwwfHx8fDE3Mjk4NTQ1MzF8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Cupcake",
+    "price": "$2-3",
+    "rating": "4.2/5",
+    "description": "Small cake baked in a paper cup, often decorated with frosting and sprinkles.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxDdXBjYWtlfGVufDB8fHx8MTcyOTg1NDUzMnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Mousse",
+    "price": "$5-8",
+    "rating": "4.6/5",
+    "description": "Light and airy dessert made with whipped egg whites, cream, and flavoring agents.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1719077518187-5ef57f147227?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxNb3Vzc2V8ZW58MHx8fHwxNzI5ODU0NTMyfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Flan",
+    "price": "$4-7",
+    "rating": "4.3/5",
+    "description": "Custard dessert with a smooth, silky texture, often flavored with vanilla or caramel.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1490556278693-b666672547a1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxGbGFufGVufDB8fHx8MTcyOTg1NDUzM3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Pie",
+    "price": "$3-6",
+    "rating": "4.4/5",
+    "description": "Baked pastry dish filled with various sweet or savory ingredients.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1601000938259-9e92002320b2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxQaWV8ZW58MHx8fHwxNzI5ODU0NTMzfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Pudding",
+    "price": "$3-5",
+    "rating": "4.1/5",
+    "description": "Creamy dessert made with milk, eggs, and sugar, often flavored with chocolate, vanilla, or fruit.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1542116021-0ff087fb0a41?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxQdWRkaW5nfGVufDB8fHx8MTcyOTg1NDUzM3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Ice Cream",
+    "price": "$3-5",
+    "rating": "4.7/5",
+    "description": "Frozen dessert made from cream, sugar, and flavorings, available in countless varieties.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1502174832274-bc176e52765a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxJY2UlMjBDcmVhbXxlbnwwfHx8fDE3Mjk4NTQ1MzR8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Sorbet",
+    "price": "$4-6",
+    "rating": "4.5/5",
+    "description": "Frozen dessert made from fruit puree, sugar, and water, often containing a low-fat or no-fat content.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1636564499112-6113e73c504a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxTb3JiZXR8ZW58MHx8fHwxNzI5ODU0NTM0fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cake",
+    "price": "$5-10",
+    "rating": "4.6/5",
+    "description": "Sweet baked goods, often layered and decorated with frosting, fruit, or other toppings.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxDYWtlfGVufDB8fHx8MTcyOTg1NDUzNXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Macarons",
+    "price": "$3-5",
+    "rating": "4.8/5",
+    "description": "Delicate meringue-based cookies made with almond flour and filled with buttercream or ganache.",
+    "category": "Dessert",
+    "image": "https://images.unsplash.com/photo-1624715188184-506e76b47537?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxNYWNhcm9uc3xlbnwwfHx8fDE3Mjk4NTQ1MzV8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Tacos",
+    "price": "$2-5",
+    "rating": 4.5,
+    "description": "A Mexican staple, tacos are small corn or wheat tortillas filled with a variety of meats, cheeses, vegetables, and sauces.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1524412529635-a258ed66c010?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxUYWNvc3xlbnwwfHx8fDE3Mjk4NTQ1MzV8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Hot Dogs",
+    "price": "$2-4",
+    "rating": 3.5,
+    "description": "A classic street food, hot dogs are grilled or steamed sausages served in a bun with various toppings like mustard, ketchup, relish, and onions.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1523139348426-081681667818?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxIb3QlMjBEb2dzfGVufDB8fHx8MTcyOTg1NDUzNnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Pizza by the Slice",
+    "price": "$3-5",
+    "rating": 4,
+    "description": "A quick and satisfying option, pizza by the slice is typically offered in various flavors and toppings for a grab-and-go meal.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1599709513174-6309fb9c0a8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxQaXp6YSUyMGJ5JTIwdGhlJTIwU2xpY2V8ZW58MHx8fHwxNzI5ODU0NTM2fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Falafel",
+    "price": "$3-5",
+    "rating": 4,
+    "description": "A Middle Eastern delicacy, falafel is made from ground chickpeas or fava beans, formed into balls or patties and deep-fried, often served in pita bread with hummus, tahini, and vegetables.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1542528180-a1208c5169a5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxGYWxhZmVsfGVufDB8fHx8MTcyOTg1NDUxOHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Empanadas",
+    "price": "$2-4",
+    "rating": 4,
+    "description": "A Latin American pastry, empanadas are filled with savory ingredients like meat, cheese, vegetables, or seafood, and baked or fried.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1619926096619-5956ab4dfb1b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxFbXBhbmFkYXN8ZW58MHx8fHwxNzI5ODU0NTM3fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Chicken and Waffles",
+    "price": "$8-12",
+    "rating": 4.5,
+    "description": "A Southern comfort food classic, chicken and waffles feature crispy fried chicken served over fluffy waffles, often drizzled with syrup and butter.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1694718256387-2d398966e1ca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxDaGlja2VuJTIwYW5kJTIwV2FmZmxlc3xlbnwwfHx8fDE3Mjk4NTQ1Mzd8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Ice Cream",
+    "price": "$3-5",
+    "rating": 4,
+    "description": "A sweet treat enjoyed in various flavors and styles, ice cream can be served in cones, cups, sundaes, or milkshakes.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1502174832274-bc176e52765a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxJY2UlMjBDcmVhbXxlbnwwfHx8fDE3Mjk4NTQ1MzR8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Fried Chicken",
+    "price": "$5-8",
+    "rating": 4,
+    "description": "A popular American dish, fried chicken is seasoned and battered chicken that is deep-fried until crispy, often served with sides like mashed potatoes and gravy.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1627662167802-d58480978ec0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxGcmllZCUyMENoaWNrZW58ZW58MHx8fHwxNzI5ODU0NTM4fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Sushi",
+    "price": "$4-8",
+    "rating": 4.5,
+    "description": "A Japanese delicacy, sushi is made with vinegared rice combined with various ingredients like seafood, vegetables, or eggs, and rolled in seaweed or served on top of rice.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxTdXNoaXxlbnwwfHx8fDE3Mjk4NTQ1Mzh8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Popcorn",
+    "price": "$2-4",
+    "rating": 3.5,
+    "description": "A classic movie snack, popcorn is a popular choice for its crunchy texture and versatility in flavors, from plain to buttery and cheesy.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1607783177581-f6976dcff559?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxQb3Bjb3JufGVufDB8fHx8MTcyOTg1NDUzOXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Pretzels",
+    "price": "$1-3",
+    "rating": 3,
+    "description": "A soft, salty snack, pretzels are available in various shapes and sizes, often served with dipping sauces like mustard or cheese.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1727691165307-69ac64d2ebd9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxQcmV0emVsc3xlbnwwfHx8fDE3Mjk4NTQ1Mzl8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Waffles",
+    "price": "$3-5",
+    "rating": 4,
+    "description": "A versatile breakfast or dessert, waffles can be served sweet with syrup and fruit or savory with meats and cheeses.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1491435154725-690cead8920e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxXYWZmbGVzfGVufDB8fHx8MTcyOTg1NDUzMXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Grilled Cheese",
+    "price": "$3-5",
+    "rating": 4,
+    "description": "A simple and satisfying sandwich, grilled cheese is made with bread and cheese grilled in butter until golden brown.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1528736235302-52922df5c122?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxHcmlsbGVkJTIwQ2hlZXNlfGVufDB8fHx8MTcyOTg1NDU0MHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Poutine",
+    "price": "$5-8",
+    "rating": 4,
+    "description": "A Canadian classic, poutine is a dish made with french fries, cheese curds, and gravy, often topped with additional ingredients like bacon or mushrooms.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1578619918896-128ac25d1a86?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxQb3V0aW5lfGVufDB8fHx8MTcyOTg1NTkzNHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Spring Rolls",
+    "price": "$2-4",
+    "rating": 4,
+    "description": "A popular Asian street food, spring rolls are thin rice paper wrappers filled with various ingredients like vegetables, meat, or seafood, and served with dipping sauces.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1515022376298-7333f33e704b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcHJpbmclMjBSb2xsc3xlbnwwfHx8fDE3Mjk4NTU5MzV8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Arepas",
+    "price": "$2-4",
+    "rating": 4,
+    "description": "A South American staple, arepas are cornmeal cakes that are cooked on a griddle or pan, and filled with various ingredients like meat, cheese, or vegetables.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1636044994534-3ce03c786806?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxBcmVwYXN8ZW58MHx8fHwxNzI5ODU1OTM1fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Crepes",
+    "price": "$3-6",
+    "rating": 4.5,
+    "description": "A French delicacy, crepes are thin pancakes made with wheat flour, milk, and eggs, often filled with sweet or savory ingredients.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1624616836916-d135468269b2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDcmVwZXN8ZW58MHx8fHwxNzI5ODU1OTM2fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Shawarma",
+    "price": "$5-8",
+    "rating": 4,
+    "description": "A Middle Eastern and Mediterranean street food, shawarma is meat, typically chicken or lamb, that is marinated and roasted on a vertical spit, then sliced thinly and served in a pita bread with various toppings.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1542528180-a1208c5169a5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTaGF3YXJtYXxlbnwwfHx8fDE3Mjk4NTU5MzZ8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Chicken Skewers",
+    "price": "$4-7",
+    "rating": 4,
+    "description": "A popular grilled street food, chicken skewers feature marinated and grilled chicken pieces, often served with a side of rice or vegetables.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1577367997065-fdd8fd94fb3f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGlja2VuJTIwU2tld2Vyc3xlbnwwfHx8fDE3Mjk4NTU5Mzd8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Fruit Smoothies",
+    "price": "$4-6",
+    "rating": 4,
+    "description": "A refreshing and healthy street food option, fruit smoothies are made with blended fruits, often with added yogurt, milk, or ice, and available in various flavors.",
+    "category": "Street Food",
+    "image": "https://images.unsplash.com/photo-1496318447583-f524534e9ce1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxGcnVpdCUyMFNtb290aGllc3xlbnwwfHx8fDE3Mjk4NTU5Mzd8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Spicy Kimchi Fried Rice",
+    "price": "$12-15",
+    "rating": 4.5,
+    "description": "A flavorful and spicy Korean dish featuring stir-fried rice with kimchi, vegetables, and a fiery gochujang sauce.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMEtpbWNoaSUyMEZyaWVkJTIwUmljZXxlbnwwfHx8fDE3Mjk4NTU5Mzh8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Buffalo Wings",
+    "price": "$8-12",
+    "rating": 4,
+    "description": "Classic American bar food, crispy chicken wings coated in a tangy and spicy buffalo sauce.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1608039755401-742074f0548d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxCdWZmYWxvJTIwV2luZ3N8ZW58MHx8fHwxNzI5ODU1OTM4fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Spicy Sichuan Noodles",
+    "price": "$10-14",
+    "rating": 4.2,
+    "description": "A Chinese noodle dish with a numbing and spicy Sichuan peppercorn sauce, often paired with stir-fried vegetables and meat.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1626509653291-5558b258f107?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMFNpY2h1YW4lMjBOb29kbGVzfGVufDB8fHx8MTcyOTg1NTkzOXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Jalapeño Popper Pizza",
+    "price": "$15-20",
+    "rating": 4,
+    "description": "A pizza topped with creamy jalapeño poppers, bacon, and a spicy sriracha sauce.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxKYWxhcGUlQzMlQjFvJTIwUG9wcGVyJTIwUGl6emF8ZW58MHx8fHwxNzI5ODU1OTM5fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Spicy Tuna Roll",
+    "price": "$10-15",
+    "rating": 4.3,
+    "description": "A sushi roll filled with spicy tuna, avocado, and cucumber, often topped with sriracha mayo.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1683180136189-19b7acc8b981?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMFR1bmElMjBSb2xsfGVufDB8fHx8MTcyOTg1NTk0MHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Jerk Chicken",
+    "price": "$12-16",
+    "rating": 4.1,
+    "description": "Jamaican-style chicken marinated in a spicy jerk seasoning, often grilled or roasted.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1592415162645-c055a337b613?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxKZXJrJTIwQ2hpY2tlbnxlbnwwfHx8fDE3Mjk4NTU5NDB8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Spicy Thai Curry",
+    "price": "$14-18",
+    "rating": 4.5,
+    "description": "A fragrant and flavorful curry dish with coconut milk, vegetables, and your choice of meat, featuring a spicy kick.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMFRoYWklMjBDdXJyeXxlbnwwfHx8fDE3Mjk4NTU5NDF8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Nashville Hot Chicken Sandwich",
+    "price": "$10-14",
+    "rating": 4.2,
+    "description": "A fried chicken sandwich with a crispy, spicy, and tangy Nashville hot sauce.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1502828331539-51c709e80300?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxOYXNodmlsbGUlMjBIb3QlMjBDaGlja2VuJTIwU2FuZHdpY2h8ZW58MHx8fHwxNzI5ODU1OTQxfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Spicy Shrimp Tacos",
+    "price": "$12-16",
+    "rating": 4,
+    "description": "Grilled or fried shrimp tacos with a spicy slaw and a tangy sauce.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1535400255456-984241443b29?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMFNocmltcCUyMFRhY29zfGVufDB8fHx8MTcyOTg1NTk0Mnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Sriracha Mayo Fries",
+    "price": "$6-8",
+    "rating": 3.8,
+    "description": "Crispy fries topped with a creamy and spicy sriracha mayo.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1518013431117-eb1465fa5752?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcmlyYWNoYSUyME1heW8lMjBGcmllc3xlbnwwfHx8fDE3Mjk4NTU5NDJ8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Sambal Fried Rice",
+    "price": "$10-14",
+    "rating": 4.1,
+    "description": "A Southeast Asian dish featuring stir-fried rice with sambal, a spicy chili paste.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1677921755291-c39158477b8e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTYW1iYWwlMjBGcmllZCUyMFJpY2V8ZW58MHx8fHwxNzI5ODU1OTQzfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Ghost Pepper Wings",
+    "price": "$15-20",
+    "rating": 4.7,
+    "description": "Extremely spicy chicken wings coated in a sauce made with the incredibly hot ghost pepper.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1603516863860-7d5c93a83fe8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxHaG9zdCUyMFBlcHBlciUyMFdpbmdzfGVufDB8fHx8MTcyOTg1NTk0M3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Spicy Korean BBQ",
+    "price": "$18-25",
+    "rating": 4.4,
+    "description": "Grilled marinated meats, like bulgogi, served with spicy side dishes like kimchi and gochujang.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1466220549276-aef9ce186540?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMEtvcmVhbiUyMEJCUXxlbnwwfHx8fDE3Mjk4NTU5NDR8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Spicy Arrabiata Pasta",
+    "price": "$12-16",
+    "rating": 4,
+    "description": "An Italian pasta dish with a spicy tomato sauce, often featuring chili flakes and other herbs.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1447279506476-3faec8071eee?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMEFycmFiaWF0YSUyMFBhc3RhfGVufDB8fHx8MTcyOTg1NTk0NHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Spicy Beef & Broccoli",
+    "price": "$14-18",
+    "rating": 3.9,
+    "description": "A classic Chinese-American dish with stir-fried beef and broccoli, often with a spicy sauce.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1694192708491-881b730b8d2b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMEJlZWYlMjB8ZW58MHx8fHwxNzI5ODU1OTQ0fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Chilli Con Carne",
+    "price": "$10-15",
+    "rating": 4.3,
+    "description": "A hearty Mexican-American stew with ground beef, beans, tomatoes, and chili peppers.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1597362925123-77861d3fbac7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGlsbGklMjBDb24lMjBDYXJuZXxlbnwwfHx8fDE3Mjk4NTU5NDV8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Spicy Tuna Poke Bowl",
+    "price": "$15-20",
+    "rating": 4.5,
+    "description": "A Hawaiian-inspired dish with diced raw tuna, rice, vegetables, and a spicy sauce.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1511378156040-1259b5bcd0fb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMFR1bmElMjBQb2tlJTIwQm93bHxlbnwwfHx8fDE3Mjk4NTU5NDV8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Spicy Chorizo Quesadilla",
+    "price": "$10-14",
+    "rating": 4.1,
+    "description": "A cheesy quesadilla with spicy chorizo, often served with salsa and sour cream.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1472721457610-d040f398d2fa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMENob3Jpem8lMjBRdWVzYWRpbGxhfGVufDB8fHx8MTcyOTg1NTk0Nnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Spicy Shrimp Pad Thai",
+    "price": "$14-18",
+    "rating": 4.2,
+    "description": "A stir-fried noodle dish with shrimp, tofu, vegetables, and a tangy and spicy sauce.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1619942707515-2c81f2f743ea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMFNocmltcCUyMFBhZCUyMFRoYWl8ZW58MHx8fHwxNzI5ODU1OTQ2fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Spicy Black Bean Burgers",
+    "price": "$10-14",
+    "rating": 4,
+    "description": "Vegetarian burgers made with black beans, spices, and a fiery sauce.",
+    "category": "Spicy",
+    "image": "https://images.unsplash.com/photo-1650954316166-c3361fefcc87?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcGljeSUyMEJsYWNrJTIwQmVhbiUyMEJ1cmdlcnN8ZW58MHx8fHwxNzI5ODU1OTQ3fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Mac and Cheese",
+    "price": "$8-15",
+    "rating": "4.5/5",
+    "description": "A classic comfort food made with pasta, cheese sauce, and often other ingredients like bread crumbs or bacon.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1704915210149-bdb355af4168?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxNYWMlMjBhbmQlMjBDaGVlc2V8ZW58MHx8fHwxNzI5ODU1OTQ3fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Cheese Pizza",
+    "price": "$10-20",
+    "rating": "4/5",
+    "description": "A pizza topped with cheese, often mozzarella, and sometimes other toppings like pepperoni or vegetables.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1528490060256-c345efae4442?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc2UlMjBQaXp6YXxlbnwwfHx8fDE3Mjk4NTU5NDh8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Grilled Cheese Sandwich",
+    "price": "$5-10",
+    "rating": "4/5",
+    "description": "A sandwich made with bread, cheese, and often butter, grilled to perfection.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1677511084683-0eba66ebaa7c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxHcmlsbGVkJTIwQ2hlZXNlJTIwU2FuZHdpY2h8ZW58MHx8fHwxNzI5ODU1OTQ5fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cheese Quesadilla",
+    "price": "$7-12",
+    "rating": "4/5",
+    "description": "A Mexican dish made with a tortilla filled with cheese and often other ingredients like meat or vegetables, grilled until golden brown.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1541521804416-c930f499acb0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc2UlMjBRdWVzYWRpbGxhfGVufDB8fHx8MTcyOTg1NTk0OXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cheesy Fries",
+    "price": "$5-10",
+    "rating": "4/5",
+    "description": "French fries covered in a cheesy sauce, often made with melted cheddar or nacho cheese.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1604565011092-c0fa4416f80f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc3klMjBGcmllc3xlbnwwfHx8fDE3Mjk4NTU5NTB8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cheese Fondue",
+    "price": "$20-40",
+    "rating": "4.5/5",
+    "description": "A Swiss dish made with melted cheese, often Gruyere and Emmental, served with bread, vegetables, and other dippers.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1542407795-9ca2a0246745?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc2UlMjBGb25kdWV8ZW58MHx8fHwxNzI5ODU1OTUwfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Cheese Curds",
+    "price": "$5-10",
+    "rating": "4/5",
+    "description": "Small, fresh cheese curds that are often served fried or deep-fried.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1579065472192-c3f98f86b6c6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc2UlMjBDdXJkc3xlbnwwfHx8fDE3Mjk4NTU5NTF8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cheesy Bread",
+    "price": "$5-10",
+    "rating": "4/5",
+    "description": "Bread topped with melted cheese, often garlic butter and herbs, and sometimes other toppings like pepperoni.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1598955442972-ea419b2f1404?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc3klMjBCcmVhZHxlbnwwfHx8fDE3Mjk4NTU5NTF8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Cheese and Broccoli Soup",
+    "price": "$5-10",
+    "rating": "4/5",
+    "description": "A creamy soup made with broccoli, cheese, and often other vegetables and seasonings.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc2UlMjBhbmQlMjBCcm9jY29saSUyMFNvdXB8ZW58MHx8fHwxNzI5ODU1OTUyfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cheesecake",
+    "price": "$5-10",
+    "rating": "4.5/5",
+    "description": "A rich dessert made with a creamy cheese filling, often cream cheese, and a graham cracker crust.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1508737804141-4c3b688e2546?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxDaGVlc2VjYWtlfGVufDB8fHx8MTcyOTg1NDUyN3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Mozzarella Sticks",
+    "price": "$6-12",
+    "rating": "4/5",
+    "description": "Mozzarella cheese sticks that are breaded and deep-fried, often served with marinara sauce.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1529312266912-b33cfce2eefd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxNb3p6YXJlbGxhJTIwU3RpY2tzfGVufDB8fHx8MTcyOTg1NTk1Mnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cheesy Potatoes",
+    "price": "$5-10",
+    "rating": "4/5",
+    "description": "Potatoes that are often baked or roasted, then topped with a cheesy sauce or cheese and other seasonings.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1604565011092-c0fa4416f80f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc3klMjBQb3RhdG9lc3xlbnwwfHx8fDE3Mjk4NTU5NTN8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Macaroni and Cheese Bites",
+    "price": "$5-10",
+    "rating": "4/5",
+    "description": "Small, bite-sized pieces of macaroni and cheese that are often breaded and deep-fried.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxNYWNhcm9uaSUyMGFuZCUyMENoZWVzZSUyMEJpdGVzfGVufDB8fHx8MTcyOTg1NTk1NHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cheese Ravioli",
+    "price": "$10-20",
+    "rating": "4/5",
+    "description": "Pasta filled with cheese, often ricotta or mozzarella, served with a tomato sauce or cream sauce.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1605609147001-6a05cf918656?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc2UlMjBSYXZpb2xpfGVufDB8fHx8MTcyOTg1NTk1NHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Cheese Tortellini",
+    "price": "$10-20",
+    "rating": "4/5",
+    "description": "Pasta filled with cheese, often ricotta or mozzarella, served with a tomato sauce or cream sauce.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1625944525803-d510d5a4a262?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc2UlMjBUb3J0ZWxsaW5pfGVufDB8fHx8MTcyOTg1NTk1NXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cheese Stuffed Peppers",
+    "price": "$8-15",
+    "rating": "4/5",
+    "description": "Bell peppers that are stuffed with cheese, often rice, ground meat, and other ingredients.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1543738066-5edfab962f10?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc2UlMjBTdHVmZmVkJTIwUGVwcGVyc3xlbnwwfHx8fDE3Mjk4NTU5NTV8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Cheese Ball",
+    "price": "$5-10",
+    "rating": "4/5",
+    "description": "A ball of cheese that is often mixed with other ingredients like nuts, herbs, and spices, served as a snack or appetizer.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1608490212485-380556e81056?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc2UlMjBCYWxsfGVufDB8fHx8MTcyOTg1NTk1Nnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cheese and Sausage Pizza",
+    "price": "$12-25",
+    "rating": "4.5/5",
+    "description": "A pizza topped with cheese, sausage, and sometimes other toppings like peppers or onions.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1700760934249-93efbb574d23?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc2UlMjBhbmQlMjBTYXVzYWdlJTIwUGl6emF8ZW58MHx8fHwxNzI5ODU1OTU2fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Cheesy Chicken Alfredo",
+    "price": "$15-25",
+    "rating": "4/5",
+    "description": "A creamy pasta dish made with chicken, cheese, and Alfredo sauce.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaGVlc3klMjBDaGlja2VuJTIwQWxmcmVkb3xlbnwwfHx8fDE3Mjk4NTU5NTd8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Nachos",
+    "price": "$8-15",
+    "rating": "4/5",
+    "description": "Tortilla chips topped with cheese, often melted cheddar or nacho cheese, and other toppings like jalapeños, beans, and sour cream.",
+    "category": "Cheesy",
+    "image": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxOYWNob3N8ZW58MHx8fHwxNzI5ODU1OTU3fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Kung Pao Chicken",
+    "price": "$12-18",
+    "rating": 4.5,
+    "description": "A classic Sichuan dish with stir-fried chicken, peanuts, chili peppers, and a spicy, savory sauce.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxLdW5nJTIwUGFvJTIwQ2hpY2tlbnxlbnwwfHx8fDE3Mjk4NTU5NTh8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Mapo Tofu",
+    "price": "$10-15",
+    "rating": 4.2,
+    "description": "A spicy and flavorful dish with soft tofu, ground pork, chili oil, and Sichuan peppercorns.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1606756790138-261d2b21cd75?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxNYXBvJTIwVG9mdXxlbnwwfHx8fDE3Mjk4NTU5NTh8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Chow Mein",
+    "price": "$8-12",
+    "rating": 4,
+    "description": "A popular noodle dish with stir-fried vegetables, meat, and a savory sauce.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1634864572872-a01c21e388d4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxDaG93JTIwTWVpbnxlbnwwfHx8fDE3Mjk4NTU5NTl8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Egg Rolls",
+    "price": "$3-5",
+    "rating": 3.8,
+    "description": "Crispy fried rolls filled with vegetables and sometimes meat, served with a sweet and sour sauce.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1606525437679-037aca74a3e9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxFZ2clMjBSb2xsc3xlbnwwfHx8fDE3Mjk4NTU5NjB8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Sweet and Sour Pork",
+    "price": "$13-19",
+    "rating": 4.1,
+    "description": "Tender pork coated in a sweet and tangy sauce and served with fried pineapple.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1647706155273-635630093fbc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxTd2VldCUyMGFuZCUyMFNvdXIlMjBQb3JrfGVufDB8fHx8MTcyOTg1NzE2MXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "General Tso's Chicken",
+    "price": "$14-20",
+    "rating": 4.3,
+    "description": "Deep-fried chicken pieces coated in a sweet, spicy, and tangy sauce.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxHZW5lcmFsJTIwVHNvJTI3cyUyMENoaWNrZW58ZW58MHx8fHwxNzI5ODU3MTYyfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Fried Rice",
+    "price": "$7-11",
+    "rating": 3.9,
+    "description": "A popular dish of stir-fried rice with vegetables, eggs, and sometimes meat.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1512058556646-c4da40fba323?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxGcmllZCUyMFJpY2V8ZW58MHx8fHwxNzI5ODU3MTYyfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Wonton Soup",
+    "price": "$6-10",
+    "rating": 4.4,
+    "description": "A comforting soup with delicate dumplings filled with pork or shrimp in a flavorful broth.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1651783078053-fc9e8f2ed0e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxXb250b24lMjBTb3VwfGVufDB8fHx8MTcyOTg1NzE2M3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Peking Duck",
+    "price": "$25-40",
+    "rating": 4.7,
+    "description": "A traditional roasted duck with crispy skin and tender meat, served with pancakes and dipping sauces.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1717181778723-fe73ee9f9475?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxQZWtpbmclMjBEdWNrfGVufDB8fHx8MTcyOTg1NzE2M3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Dim Sum",
+    "price": "$4-8 per item",
+    "rating": 4.6,
+    "description": "A variety of small, savory, and sweet dishes served in bamboo steamers, often enjoyed for brunch.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1628591697740-4378f154b2ce?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxEaW0lMjBTdW18ZW58MHx8fHwxNzI5ODU3MTY0fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Spring Rolls",
+    "price": "$3-5",
+    "rating": 3.7,
+    "description": "Fresh rolls filled with rice paper, vegetables, and sometimes meat or tofu.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1515022376298-7333f33e704b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MTV8MHwxfHNlYXJjaHwxfHxTcHJpbmclMjBSb2xsc3xlbnwwfHx8fDE3Mjk4NTU5MzV8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Moo Shu Pork",
+    "price": "$15-21",
+    "rating": 4.2,
+    "description": "Thinly sliced pork stir-fried with vegetables and wrapped in pancakes with hoisin sauce.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1690983321750-ad6f6d59a84b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxNb28lMjBTaHUlMjBQb3JrfGVufDB8fHx8MTcyOTg1NzE2NHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Sesame Chicken",
+    "price": "$12-18",
+    "rating": 4,
+    "description": "Deep-fried chicken coated in a sweet and savory sesame sauce.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1627662234691-53b28f5a680c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxTZXNhbWUlMjBDaGlja2VufGVufDB8fHx8MTcyOTg1NzE2NXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Beef and Broccoli",
+    "price": "$13-19",
+    "rating": 4.1,
+    "description": "Tender beef stir-fried with broccoli florets and a savory sauce.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1432139509613-5c4255815697?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxCZWVmJTIwYW5kJTIwQnJvY2NvbGl8ZW58MHx8fHwxNzI5ODU3MTY1fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Dan Dan Noodles",
+    "price": "$10-16",
+    "rating": 4.4,
+    "description": "A spicy Sichuan noodle dish with minced pork, chili oil, and sesame paste.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1601002357064-e43894c23107?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxEYW4lMjBEYW4lMjBOb29kbGVzfGVufDB8fHx8MTcyOTg1NzE2Nnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Hot and Sour Soup",
+    "price": "$5-9",
+    "rating": 4.3,
+    "description": "A flavorful and tangy soup with tofu, vegetables, and a blend of spicy and sour flavors.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1478749485505-2a903a729c63?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxIb3QlMjBhbmQlMjBTb3VyJTIwU291cHxlbnwwfHx8fDE3Mjk4NTcxNjZ8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Szechuan Green Beans",
+    "price": "$10-15",
+    "rating": 4,
+    "description": "Stir-fried green beans with garlic, chili peppers, and a savory Szechuan sauce.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1577451581377-523b0a03bb6b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxTemVjaHVhbiUyMEdyZWVuJTIwQmVhbnN8ZW58MHx8fHwxNzI5ODU3MTY3fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Steamed Fish",
+    "price": "$18-25",
+    "rating": 4.6,
+    "description": "A delicate dish of steamed fish with ginger, scallions, and a light soy sauce.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1515037609796-8a12ca603d7d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxTdGVhbWVkJTIwRmlzaHxlbnwwfHx8fDE3Mjk4NTcxNjd8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Lo Mein",
+    "price": "$8-12",
+    "rating": 3.9,
+    "description": "A stir-fried noodle dish with a slightly thicker texture than chow mein, often with vegetables and meat.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1470114755716-3e1124c6c3bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxMbyUyME1laW58ZW58MHx8fHwxNzI5ODU3MTY4fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Pot Stickers",
+    "price": "$5-7",
+    "rating": 4.2,
+    "description": "Pan-fried dumplings filled with pork or vegetables, served with a dipping sauce.",
+    "category": "Chinese",
+    "image": "https://images.unsplash.com/photo-1508394522741-82ac9c15ba69?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxQb3QlMjBTdGlja2Vyc3xlbnwwfHx8fDE3Mjk4NTcxNjh8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Butter Chicken",
+    "price": "$12-18",
+    "rating": "4.5/5",
+    "description": "A rich and creamy curry made with chicken marinated in yogurt and spices, cooked in a tomato-based sauce with butter.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxCdXR0ZXIlMjBDaGlja2VufGVufDB8fHx8MTcyOTg1NzE2OXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "price": "$13-20",
+    "rating": "4.3/5",
+    "description": "A popular dish featuring grilled chicken marinated in yogurt and spices, cooked in a creamy tomato-based sauce with a hint of sweetness.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxDaGlja2VuJTIwVGlra2ElMjBNYXNhbGF8ZW58MHx8fHwxNzI5ODU3MTY5fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Saag Paneer",
+    "price": "$10-15",
+    "rating": "4.2/5",
+    "description": "A vegetarian dish made with spinach, paneer (Indian cheese), and spices, typically served with a side of rice or roti.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1573821663912-569905455b1c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxTYWFnJTIwUGFuZWVyfGVufDB8fHx8MTcyOTg1NzE3MHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Aloo Gobi",
+    "price": "$8-12",
+    "rating": "4/5",
+    "description": "A vegetarian curry made with potatoes and cauliflower, cooked in a flavorful spice blend.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1561990768-fc6c571931cc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxBbG9vJTIwR29iaXxlbnwwfHx8fDE3Mjk4NTcxNzB8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Chana Masala",
+    "price": "$9-14",
+    "rating": "4/5",
+    "description": "A flavorful and hearty curry made with chickpeas, onions, tomatoes, and spices, often served with rice or naan bread.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1587033649773-5c231faa21e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxDaGFuYSUyME1hc2FsYXxlbnwwfHx8fDE3Mjk4NTcxNzF8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Vindaloo",
+    "price": "$14-22",
+    "rating": "4/5",
+    "description": "A spicy and tangy curry made with pork or chicken, marinated in vinegar and spices, and cooked in a chili-based sauce.",
+    "category": "Indian Curry",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrhWh2X47yQewA7W17Rum-dNxmWTSxAYdxyw&s",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Malai Kofta",
+    "price": "$11-17",
+    "rating": "4.1/5",
+    "description": "A vegetarian curry featuring paneer balls coated in a creamy and flavorful sauce made with cashews, almonds, and spices.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1606471191009-63994c53433b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxNYWxhaSUyMEtvZnRhfGVufDB8fHx8MTcyOTg1NzE3Mnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": " Rogan Josh",
+    "price": "$15-25",
+    "rating": "4/5",
+    "description": "A Kashmiri curry made with lamb or goat, cooked in a rich and aromatic sauce with yogurt, saffron, and spices.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1627921227616-3e7d92a17dcb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHwlMjBSb2dhbiUyMEpvc2h8ZW58MHx8fHwxNzI5ODU3MTcyfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Biryani",
+    "price": "$12-18",
+    "rating": "4.4/5",
+    "description": "A fragrant and flavorful rice dish made with meat, vegetables, and spices, typically layered and cooked in a pot.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1542367592-8849eb950fd8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxCaXJ5YW5pfGVufDB8fHx8MTcyOTg1NzE3Mnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Palak Paneer",
+    "price": "$9-13",
+    "rating": "4.3/5",
+    "description": "A vegetarian curry made with spinach, paneer, and spices, often served with rice or roti.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxQYWxhayUyMFBhbmVlcnxlbnwwfHx8fDE3Mjk4NTcxNzN8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Tandoori Chicken",
+    "price": "$14-21",
+    "rating": "4.2/5",
+    "description": "Chicken marinated in yogurt and spices, then roasted in a tandoor oven until tender and flavorful.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1697155836250-e3ba3a24fbd5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxUYW5kb29yaSUyMENoaWNrZW58ZW58MHx8fHwxNzI5ODU3MTczfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Daal Makhani",
+    "price": "$10-16",
+    "rating": "4.5/5",
+    "description": "A rich and creamy lentil curry made with black lentils, kidney beans, butter, and spices, often served with rice or naan bread.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1727018742095-14c9a05aa71a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxEYWFsJTIwTWFraGFuaXxlbnwwfHx8fDE3Mjk4NTcxNzR8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Kadai Paneer",
+    "price": "$11-17",
+    "rating": "4.3/5",
+    "description": "A vegetarian curry made with paneer, bell peppers, onions, tomatoes, and spices, cooked in a kadai (wok).",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1573821663912-569905455b1c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxLYWRhaSUyMFBhbmVlcnxlbnwwfHx8fDE3Mjk4NTcxNzR8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Chicken Curry",
+    "price": "$10-15",
+    "rating": "4/5",
+    "description": "A classic Indian curry made with chicken, onions, tomatoes, and spices, cooked in a flavorful gravy.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1638049924984-90618133d462?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxDaGlja2VuJTIwQ3Vycnl8ZW58MHx8fHwxNzI5ODU3MTc0fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Fish Curry",
+    "price": "$12-18",
+    "rating": "4.2/5",
+    "description": "A flavorful curry made with fish, coconut milk, and spices, typically served with rice or appam.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1620894580123-466ad3a0ca06?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxGaXNoJTIwQ3Vycnl8ZW58MHx8fHwxNzI5ODU3MTc1fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Lamb Curry",
+    "price": "$14-22",
+    "rating": "4/5",
+    "description": "A hearty curry made with lamb, onions, tomatoes, and spices, cooked in a rich and flavorful gravy.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxMYW1iJTIwQ3Vycnl8ZW58MHx8fHwxNzI5ODU3MTc1fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Matar Paneer",
+    "price": "$9-14",
+    "rating": "4/5",
+    "description": "A vegetarian curry made with peas, paneer, and spices, often served with rice or roti.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1573821663912-569905455b1c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxNYXRhciUyMFBhbmVlcnxlbnwwfHx8fDE3Mjk4NTcxNzZ8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Baingan Bharta",
+    "price": "$8-12",
+    "rating": "4/5",
+    "description": "A smoky and flavorful curry made with roasted eggplant, onions, tomatoes, and spices.",
+    "category": "Indian Curry",
+    "image": "https://t3.ftcdn.net/jpg/04/47/95/44/360_F_447954458_KRb8tDCav1JTFjZchILTXCyKYGcDbsKg.jpg",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Chicken Tikka",
+    "price": "$12-18",
+    "rating": "4.4/5",
+    "description": "Grilled chicken marinated in yogurt and spices, often served as a starter or as part of a mixed grill.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1652545296821-09a023a9fd08?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxDaGlja2VuJTIwVGlra2F8ZW58MHx8fHwxNzI5ODU3MTc3fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Vegetable Curry",
+    "price": "$9-14",
+    "rating": "4/5",
+    "description": "A vegetarian curry made with a variety of vegetables, cooked in a flavorful sauce with spices.",
+    "category": "Indian Curry",
+    "image": "https://images.unsplash.com/photo-1582576163090-09d3b6f8a969?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxWZWdldGFibGUlMjBDdXJyeXxlbnwwfHx8fDE3Mjk4NTcxNzd8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Potato Chips",
+    "price": "$2 - $4",
+    "rating": "3.5/5",
+    "description": "Crispy, salty potato chips available in various flavors like original, barbecue, and sour cream and onion.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1441986060468-324610e6e6a8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxQb3RhdG8lMjBDaGlwc3xlbnwwfHx8fDE3Mjk4NTcxNzh8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Popcorn",
+    "price": "$1 - $3",
+    "rating": "4/5",
+    "description": "A light and airy snack, perfect for movie nights or casual munching. Available in buttered, caramel, and cheesy flavors.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1607783177581-f6976dcff559?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxQb3Bjb3JufGVufDB8fHx8MTcyOTg1NDUzOXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Trail Mix",
+    "price": "$3 - $5",
+    "rating": "4/5",
+    "description": "A healthy and energy-boosting snack mix containing nuts, seeds, dried fruit, and sometimes chocolate.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1529409927534-30565d1a58a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxUcmFpbCUyME1peHxlbnwwfHx8fDE3Mjk4NTcxNzh8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Fruit Snacks",
+    "price": "$1 - $2",
+    "rating": "3/5",
+    "description": "Chewy, gelatin-based snacks made with fruit flavors, often marketed as a healthier alternative to candy.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1694984865944-04e836a0648f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxGcnVpdCUyMFNuYWNrc3xlbnwwfHx8fDE3Mjk4NTcxNzh8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Pretzels",
+    "price": "$1 - $3",
+    "rating": "3.5/5",
+    "description": "Salty, crunchy pretzel sticks or twists, often enjoyed with dips like cheese or mustard.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1727691165307-69ac64d2ebd9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxQcmV0emVsc3xlbnwwfHx8fDE3Mjk4NTQ1Mzl8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Chocolate Bar",
+    "price": "$1 - $2",
+    "rating": "4.5/5",
+    "description": "A classic indulgence, with various milk, dark, and white chocolate options, often with added ingredients like nuts or caramel.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1522249341405-3871994ac062?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxDaG9jb2xhdGUlMjBCYXJ8ZW58MHx8fHwxNzI5ODU3MTc5fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Yogurt",
+    "price": "$1 - $2",
+    "rating": "4/5",
+    "description": "A healthy and protein-rich snack, available in various flavors and with options like Greek yogurt.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1590883981100-30832064c22f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxZb2d1cnR8ZW58MHx8fHwxNzI5ODU3MTc5fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Crackers",
+    "price": "$2 - $4",
+    "rating": "3.5/5",
+    "description": "Thin, crispy crackers, often enjoyed with cheese, spreads, or dips.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1541401154946-62f8d84bd284?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxDcmFja2Vyc3xlbnwwfHx8fDE3Mjk4NTcxODB8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Fruit",
+    "price": "$1 - $3",
+    "rating": "4.5/5",
+    "description": "A natural and nutritious snack option, with a wide variety of fresh and dried fruits to choose from.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxGcnVpdHxlbnwwfHx8fDE3Mjk4NTcxODB8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Energy Bars",
+    "price": "$2 - $4",
+    "rating": "3.5/5",
+    "description": "Convenient and portable snack bars designed to provide energy, often with a combination of nuts, seeds, and dried fruit.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1633360821154-1935fb5671e6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxFbmVyZ3klMjBCYXJzfGVufDB8fHx8MTcyOTg1NzE4MHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Rice Cakes",
+    "price": "$1 - $2",
+    "rating": "3/5",
+    "description": "Low-calorie and low-fat rice cakes, often topped with spreads, cheese, or other toppings.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1671762520646-2430ac8d82f3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxSaWNlJTIwQ2FrZXN8ZW58MHx8fHwxNzI5ODU3MTgxfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Beef Jerky",
+    "price": "$4 - $6",
+    "rating": "4/5",
+    "description": "Dried, seasoned beef, a high-protein snack popular for its savory and chewy texture.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1597417175478-c161c1788242?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxCZWVmJTIwSmVya3l8ZW58MHx8fHwxNzI5ODU3MTgxfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Cheese",
+    "price": "$3 - $5",
+    "rating": "4.5/5",
+    "description": "A versatile snack, with various types of cheese available, from cheddar to brie.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxDaGVlc2V8ZW58MHx8fHwxNzI5ODU3MTgyfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Nuts",
+    "price": "$3 - $5",
+    "rating": "4/5",
+    "description": "A healthy and protein-rich snack, with options like almonds, walnuts, and peanuts.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1708521203160-2a1e7c8f774a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxOdXRzfGVufDB8fHx8MTcyOTg1NzE4Mnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Hummus",
+    "price": "$3 - $5",
+    "rating": "4/5",
+    "description": "A creamy chickpea dip, served with pita bread, vegetables, or crackers.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1591299177061-2151e53fcaea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxIdW1tdXN8ZW58MHx8fHwxNzI5ODU3MTgyfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Hard-Boiled Eggs",
+    "price": "$1 - $2",
+    "rating": "4/5",
+    "description": "A protein-packed snack, easy to prepare and transport.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1721675694187-8d03b127cb78?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxIYXJkLUJvaWxlZCUyMEVnZ3N8ZW58MHx8fHwxNzI5ODU3MTgzfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Frozen Yogurt",
+    "price": "$2 - $4",
+    "rating": "4/5",
+    "description": "A refreshing and healthy snack, available in various flavors and with toppings like fruit and granola.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1498190338361-82055e010b39?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MjZ8MHwxfHNlYXJjaHwxfHxGcm96ZW4lMjBZb2d1cnR8ZW58MHx8fHwxNzI5ODU3MTgzfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Smoothie",
+    "price": "$3 - $5",
+    "rating": "4/5",
+    "description": "A quick and nutritious snack, blended with fruits, vegetables, yogurt, and other ingredients.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1607522154446-86a1b4b90556?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxTbW9vdGhpZXxlbnwwfHx8fDE3Mjk4NTcyNDB8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Granola Bars",
+    "price": "$1 - $3",
+    "rating": "3.5/5",
+    "description": "Convenient and portable snack bars, often with oats, nuts, seeds, and dried fruit.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1464195157370-5b596406ff80?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxHcmFub2xhJTIwQmFyc3xlbnwwfHx8fDE3Mjk4NTcyNDB8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Candy",
+    "price": "$1 - $3",
+    "rating": "4/5",
+    "description": "A sweet treat with a wide variety of options, from chocolate to gummies.",
+    "category": "Snacks",
+    "image": "https://images.unsplash.com/photo-1499195333224-3ce974eecb47?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxDYW5keXxlbnwwfHx8fDE3Mjk4NTcyNDF8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Salmon",
+    "price": "$15-25/lb",
+    "rating": 4.5,
+    "description": "A fatty, flavorful fish with a delicate pink flesh. It's rich in omega-3 fatty acids and often grilled, baked, or smoked.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1694316412471-31f71d272968?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxTYWxtb258ZW58MHx8fHwxNzI5ODU3MjQxfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Tuna",
+    "price": "$10-20/lb",
+    "rating": 4,
+    "description": "A lean, meaty fish with a mild flavor. It's popular for sushi, sashimi, and canned in oil or water.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1595425279740-b39185842ec6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxUdW5hfGVufDB8fHx8MTcyOTg1NzI0Mnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Shrimp",
+    "price": "$10-20/lb",
+    "rating": 4.5,
+    "description": "A small crustacean with a delicate flavor. It's versatile and can be grilled, sautéed, or boiled.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1535400255456-984241443b29?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxTaHJpbXB8ZW58MHx8fHwxNzI5ODU3MjQyfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Crab",
+    "price": "$20-40/lb",
+    "rating": 4.5,
+    "description": "A crustacean with sweet, delicate meat. It's often served steamed or boiled, and its claws and legs are prized for their meat.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1467639833805-76aed7addc01?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxDcmFifGVufDB8fHx8MTcyOTg1NzI0Mnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Lobster",
+    "price": "$20-50/lb",
+    "rating": 4.5,
+    "description": "A large crustacean with a sweet, firm meat. It's typically steamed or boiled and served with melted butter.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1503414382497-bfd17f3c2e41?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxMb2JzdGVyfGVufDB8fHx8MTcyOTg1NzI0M3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Scallops",
+    "price": "$15-30/lb",
+    "rating": 4,
+    "description": "A bivalve mollusk with a sweet, slightly salty flavor. It's often seared or grilled and served with a variety of sauces.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1612204078213-a227dba74093?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxTY2FsbG9wc3xlbnwwfHx8fDE3Mjk4NTcyNDN8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Oysters",
+    "price": "$10-20/dozen",
+    "rating": 4,
+    "description": "A bivalve mollusk with a briny, metallic flavor. They can be eaten raw on the half shell or cooked in a variety of ways.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1608538241695-16e07752a41e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxPeXN0ZXJzfGVufDB8fHx8MTcyOTg1NzI0NHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Mussels",
+    "price": "$8-15/lb",
+    "rating": 4,
+    "description": "A bivalve mollusk with a mild, slightly sweet flavor. They're often steamed in white wine or served in a broth.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1608135227059-95aacee01035?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxNdXNzZWxzfGVufDB8fHx8MTcyOTg1NzI0NHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Clams",
+    "price": "$8-15/lb",
+    "rating": 4,
+    "description": "A bivalve mollusk with a salty, slightly sweet flavor. They can be steamed, baked, or fried.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1703786948515-d67fd7a008c1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxDbGFtc3xlbnwwfHx8fDE3Mjk4NTcyNDV8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Cod",
+    "price": "$10-15/lb",
+    "rating": 4,
+    "description": "A white, flaky fish with a mild flavor. It's popular for fish and chips, baked dishes, and fish cakes.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1569297024945-6ea549e357c9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxDb2R8ZW58MHx8fHwxNzI5ODU3MjQ1fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Haddock",
+    "price": "$12-18/lb",
+    "rating": 4,
+    "description": "A white, flaky fish with a mild flavor. It's similar to cod but with a slightly firmer texture.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1552767303-1da9f283eb35?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxIYWRkb2NrfGVufDB8fHx8MTcyOTg1NzI0NXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Halibut",
+    "price": "$20-30/lb",
+    "rating": 4.5,
+    "description": "A large, flat fish with a firm, white flesh and a mild, sweet flavor. It's often grilled or baked.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1685674317675-240593074127?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxIYWxpYnV0fGVufDB8fHx8MTcyOTg1NzI0Nnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Swordfish",
+    "price": "$15-25/lb",
+    "rating": 4,
+    "description": "A large, meaty fish with a strong, slightly sweet flavor. It's often grilled or seared.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1594299197737-10a1a5573bc6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxTd29yZGZpc2h8ZW58MHx8fHwxNzI5ODU3MjQ2fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Mahi-Mahi",
+    "price": "$12-20/lb",
+    "rating": 4,
+    "description": "A firm, white fish with a mild, slightly sweet flavor. It's popular for grilling, baking, or pan-frying.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1566225167557-0bfb798cafb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxNYWhpLU1haGl8ZW58MHx8fHwxNzI5ODU3MjQ3fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Snapper",
+    "price": "$15-25/lb",
+    "rating": 4,
+    "description": "A firm, white fish with a delicate, sweet flavor. It's often grilled, baked, or fried.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1531523940451-a03c6ad4863d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxTbmFwcGVyfGVufDB8fHx8MTcyOTg1NzI0N3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Grouper",
+    "price": "$20-30/lb",
+    "rating": 4.5,
+    "description": "A firm, white fish with a slightly sweet flavor. It's popular for grilling, baking, or frying.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1528157945557-2297cc49565e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxHcm91cGVyfGVufDB8fHx8MTcyOTg1NzI0OHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Octopus",
+    "price": "$15-25/lb",
+    "rating": 4,
+    "description": "A cephalopod with a chewy, slightly sweet flavor. It's often grilled, braised, or stewed.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1523486230352-65ff5222cea4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxPY3RvcHVzfGVufDB8fHx8MTcyOTg1NzI0OHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Squid",
+    "price": "$10-15/lb",
+    "rating": 4,
+    "description": "A cephalopod with a firm, chewy texture and a mild, slightly salty flavor. It's often grilled, fried, or stuffed.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1503019419990-1d961b6301aa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxTcXVpZHxlbnwwfHx8fDE3Mjk4NTcyNDl8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Clam Chowder",
+    "price": "$8-12/bowl",
+    "rating": 4,
+    "description": "A creamy soup made with clams, potatoes, onions, and milk or cream.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1571167366136-b57e07761625?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxDbGFtJTIwQ2hvd2RlcnxlbnwwfHx8fDE3Mjk4NTcyNDl8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Sushi",
+    "price": "$10-20/roll",
+    "rating": 4.5,
+    "description": "A Japanese dish consisting of vinegared rice topped with various ingredients, including seafood, vegetables, and eggs.",
+    "category": "Seafood",
+    "image": "https://images.unsplash.com/photo-1611143669185-af224c5e3252?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3MDl8MHwxfHNlYXJjaHwxfHxTdXNoaXxlbnwwfHx8fDE3Mjk4NTQ1Mzh8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Avocado",
+    "price": "$2-3",
+    "rating": 4.5,
+    "description": "A creamy, nutrient-rich fruit packed with healthy fats, fiber, and vitamins.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1720305284322-07b6f099395c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxBdm9jYWRvfGVufDB8fHx8MTcyOTg1NzI1MHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Salmon",
+    "price": "$10-15",
+    "rating": 4.7,
+    "description": "A fatty fish rich in omega-3 fatty acids, protein, and vitamin D.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1694316412471-31f71d272968?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxTYWxtb258ZW58MHx8fHwxNzI5ODU3MjQxfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Broccoli",
+    "price": "$1-2",
+    "rating": 4.3,
+    "description": "A cruciferous vegetable loaded with vitamins, minerals, and antioxidants.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1590779033100-9f60a05a013d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxCcm9jY29saXxlbnwwfHx8fDE3Mjk4NTcyNTB8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Quinoa",
+    "price": "$3-4",
+    "rating": 4.6,
+    "description": "A complete protein source, high in fiber, and a good source of iron and magnesium.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1521354414378-fcffad1d3d6a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxRdWlub2F8ZW58MHx8fHwxNzI5ODU3MjUxfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Blueberries",
+    "price": "$3-4",
+    "rating": 4.4,
+    "description": "A superfood rich in antioxidants, fiber, and vitamin C.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1600274737421-4813870867dd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxCbHVlYmVycmllc3xlbnwwfHx8fDE3Mjk4NTcyNTF8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Sweet Potatoes",
+    "price": "$1-2",
+    "rating": 4.5,
+    "description": "A starchy vegetable with a high vitamin A content, fiber, and antioxidants.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1667653722327-d1f3cb8e4570?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxTd2VldCUyMFBvdGF0b2VzfGVufDB8fHx8MTcyOTg1NzI1Mnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Spinach",
+    "price": "$2-3",
+    "rating": 4.2,
+    "description": "A leafy green packed with vitamins, minerals, and antioxidants.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1592419391068-9bd09dd58510?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxTcGluYWNofGVufDB8fHx8MTcyOTg1NzI1Mnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Chickpeas",
+    "price": "$2-3",
+    "rating": 4.7,
+    "description": "A high-protein legume, a good source of fiber, and iron.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1591120583691-49d2741e55da?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxDaGlja3BlYXN8ZW58MHx8fHwxNzI5ODU3MjUzfDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Almonds",
+    "price": "$4-5",
+    "rating": 4.6,
+    "description": "A healthy nut rich in protein, fiber, and healthy fats.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1590080876351-941da357bde6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxBbG1vbmRzfGVufDB8fHx8MTcyOTg1NzI1M3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Brown Rice",
+    "price": "$2-3",
+    "rating": 4.4,
+    "description": "A whole grain, a good source of fiber and nutrients.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1705147289789-6df2593f1b1e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxCcm93biUyMFJpY2V8ZW58MHx8fHwxNzI5ODU3MjU0fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  },
+  {
+    "name": "Lentils",
+    "price": "$2-3",
+    "rating": 4.8,
+    "description": "A high-protein legume, a good source of fiber, iron, and folate.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1503838922633-d7892c7a2bc0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxMZW50aWxzfGVufDB8fHx8MTcyOTg1NzI1NHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Edamame",
+    "price": "$3-4",
+    "rating": 4.5,
+    "description": "A soybean that is a good source of protein, fiber, and vitamins.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1606756790138-261d2b21cd75?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxFZGFtYW1lfGVufDB8fHx8MTcyOTg1NzI1NXww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Greek Yogurt",
+    "price": "$2-3",
+    "rating": 4.6,
+    "description": "A high-protein dairy product, a good source of calcium, and probiotics.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1697634636056-4616b23873e4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxHcmVlayUyMFlvZ3VydHxlbnwwfHx8fDE3Mjk4NTcyNTV8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Apples",
+    "price": "$1-2",
+    "rating": 4.3,
+    "description": "A fruit high in fiber, vitamin C, and antioxidants.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1600626337767-e4fbae218c9a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxBcHBsZXN8ZW58MHx8fHwxNzI5ODU3MjU2fDA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Eggs",
+    "price": "$2-3",
+    "rating": 4.7,
+    "description": "A high-protein food source, a good source of vitamins and minerals.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1597528662465-55ece5734101?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxFZ2dzfGVufDB8fHx8MTcyOTg1NzI1Nnww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Oats",
+    "price": "$2-3",
+    "rating": 4.5,
+    "description": "A whole grain high in fiber, a good source of protein, and minerals.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1590194360975-c250dde6520d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxPYXRzfGVufDB8fHx8MTcyOTg1NzI1N3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Tomatoes",
+    "price": "$1-2",
+    "rating": 4.2,
+    "description": "A fruit that is a good source of vitamin C, lycopene, and potassium.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1601001815894-4bb6c81416d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxUb21hdG9lc3xlbnwwfHx8fDE3Mjk4NTcyNTd8MA&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Kale",
+    "price": "$2-3",
+    "rating": 4.4,
+    "description": "A leafy green packed with vitamins, minerals, and antioxidants.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1523143093721-2cb542ba354d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxLYWxlfGVufDB8fHx8MTcyOTg1NzI1N3ww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Lunch"
+  },
+  {
+    "name": "Bananas",
+    "price": "$0.5-1",
+    "rating": 4.1,
+    "description": "A fruit high in potassium, fiber, and vitamin B6.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1520658289427-977eb66c2dbd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxCYW5hbmFzfGVufDB8fHx8MTcyOTg1NzI1OHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Breakfast"
+  },
+  {
+    "name": "Tofu",
+    "price": "$3-4",
+    "rating": 4.6,
+    "description": "A soy-based protein source, a good source of calcium and iron.",
+    "category": "Healthy",
+    "image": "https://images.unsplash.com/photo-1606756790138-261d2b21cd75?crop=entropy&cs=srgb&fm=jpg&ixid=M3w2Njg3Mjd8MHwxfHNlYXJjaHwxfHxUb2Z1fGVufDB8fHx8MTcyOTg1NzI1OHww&ixlib=rb-4.0.3&q=85",
+    "meal_type": "Dinner"
+  }
+]
