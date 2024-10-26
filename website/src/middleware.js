@@ -8,7 +8,7 @@ const isPublicRoute = createRouteMatcher([
     '/',
     '/hotelUser(.*)',
     '/api/(.*)',
-    '/Favourite(.*)'
+    '/explore(.*)',
 ]);
 
 export default clerkMiddleware((auth, req) => {
