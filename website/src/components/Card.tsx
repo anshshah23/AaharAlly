@@ -98,7 +98,7 @@ export function BookingCard() {
           <Card
             key={_id}
             onClick={() => handleClick(item._id)}
-            className="w-full max-w-[26rem] shadow-lg sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] cursor-pointer"
+            className="group w-full max-w-[26rem] shadow-lg sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] cursor-pointer hover:scale-105 hover:shadow-blue-gray-300 hover:shadow-lg transition-transform duration-300 ease-in-out"
             placeholder={"Cards"}
           >
             <CardHeader
@@ -119,7 +119,7 @@ export function BookingCard() {
               <Image
                 src={item.image}
                 alt={item.name}
-                className="object-cover"
+                className="object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out"
                 loading="lazy"
                 width={500}
                 height={500}

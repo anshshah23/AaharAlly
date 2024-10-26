@@ -3,6 +3,16 @@ import { Carousel } from "@material-tailwind/react";
 import Image from "next/image";
  
 export function BannerCarousel() {
+
+  const images = [
+    "/images/food1.svg",
+    "/images/food2.svg",
+    "/images/food3.svg",
+    "/images/food4.svg",
+    "/images/food5.svg",
+    "/images/food6.svg",
+  ];
+
   return (
     <Carousel
       placeholder={"HomeCarousel"}
@@ -20,27 +30,16 @@ export function BannerCarousel() {
         </div>
       )} 
       >
-      <Image
-        src={"/images/food1.svg"}
-        alt="image 1"
-        className="h-full w-full object-cover"
-        width={500}
-        height={500}
-      />
-      <Image
-        src={"/images/food2.svg"}
-        alt="image 2"
-        className="h-full w-full object-cover"
-        width={500}
-        height={500}
-      />
-      <Image
-        src={"/images/food3.svg"}
-        alt="image 3"
-        className="h-full w-full object-cover"
-        width={500}
-        height={500}
-      />
+        {images.map((image, index) => (
+          <Image
+            key={index}
+            src={image}
+            alt={`image ${index}`}
+            className="h-full w-full object-cover"
+            width={500}
+            height={500}
+          />
+        ))}
     </Carousel>
   );
 }
