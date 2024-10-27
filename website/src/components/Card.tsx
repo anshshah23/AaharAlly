@@ -15,9 +15,9 @@ import axios from "axios";
 import { Food } from "@/types";
 import Loading from "./loading";
 import { useUser } from "@clerk/nextjs";
+import toast from "react-hot-toast";
 
 export function BookingCard() {
-  const [liked, setLiked] = useState(false);
   const router = useRouter();
   const handleClick = (id: string) => {
     router.push(`/item-details/${id}`);
@@ -26,13 +26,20 @@ export function BookingCard() {
 
   const searchParams = useSearchParams();
   const [loading, setLoading] = useState(false);
+  const [likeLoading, setLikeLoading] = useState(false);
   const [foodArray, setFoodArray] = useState<Food[]>([]);
+  const [likedItem, setLikedItem] = useState<string[]>([]);
 
   useEffect(() => {
     setLoading(true);
     const fetchFood = async () => {
+      if (!user?.unsafeMetadata.age) {
+        return;
+      }
       try {
-        const resp = await axios.get("/api/Users/");
+        const resp = await axios.get("/api/Users/", {
+          params: { age: user?.unsafeMetadata.age },
+        });
         setFoodArray(resp.data.data);
       } catch (error) {
         console.error("Error fetching initial data:", error);
@@ -41,7 +48,57 @@ export function BookingCard() {
       }
     };
     fetchFood();
-  }, []);
+  }, [user?.unsafeMetadata.age]);
+
+  useEffect(() => {
+    const fetchLike = async () => {
+      try {
+        setLikeLoading(true);
+        if (!user?.primaryEmailAddress?.emailAddress) {
+          return;
+        }
+        const resp = await axios.get("/api/fav-food-list/", {
+          params: { email: user?.primaryEmailAddress?.emailAddress },
+        });
+        if (
+          resp.data.favoriteFoods.length &&
+          resp.data.favoriteFoods.length > 0
+        ) {
+          setLikedItem(
+            resp.data.favoriteFoods.map((m: { _id: string }) => m._id)
+          );
+        }
+      } catch (error) {
+        toast.error(error.response.message);
+      } finally {
+        setLikeLoading(false);
+      }
+    };
+
+    fetchLike();
+  }, [user]);
+
+  const likeProduct = async (like: boolean, id: string) => {
+    try {
+      setLikeLoading(true);
+      console.log("adding");
+      const resp = await axios.post("/api/add-fav-food/", {
+        foodId: id,
+        like,
+        email: user?.primaryEmailAddress?.emailAddress,
+      });
+      if (
+        resp.data.user.favoriteFoods.length &&
+        resp.data.user.favoriteFoods.length > 0
+      ) {
+        setLikedItem(resp.data.user.favoriteFoods);
+      }
+    } catch (error) {
+      console.log({ error });
+    } finally {
+      setLikeLoading(false);
+    }
+  };
 
   useEffect(() => {
     const controller = new AbortController();
@@ -89,7 +146,6 @@ export function BookingCard() {
       fetchData();
     }
 
-    // Cleanup function to cancel the previous request if searchParams change
     return () => controller.abort();
   }, [searchParams, user?.unsafeMetadata.age]);
 
@@ -103,16 +159,12 @@ export function BookingCard() {
             onClick={() => handleClick(item._id)}
             className="group w-full max-w-[26rem] shadow-lg sm:max-w-[20rem] md:max-w-[22rem] lg:max-w-[24rem] cursor-pointer hover:scale-105 hover:shadow-blue-gray-300 hover:shadow-lg transition-transform duration-300 ease-in-out"
             placeholder={"Cards"}
-            onPointerEnterCapture={undefined}
-            onPointerLeaveCapture={undefined}
           >
             <CardHeader
               color="blue-gray"
               className="relative h-56"
               floated={false}
               placeholder={undefined}
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}
             >
               <div className="absolute top-4 left-4 z-10">
                 <div className="!rounded-full bg-peachCustom bg-opacity-85 px-2 py-1 text-white text-xs md:text-sm">
@@ -126,7 +178,7 @@ export function BookingCard() {
               <Image
                 src={item.image}
                 alt={item.name}
-                className="object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out"
+                className="object-cover group-hover:scale-110 group-hover:shadow-xl transition-transform duration-300 ease-in-out"
                 loading="lazy"
                 width={500}
                 height={500}
@@ -136,16 +188,18 @@ export function BookingCard() {
                 size="sm"
                 color="red"
                 variant="text"
+                disabled={likeLoading}
                 className="!absolute top-4 right-4 rounded-full"
                 onClick={(e) => {
                   e.stopPropagation();
-                  setLiked(!liked);
+                  likeProduct(
+                    likedItem.find((itm) => itm == item._id) ? false : true,
+                    item._id
+                  );
                 }}
                 placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
               >
-                {liked ? (
+                {(likedItem.find((itm) => itm == item._id) ? true : false) ? (
                   <FaHeart className="h-6 w-6 text-red-600" />
                 ) : (
                   <FaRegHeart className="h-6 w-6" />
@@ -154,8 +208,6 @@ export function BookingCard() {
             </CardHeader>
             <CardBody
               placeholder={undefined}
-              onPointerEnterCapture={undefined}
-              onPointerLeaveCapture={undefined}
             >
               <div className="mb-1 flex items-center justify-between">
                 <Typography
@@ -163,8 +215,6 @@ export function BookingCard() {
                   color="blue-gray"
                   className="hover:text-redCustom font-medium"
                   placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
                 >
                   {item.name}
                 </Typography>
@@ -172,8 +222,6 @@ export function BookingCard() {
                   color="blue-gray"
                   className="flex items-center gap-1.5 font-normal"
                   placeholder={undefined}
-                  onPointerEnterCapture={undefined}
-                  onPointerLeaveCapture={undefined}
                 >
                   <FaStar className="text-yellow-500 h-5 w-5" />
                   {item.rating}
@@ -182,8 +230,6 @@ export function BookingCard() {
               <Typography
                 color="gray"
                 placeholder={undefined}
-                onPointerEnterCapture={undefined}
-                onPointerLeaveCapture={undefined}
               >
                 {item.description}
               </Typography>

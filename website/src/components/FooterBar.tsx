@@ -23,28 +23,28 @@ const FooterBar: React.FC<FooterBarProps> = ({ cartItems, notifications }) => {
     {
       icon: FaMapMarkerAlt,
       label: "Explore",
-      path: "/",
-      iconColor: "text-orangeCustom",
+      path: "/explore",
+      iconColor: "text-white",
     },
     {
       icon: FaShoppingCart,
       label: "Cart",
       path: "/cart",
       badge: cartItems,
-      iconColor: "text-orangeCustom",
+      iconColor: "text-white",
     },
     {
       icon: FaHeart,
       label: "Favorites",
       path: "/favorites",
-      iconColor: "text-orangeCustom",
+      iconColor: "text-white",
     },
     {
       icon: FaBell,
       label: "Notifications",
       path: "/notifications",
       badge: notifications,
-      iconColor: "text-orangeCustom",
+      iconColor: "text-white",
     },
   ];
 
@@ -53,22 +53,24 @@ const FooterBar: React.FC<FooterBarProps> = ({ cartItems, notifications }) => {
   };
 
   return (
-    <div className="fixed bottom-0 min-w-[98vw] bg-orange-50 text-black flex justify-around items-center rounded-3xl m-2 px-4 mx-2 my-2 sm:my-3 lg:my-4 shadow-md z-50 ">
-      {buttons.map((button, index) => (
-        <div
-          key={index}
-          className="relative cursor-pointer p-2 flex items-center rounded-full transition-all"
-          onClick={() => handleNavigate(button.path)}
-        >
-          <button.icon className={`text-xl ${button.iconColor} hover:text-redCustom`} />
-          {button.badge && button.badge > 0 && (
-            <span className="absolute -top-1 -right-2 bg-red-600 text-black rounded-full text-xs px-2">
-              {button.badge}
-            </span>
-          )}
-          <span className="text-sm mt-2 text-black hidden md:block md:ml-2">{button.label}</span>
-        </div>
-      ))}
+    <div className="fixed bottom-0 flex w-full bg-whitescale-105 justify-center z-50 bg-transparent">
+      <div className="fixed bottom-0 w-[40vw] flex justify-around items-center rounded-3xl px-4 mx-2 my-4 z-50 bg-redCustom text-white shadow-lg shadow-black transition duration-500 bg-opacity-95">
+        {buttons.map((button, index) => (
+          <div
+            key={index}
+            className="relative cursor-pointer p-2 flex items-center rounded-full transition-all"
+            onClick={() => handleNavigate(button.path)}
+          >
+            <button.icon className={`text-xl ${button.iconColor} hover:text-yellow-400`} />
+            {button.badge && button.badge > 0 && (
+              <span className="absolute -top-1 -right-2 bg-red-600 text-black rounded-full text-xs px-2">
+                {button.badge}
+              </span>
+            )}
+            <span className="text-sm mt-1 text-black hidden md:flex justify-center items-center md:ml-2">{button.label}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

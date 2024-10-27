@@ -8,8 +8,8 @@ export async function GET(req) {
     const url = new URL(req.url);
     const ageParam = url.searchParams.get('age');
     const id = url.searchParams.get('id');
-    const region = url.searchParams.get('region');
-    const categoryParam = url.searchParams.get('category');
+    const regions = url.searchParams.get('regions'); // Allow multiple regions
+    const categoryParam = url.searchParams.get('categories'); // Allow multiple categories
     const meal_type = url.searchParams.get('meal_type');
 
     try {
@@ -23,11 +23,7 @@ export async function GET(req) {
 
         const conditions = {};
         let categoriesArray = [];
-
-        // Filter by meal type
-        if (meal_type) {
-            conditions.meal_type = meal_type;
-        }
+        let regionsArray = [];
 
         // If age is provided, find the category that matches the age range
         if (ageParam) {
@@ -42,10 +38,15 @@ export async function GET(req) {
             }
         }
 
-        // If region is provided, calculate most consumed categories in the region
-        if (region) {
+        // Parse regions and set to an array for aggregation
+        if (regions) {
+            regionsArray = regions.split(',').map(item => item.trim());
+        }
+
+        // If regions are provided, calculate most consumed categories in the regions
+        if (regionsArray.length > 0) {
             const consumptionData = await userData.aggregate([
-                { $match: { region } },
+                { $match: { region: { $in: regionsArray } } }, // Match any of the provided regions
                 {
                     $group: {
                         _id: { region: '$region', meal_category: '$meal_category' },
@@ -89,23 +90,31 @@ export async function GET(req) {
                 }
             ]);
 
+            // Collect the most consumed categories from the aggregation
             if (consumptionData.length > 0) {
-                const mostConsumedCategory = consumptionData[0].categories.reduce((prev, current) => {
-                    return prev.categoryCount > current.categoryCount ? prev : current;
+                consumptionData.forEach(data => {
+                    const mostConsumedCategory = data.categories.reduce((prev, current) => {
+                        return prev.categoryCount > current.categoryCount ? prev : current;
+                    });
+                    categoriesArray.push(mostConsumedCategory.meal_category);
                 });
-                categoriesArray.push(mostConsumedCategory.meal_category);
             }
         }
 
-        // If a specific category is provided in query, add it to the categoriesArray
+        // If specific categories are provided in query, add to the categoriesArray
         if (categoryParam) {
             const incomingCategoriesArray = categoryParam.split(',').map(item => item.trim());
-            categoriesArray = [...new Set([...categoriesArray, ...incomingCategoriesArray])];
+            categoriesArray = [...new Set([...categoriesArray, ...incomingCategoriesArray])]; // Combine and deduplicate
         }
 
-        // If we have categories to filter by, add them to the conditions
+        // Filter for category if we have any from the previous checks
         if (categoriesArray.length > 0) {
             conditions.category = { $in: categoriesArray };
+        }
+
+        // Filter by meal type (exact match)
+        if (meal_type) {
+            conditions.meal_type = meal_type;
         }
 
         // Find and return data based on final conditions

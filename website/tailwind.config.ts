@@ -17,7 +17,7 @@ const config: Config = withMT({
         grayCustom: '#A9A9A9',      // Light Gray
         peachCustom: '#ffedd5',     // Peach
         orangeCustom: '#FF9130',    // Bright Orange
-        redCustom: '#FF0000',        // Vivid Red
+        redCustom: '#4c9a2a',        // Vivid Red
         greenCustom: '#97BE5A',  
         card: {
           DEFAULT: "hsl(var(--card))",

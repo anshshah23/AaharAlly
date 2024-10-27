@@ -1,9 +1,9 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { FaAngleDown, FaCheck } from "react-icons/fa";
 import { GrPowerReset } from "react-icons/gr";
 import { useRouter, useSearchParams } from "next/navigation";
-import AgeModal from "./AgeModal"; // Import AgeModal component
+import AgeModal from "./AgeModal";
 
 interface DropdownItem {
   label: string;
@@ -25,9 +25,32 @@ const Dropdown: React.FC<DropdownProps> = ({
   isOpen,
   toggleOpen,
 }) => {
+  const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target as Node)
+      ) {
+        toggleOpen(); // Close dropdown if clicked outside
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener("mousedown", handleClickOutside);
+    } else {
+      document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isOpen, toggleOpen]);
+
   const selectedCount = items.filter((item) => item.selected).length;
   return (
-    <div className="mb-3 relative text-sm">
+    <div ref={dropdownRef} className="mb-3 relative text-sm">
       <button
         onClick={toggleOpen}
         className="flex items-center justify-between w-full min-h-[3rem] rounded-md bg-gray-100 px-2 py-2 text-gray-800 gap-2 focus:outline-none"

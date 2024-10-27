@@ -4,8 +4,9 @@ import React, { useEffect, useState } from "react";
 import { Food } from "@/types";
 import axios from "axios";
 import Loading from "@/components/loading";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
-// Modal Component for Ingredients
+
 const IngredientsModal = ({ ingredients, onClose }: { ingredients: string[]; onClose: () => void }) => (
   <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
     <div className="bg-white p-5 rounded-lg shadow-lg max-w-md w-full">
@@ -28,15 +29,22 @@ function convertPrice(priceString: string) {
   return minPrice;
 }
 
-const TacoCard = ({ params }: { params: { id: string } }) => {
+const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GENAI!);
+const TacoCard = ({ params }: { params: Promise<{ id: string }> }) => {
   const [loading, setLoading] = useState(false);
   const [itemDetails, setItemDetails] = useState<Food>();
   const [ingredients, setIngredients] = useState<string[]>([]);
   const [showModal, setShowModal] = useState(false);
+  const [id, setId] = useState<string | null>(null);
 
-  const id = params.id;
+  useEffect(() => {
+    const fetchParams = async () => {
+      const resolvedParams = await params; // Unwrap the Promise
+      setId(resolvedParams.id);
+    };
+    fetchParams();
+  }, [params]);
 
-  // Example pairings
   const pairings = ["Mojito", "French Fries", "Chips"];
 
   useEffect(() => {
@@ -62,8 +70,35 @@ const TacoCard = ({ params }: { params: { id: string } }) => {
     return () => controller.abort();
   }, [id]);
 
-  const fetchIngredients = async () => {
-  };
+  async function fetchIngredients(item: string) {
+    try {
+      const model = genAI.getGenerativeModel({
+        model: "gemini-1.5-flash",
+      });
+      const prompt = `List the ingredients for ${item} as a JSON array of only 7 items.`;
+
+      // Pass the prompt directly as a string to generateContent
+      const result = await model.generateContent(prompt);
+      const responseText = await result.response.text();
+
+      console.log("Response from model:", responseText); // Inspect the raw response
+
+      // Attempt to find JSON array of ingredients in the response
+      const jsonMatch = responseText.match(/\[(.*?)\]/s);
+      if (jsonMatch) {
+        const parsedIngredients = JSON.parse(jsonMatch[0]);
+        setIngredients(parsedIngredients);
+        setShowModal(true); // Show modal after setting ingredients
+      } else {
+        console.warn("No JSON array found in response");
+        setIngredients(["Ingredient data not found."]);
+      }
+    } catch (error) {
+      console.error("Error fetching ingredients:", error);
+      setIngredients(["Error fetching ingredients."]);
+      setShowModal(true); // Show modal even on error
+    }
+  }
 
   return (
     <>
@@ -75,14 +110,14 @@ const TacoCard = ({ params }: { params: { id: string } }) => {
         />
       )}
       {!loading && itemDetails && (
-        <div className="w-full max-w-full min-h-full my-auto mx-auto bg-white rounded-xl p-5 lg:p-8 transition-all duration-300 flex flex-col lg:flex-row shadow-lg">
+        <div className="w-full max-w-full min-h-full my-auto mx-auto bg-white rounded-xl p-5 lg:p-8 transition-all duration-300 flex flex-col lg:flex-row">
           <div className="relative w-full lg:w-1/3 h-full lg:h-auto mb-5 lg:mb-0 lg:mr-8">
             <Image
               src={itemDetails.image}
               alt={itemDetails.name}
               width={400}
               height={400}
-              className="rounded-xl w-full h-[75vh] object-cover shadow-lg shadow-gray-600 hover:scale-105 hover:shadow-xl hover:shadow-gray-400 transition duration-500 transform ease-in-out"
+              className="rounded-xl w-full h-[75vh] object-cover shadow-lg shadow-gray-600 hover:scale-105 hover:shadow-xl hover:shadow-gray-500 transition duration-500 transform ease-in-out"
             />
             <button className="absolute top-2 right-2 text-2xl text-red-500 focus:outline-none">
               ❤️
@@ -151,7 +186,7 @@ const TacoCard = ({ params }: { params: { id: string } }) => {
                 Add to Cart
               </button>
               <button
-                onClick={fetchIngredients}
+                onClick={() => fetchIngredients(itemDetails.name)}
                 className="bg-greenCustom text-white p-2 rounded-lg shadow-lg shadow-greenCustom hover:bg-light-green-700 hover:shadow-light-green-700 transition duration-500"
               >
                 Ingredients
